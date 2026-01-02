@@ -52,14 +52,13 @@ MonoBehaviour:
   ignoreGameManagerForTesting: 1
   hasPackage: 1
   baseFumbleChance: 0.05
-  packagePrefab: {fileID: 8695598006118224900, guid: 4c2b73d2f91f9db4f992b1b9e5053712, type: 3}
+  packageObject: {fileID: 8695598006118224900, guid: 4c2b73d2f91f9db4f992b1b9e5053712, type: 3}
   acceleration: 90
   maxSpeed: 18
   backpedalSpeed: 10
   friction: 60
   airResistance: 10
-  currentSpeed: 0
-  jumpForce: 16
+  baseJumpForce: 16
   fallMultiplier: 4
   lowJumpMultiplier: 3
   coyoteTime: 0.2
@@ -71,8 +70,10 @@ MonoBehaviour:
     m_Bits: 64
   isGrounded: 0
   isStiffArming: 0
-  stiffArmBaseForce: 15
+  isSpinning: 0
   dashForce: 25
+  stiffArmBaseForce: 15
+  speedPushMultiplier: 0.8
   attachmentCount: 0
   attachmentPoint: {fileID: 2081324249960395563}
 --- !u!212 &3682917277409767073
@@ -121,7 +122,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 10
+  m_SortingOrder: 9
   m_Sprite: {fileID: -6460816906771495426, guid: 6b6efaf1403669541992b9060f6f9893, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

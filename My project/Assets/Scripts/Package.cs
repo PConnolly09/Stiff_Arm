@@ -1,70 +1,68 @@
 using UnityEngine;
 
-[RequireComponent(typeof(Rigidbody2D), typeof(Collider2D))]
+[RequireComponent(typeof(Rigidbody2D))]
+[RequireComponent(typeof(Collider2D))]
 public class Package : MonoBehaviour
 {
     private Rigidbody2D rb;
-    private Collider2D col;
-    private Transform playerTransform;
-    private bool isDropped = false;
-
-    [Header("Fumble Settings")]
-    public float bounceForce = 5f;
-    public Vector3 carryOffset = new Vector3(0.5f, 0, 0);
+    private Collider2D coll;
+    private bool isHeld = false;
 
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
-        col = GetComponent<Collider2D>();
-
-        // Find player on start
-        GameObject player = GameObject.FindGameObjectWithTag("Player");
-        if (player != null) playerTransform = player.transform;
+        coll = GetComponent<Collider2D>();
     }
 
-    void Start()
+    /// <summary>
+    /// Call this when the player picks up the package or starts with it.
+    /// It strips the package of all physics influence.
+    /// </summary>
+    public void SetHeld(bool held, Transform parent = null)
     {
-        // Register this package with the GameManager automatically
-        if (GameManager.Instance != null)
-        {
-            GameManager.Instance.currentPackage = this;
-        }
-    }
+        isHeld = held;
 
-    void Update()
-    {
-        // If being carried, follow the player
-        if (!isDropped && playerTransform != null)
+        if (isHeld)
         {
-            transform.position = playerTransform.position + carryOffset;
+            // 1. Stop all movement
             rb.linearVelocity = Vector2.zero;
+            rb.angularVelocity = 0f;
+
+            // 2. Make it a "ghost" so it can't push the player
+            rb.simulated = false;
+            coll.enabled = false;
+
+            // 3. Attach to player
+            if (parent != null)
+            {
+                transform.SetParent(parent);
+                transform.localPosition = Vector3.zero;
+            }
+        }
+        else
+        {
+            // 4. Become a physical object again (Fumble)
+            transform.SetParent(null);
+            rb.simulated = true;
+            coll.enabled = true;
+
+            // Give it a little pop so it doesn't just drop straight down
+            rb.AddForce(new Vector2(Random.Range(-2f, 2f), 5f), ForceMode2D.Impulse);
         }
     }
 
-    public void Drop()
+    void FixedUpdate()
     {
-        isDropped = true;
-        rb.bodyType = RigidbodyType2D.Dynamic;
-        col.enabled = true;
-
-        // "Pop" the ball up and forward for the fumble
-        Vector2 fumbleDir = new Vector2(Random.Range(-1f, 1f), 1f).normalized;
-        rb.AddForce(fumbleDir * bounceForce, ForceMode2D.Impulse);
-    }
-
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        // Recover logic
-        if (isDropped && other.CompareTag("Player"))
+        // CRITICAL FIX: If the old script was setting position/velocity here,
+        // it was causing the "pull." We ensure it does NOTHING while held.
+        if (isHeld)
         {
-            isDropped = false;
-            rb.bodyType = RigidbodyType2D.Kinematic;
-            col.enabled = false;
+            // Ensure local position stays snapped to the player's carry point
+            // but DO NOT use Rigidbody forces or global positions.
+            if (transform.localPosition != Vector3.zero)
+                transform.localPosition = Vector3.zero;
 
-            if (GameManager.Instance != null)
-            {
-                GameManager.Instance.RecoverPackage();
-            }
+            return;
         }
     }
 }

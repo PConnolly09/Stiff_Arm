@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections;
 
 /// <summary>
 /// Subclass for the 'Brute' enemy type.
@@ -6,27 +7,31 @@ using UnityEngine;
 /// </summary>
 public class BruteEnemy : EnemyAI
 {
-    [Header("Brute Specifics")]
-    [SerializeField] private float massWeight = 5f;
-    [SerializeField] private Transform groundCheck;
-    [SerializeField] private LayerMask groundLayer;
+    [Header("Tackle Stats")]
+    public float tackleRange = 5f;
+    public float tackleForce = 15f;
+    private bool canTackle = true;
 
-    protected override void Awake()
+    protected override void Chase(float speed)
     {
-        base.Awake(); // Crucial to call base.Awake() to setup physics from EnemyAI
-
-        // Brutes are heavy and shouldn't be easily pushed
-        rb.mass = massWeight;
+        float dist = Vector2.Distance(transform.position, playerTransform.position);
+        if (canTackle && dist < tackleRange) StartCoroutine(Tackle());
+        else if (canTackle)
+        {
+            float dir = playerTransform.position.x > transform.position.x ? 1 : -1;
+            rb.linearVelocity = new Vector2(dir * speed * 0.8f, rb.linearVelocity.y);
+            if ((dir > 0 && !movingRight) || (dir < 0 && movingRight)) Flip();
+        }
     }
 
-    protected override void Patrol() { /* Slow walk */ }
-    protected override void Chase()
+    private IEnumerator Tackle()
     {
-        float direction = playerTransform.position.x > transform.position.x ? 1 : -1;
-        // Brutes are slower but steady
-        rb.linearVelocity = new Vector2(direction * (moveSpeed * 0.8f), rb.linearVelocity.y);
-
-        if (direction > 0 && !movingRight) Flip();
-        else if (direction < 0 && movingRight) Flip();
+        canTackle = false;
+        rb.linearVelocity = Vector2.zero;
+        yield return new WaitForSeconds(0.4f);
+        float dir = playerTransform.position.x > transform.position.x ? 1 : -1;
+        rb.linearVelocity = new Vector2(dir * tackleForce, 2f);
+        yield return new WaitForSeconds(1f);
+        canTackle = true;
     }
 }

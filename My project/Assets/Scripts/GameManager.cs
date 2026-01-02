@@ -53,7 +53,7 @@ public class GameManager : MonoBehaviour
 
         if (currentPackage != null)
         {
-            currentPackage.Drop();
+            currentPackage.SetHeld(false);
         }
         else
         {

@@ -3,15 +3,15 @@ using System.Collections;
 using System.Collections.Generic;
 
 [RequireComponent(typeof(Rigidbody2D))]
+[RequireComponent(typeof(CapsuleCollider2D))]
 public class PlayerController : MonoBehaviour
 {
-    [Header("Debug Settings")]
+    [Header("Debug & Package")]
     public bool ignoreGameManagerForTesting = true;
-
-    [Header("Package Settings")]
     public bool hasPackage = true;
-    public float baseFumbleChance = 0.05f; // 5% base
-    public GameObject packagePrefab; // Assign in inspector to spawn on fumble
+    public float baseFumbleChance = 0.05f;
+    public GameObject packageObject; // Assign the actual package child here
+    private Package currentPackage;
 
     [Header("Movement & Momentum")]
     public float acceleration = 90f;
@@ -19,10 +19,9 @@ public class PlayerController : MonoBehaviour
     public float backpedalSpeed = 10f;
     public float friction = 60f;
     public float airResistance = 10f;
-    public float currentSpeed = 0f;
 
     [Header("Jump Physics")]
-    public float jumpForce = 16f;
+    public float baseJumpForce = 16f;
     public float fallMultiplier = 4f;
     public float lowJumpMultiplier = 3f;
     public float coyoteTime = 0.2f;
@@ -36,16 +35,20 @@ public class PlayerController : MonoBehaviour
 
     [Header("Abilities")]
     public bool isStiffArming = false;
-    public float stiffArmBaseForce = 15f;
+    public bool isSpinning = false;
     public float dashForce = 25f;
+    public float stiffArmBaseForce = 15f;
+    public float speedPushMultiplier = 0.8f;
     private bool isDashing = false;
 
     [Header("Attachments")]
     public int attachmentCount = 0;
     public Transform attachmentPoint;
     private List<GameObject> attachedEnemies = new List<GameObject>();
+    private float tackleDebuffTimer = 0f;
 
     private Rigidbody2D rb;
+    private CapsuleCollider2D playerCollider;
     private float horizontalInput;
     private float coyoteCounter;
     private float jumpBufferCounter;
@@ -53,14 +56,36 @@ public class PlayerController : MonoBehaviour
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+        playerCollider = GetComponent<CapsuleCollider2D>();
+
         rb.interpolation = RigidbodyInterpolation2D.Interpolate;
         rb.collisionDetectionMode = CollisionDetectionMode2D.Continuous;
         rb.constraints = RigidbodyConstraints2D.FreezeRotation;
+
+        // PACKAGE FIX: If a package is already present, ignore its collision immediately
+        if (packageObject != null)
+        {
+            Collider2D packColl = packageObject.GetComponent<Collider2D>();
+            if (packColl != null)
+            {
+                Physics2D.IgnoreCollision(playerCollider, packColl, true);
+            }
+        }
+
+        currentPackage = GetComponentInChildren<Package>();
+        if (currentPackage != null)
+        {
+            currentPackage.SetHeld(true, attachmentPoint); // Use your carry point
+        }
     }
 
     void Update()
     {
-        if (!ignoreGameManagerForTesting && (GameManager.Instance == null || GameManager.Instance.isIntroSequence)) return;
+        if (!ignoreGameManagerForTesting && (GameManager.Instance == null || GameManager.Instance.isIntroSequence))
+        {
+            horizontalInput = 0;
+            return;
+        }
 
         CheckGroundedStatus();
         HandleInput();
@@ -68,20 +93,12 @@ public class PlayerController : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (isDashing) return;
-
-        currentSpeed = rb.linearVelocity.x;
+        if (isDashing || isSpinning) return;
 
         ApplyMovement();
         ApplyCustomGravity();
 
-        // Snap speed to zero if reversing or pushing opposite
-        bool isPushingOpposite = (horizontalInput > 0 && currentSpeed < -0.1f) || (horizontalInput < 0 && currentSpeed > 0.1f);
-        if (isGrounded && isPushingOpposite)
-        {
-            currentSpeed = 0;
-            rb.linearVelocity = new Vector2(0, rb.linearVelocity.y);
-        }
+        if (tackleDebuffTimer > 0) tackleDebuffTimer -= Time.fixedDeltaTime;
     }
 
     private void CheckGroundedStatus()
@@ -99,43 +116,49 @@ public class PlayerController : MonoBehaviour
     {
         horizontalInput = Input.GetAxisRaw("Horizontal");
 
-        // Jump Buffer logic
         if (Input.GetButtonDown("Jump") || Input.GetKeyDown(KeyCode.Space))
             jumpBufferCounter = jumpBufferTime;
         else
             jumpBufferCounter -= Time.deltaTime;
 
-        // Execute Jump with Coyote Time
         if (jumpBufferCounter > 0f && coyoteCounter > 0f)
         {
-            rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
+            float jumpPenalty = attachmentCount * 1.5f;
+            rb.linearVelocity = new Vector2(rb.linearVelocity.x, baseJumpForce - jumpPenalty);
             jumpBufferCounter = 0f;
             coyoteCounter = 0f;
         }
 
         if (Input.GetKeyDown(KeyCode.LeftShift)) StartCoroutine(PerformDash());
         if (Input.GetKeyDown(KeyCode.E)) StartCoroutine(PerformStiffArm());
+        if (Input.GetKeyDown(KeyCode.Q)) StartCoroutine(PerformSpinMove());
     }
 
     private void ApplyMovement()
     {
-        float speedPenalty = attachmentCount * 2.5f; // Minions slow you down
+        float penalty = (attachmentCount * 2.5f) + (tackleDebuffTimer > 0 ? 8f : 0f);
         float targetSpeed = 0;
 
-        if (horizontalInput > 0)
-            targetSpeed = Mathf.Max(4f, maxSpeed - speedPenalty);
-        else if (horizontalInput < 0)
+        if (horizontalInput > 0.1f)
+        {
+            targetSpeed = Mathf.Max(4f, maxSpeed - penalty);
+            transform.localScale = new Vector3(Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
+        }
+        else if (horizontalInput < -0.1f)
+        {
             targetSpeed = -backpedalSpeed;
+            transform.localScale = new Vector3(-Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
+        }
 
-        float lerpFactor = (horizontalInput != 0) ? acceleration : (isGrounded ? friction : airResistance);
-        currentSpeed = Mathf.MoveTowards(currentSpeed, targetSpeed, lerpFactor * Time.fixedDeltaTime);
+        bool isMoving = Mathf.Abs(horizontalInput) > 0.1f;
+        float lerpFactor = isMoving ? acceleration : (isGrounded ? friction : airResistance);
 
-        rb.linearVelocity = new Vector2(currentSpeed, rb.linearVelocity.y);
+        float newX = Mathf.MoveTowards(rb.linearVelocity.x, targetSpeed, lerpFactor * Time.fixedDeltaTime);
+        rb.linearVelocity = new Vector2(newX, rb.linearVelocity.y);
     }
 
     private void ApplyCustomGravity()
     {
-        // Custom gravity feel for jumping (snappier falling)
         if (rb.linearVelocity.y < 0)
             rb.linearVelocity += Vector2.up * Physics2D.gravity.y * (fallMultiplier - 1) * Time.fixedDeltaTime;
         else if (rb.linearVelocity.y > 0 && !Input.GetButton("Jump"))
@@ -144,16 +167,20 @@ public class PlayerController : MonoBehaviour
 
     public void AddAttachment(GameObject enemy)
     {
-        if (attachedEnemies.Contains(enemy)) return;
+        if (isSpinning || isDashing || attachedEnemies.Contains(enemy)) return;
 
         attachmentCount++;
         attachedEnemies.Add(enemy);
 
-        // Kill AI and Physics to stop stuttering
+        Collider2D enemyCollider = enemy.GetComponent<Collider2D>();
+        if (playerCollider != null && enemyCollider != null)
+        {
+            Physics2D.IgnoreCollision(playerCollider, enemyCollider, true);
+        }
+
         EnemyAI script = enemy.GetComponent<EnemyAI>();
         if (script) script.enabled = false;
 
-        enemy.GetComponent<Collider2D>().enabled = false;
         Rigidbody2D erb = enemy.GetComponent<Rigidbody2D>();
         if (erb)
         {
@@ -162,30 +189,64 @@ public class PlayerController : MonoBehaviour
         }
 
         enemy.transform.SetParent(attachmentPoint != null ? attachmentPoint : transform);
-        enemy.transform.localPosition = new Vector3(Random.Range(-0.5f, 0.5f), Random.Range(-0.2f, 0.2f), 0);
-
-        Debug.Log("Enemy Attached! Penalty Active.");
+        enemy.transform.localPosition = new Vector3(Random.Range(-0.4f, 0.4f), Random.Range(-0.2f, 0.3f), 0);
     }
 
-    public void ProcessFumble()
+    public void ProcessFumble(float extraRisk = 0)
     {
-        if (!hasPackage) return;
+        if (!hasPackage || isSpinning) return;
 
-        // Fumble chance increases with attachments
-        float chance = baseFumbleChance + (attachmentCount * 0.15f);
+        float chance = baseFumbleChance + (attachmentCount * 0.15f) + extraRisk;
         if (Random.value < chance)
         {
             hasPackage = false;
-            Debug.Log("FUMBLE! Package dropped.");
-            // Logic to instantiate packagePrefab and apply force...
+
+            if (currentPackage != null)
+            {
+                currentPackage.SetHeld(false);
+                currentPackage = null;
+            }
+
+            Debug.Log("FUMBLE!");
         }
+    }
+
+    private IEnumerator PerformSpinMove()
+    {
+        isSpinning = true;
+        if (attachedEnemies.Count > 0)
+        {
+            GameObject enemyToDrop = attachedEnemies[0];
+            attachedEnemies.RemoveAt(0);
+            attachmentCount--;
+
+            Collider2D enemyCollider = enemyToDrop.GetComponent<Collider2D>();
+            if (playerCollider != null && enemyCollider != null)
+            {
+                Physics2D.IgnoreCollision(playerCollider, enemyCollider, false);
+            }
+
+            enemyToDrop.transform.SetParent(null);
+            enemyToDrop.GetComponent<Collider2D>().enabled = true;
+            Rigidbody2D erb = enemyToDrop.GetComponent<Rigidbody2D>();
+            if (erb) erb.simulated = true;
+
+            EnemyAI script = enemyToDrop.GetComponent<EnemyAI>();
+            if (script)
+            {
+                script.enabled = true;
+                script.TakeHit(10f, Vector2.up, false, false);
+            }
+        }
+        yield return new WaitForSeconds(0.4f);
+        isSpinning = false;
     }
 
     private IEnumerator PerformDash()
     {
         isDashing = true;
-        float dir = horizontalInput >= 0 ? 1f : -1f;
-        rb.linearVelocity = new Vector2(dir * dashForce, 0);
+        float dir = transform.localScale.x;
+        rb.linearVelocity = new Vector2(dir * dashForce, 0f);
         yield return new WaitForSeconds(0.2f);
         isDashing = false;
     }
@@ -199,34 +260,39 @@ public class PlayerController : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D col)
     {
-        if (col.gameObject.CompareTag("Enemy"))
+        // Logic to pick up the package after a fumble
+        if (!hasPackage && col.gameObject.CompareTag("Package"))
+        {
+            Package pkg = col.gameObject.GetComponent<Package>();
+            if (pkg != null)
+            {
+                hasPackage = true;
+                currentPackage = pkg;
+                currentPackage.SetHeld(true, attachmentPoint);
+                Debug.Log("Package Recovered!");
+            }
+        }
+
+        if (col.gameObject.CompareTag("Enemy") && !isSpinning)
         {
             EnemyAI enemy = col.gameObject.GetComponent<EnemyAI>();
             if (enemy == null) return;
 
             if (isStiffArming)
             {
-                // Flashy Stiff Arm: Force scales with player's current speed
-                float speedFactor = Mathf.Abs(rb.linearVelocity.x) * 0.8f;
-                float finalForce = stiffArmBaseForce + speedFactor;
-
-                // Dash + Stiff Arm = Stun + Damage flag
+                float force = stiffArmBaseForce + (Mathf.Abs(rb.linearVelocity.x) * speedPushMultiplier);
                 Vector2 pushDir = new Vector2(transform.localScale.x, 0.3f).normalized;
-                enemy.TakeHit(finalForce, pushDir, isDashing, isDashing);
-
-                Debug.Log("Stiff Arm Hit! Force: " + finalForce);
+                enemy.TakeHit(force, pushDir, isDashing, isDashing);
             }
             else
             {
-                // Interceptor triggers fumble logic, others attach
-                if (enemy is InterceptorEnemy)
+                if (enemy is InterceptorEnemy) ProcessFumble();
+                else if (enemy is BruteEnemy)
                 {
-                    ProcessFumble();
+                    tackleDebuffTimer = 1.5f;
+                    ProcessFumble(0.4f);
                 }
-                else if (enemy is MinionEnemy || enemy is BruteEnemy)
-                {
-                    AddAttachment(col.gameObject);
-                }
+                else if (enemy is MinionEnemy) AddAttachment(col.gameObject);
             }
         }
     }
