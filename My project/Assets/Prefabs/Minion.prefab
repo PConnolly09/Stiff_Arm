@@ -175,11 +175,13 @@ MonoBehaviour:
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 576
-  playerLayer:
+  enemyLayer:
     serializedVersion: 2
-    m_Bits: 256
+    m_Bits: 0
+  speedVariance: 0.5
   wallCheckDistance: 0.5
   checkOffset: {x: 0.6, y: 0}
+  bloodSplatterPrefab: {fileID: 2225019445086027189, guid: 13ae96f4aa80dd7499eaf9839f9d01e9, type: 3}
   groundCheck: {fileID: 7679603381067634539}
   edgeCheckDistance: 0.5
   groundLayer:

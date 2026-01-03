@@ -19,6 +19,9 @@ public abstract class EnemyAI : MonoBehaviour
     public float wallCheckDistance = 0.5f;
     public Vector2 checkOffset = new Vector2(0.6f, 0f);
 
+    [Header("Visuals")]
+    public GameObject bloodSplatterPrefab;
+
     protected bool movingRight = true;
     protected Rigidbody2D rb;
     protected Transform playerTransform;
@@ -107,8 +110,16 @@ public abstract class EnemyAI : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        // If we hit an obstacle while being knocked back, splatter and die
         if (isKnockedBack && ((1 << collision.gameObject.layer) & obstacleLayer) != 0)
         {
+            if (bloodSplatterPrefab != null)
+            {
+                Instantiate(bloodSplatterPrefab, collision.contacts[0].point, Quaternion.identity);
+            }
+
+            // Logic for "Death"
+            CameraController.Instance.Shake(0.5f); // Juice on impact
             Destroy(gameObject);
         }
     }

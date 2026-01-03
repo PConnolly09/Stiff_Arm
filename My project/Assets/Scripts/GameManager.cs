@@ -1,79 +1,89 @@
 using UnityEngine;
-using System.Collections.Generic;
+using UnityEngine.SceneManagement;
+using TMPro; // Requires TextMeshPro
 
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;
 
-    [Header("Run Stats")]
-    public float startTime;
-    public int fumblesOccurred;
-    public int enemiesDefeated;
-    public int collectiblesPickedUp;
-    public float damageTaken;
-    public bool hasPackage = true;
+    public enum GameState { MainMenu, Playing, GameOver, Victory }
+    public GameState currentState;
 
-    [Header("State Flags")]
-    public bool isIntroSequence = false;
-    public bool isFumbleMiniGame = false;
+    [Header("UI Panels")]
+    public GameObject mainMenuPanel;
+    public GameObject inGameHUD;
+    public GameObject gameOverPanel;
+    public GameObject victoryPanel;
 
-    [Header("References")]
-    public Package currentPackage; // Reference to the physical package in the scene
+    [Header("In-Game UI Elements")]
+    public TextMeshProUGUI yardsText;
+    public TextMeshProUGUI fumbleWarningText;
+
+    [Header("Win Condition")]
+    public float endZoneX = 100f; // Reach this X to win
+    public Transform playerTransform;
+
+    private float startingX;
+    private bool isGameActive = false;
 
     void Awake()
     {
-        // Improved Singleton pattern to prevent NullReference on access
-        if (Instance == null)
-        {
-            Instance = this;
-            DontDestroyOnLoad(gameObject);
-        }
-        else
-        {
-            Destroy(gameObject);
-        }
+        if (Instance == null) Instance = this;
+        else Destroy(gameObject);
     }
 
-    public void StartRun()
+    void Start()
     {
-        startTime = Time.time;
-        isIntroSequence = false;
-        hasPackage = true;
+        SetState(GameState.MainMenu);
+        if (playerTransform != null) startingX = playerTransform.position.x;
     }
 
-    public void TriggerFumble()
+    void Update()
     {
-        if (isFumbleMiniGame || !hasPackage) return;
-
-        isFumbleMiniGame = true;
-        fumblesOccurred++;
-        hasPackage = false;
-
-        Debug.Log("FUMBLE! Package is loose!");
-
-        if (currentPackage != null)
+        if (currentState == GameState.Playing)
         {
-            currentPackage.SetHeld(false);
-        }
-        else
-        {
-            Debug.LogError("GameManager: No Package reference assigned! Assign the Package script in the inspector.");
+            UpdateScore();
+            CheckWinCondition();
         }
     }
 
-    public void RecoverPackage()
+    private void SetState(GameState newState)
     {
-        isFumbleMiniGame = false;
-        hasPackage = true;
-        Debug.Log("Package Recovered!");
+        currentState = newState;
+
+        // Toggle Panels
+        mainMenuPanel.SetActive(newState == GameState.MainMenu);
+        inGameHUD.SetActive(newState == GameState.Playing);
+        gameOverPanel.SetActive(newState == GameState.GameOver);
+        victoryPanel.SetActive(newState == GameState.Victory);
+
+        Time.timeScale = (newState == GameState.Playing) ? 1f : 0f;
+        isGameActive = (newState == GameState.Playing);
     }
 
-    public int CalculateFinalScore()
+    public void StartGame() => SetState(GameState.Playing);
+
+    public void OnPackageLost() => SetState(GameState.GameOver);
+
+    private void CheckWinCondition()
     {
-        float timeTaken = Time.time - startTime;
-        int score = (enemiesDefeated * 100) + (collectiblesPickedUp * 50);
-        score -= (fumblesOccurred * 200);
-        int timeBonus = Mathf.Max(0, 5000 - (int)(timeTaken * 10));
-        return score + timeBonus;
+        if (playerTransform.position.x >= endZoneX)
+        {
+            SetState(GameState.Victory);
+        }
     }
+
+    private void UpdateScore()
+    {
+        float yards = Mathf.Max(0, playerTransform.position.x - startingX);
+        if (yardsText != null) yardsText.text = $"Yards: {Mathf.FloorToInt(yards)}";
+    }
+
+    public void RestartLevel()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
+    public void QuitGame() => Application.Quit();
 }

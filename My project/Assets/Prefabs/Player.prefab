@@ -51,13 +51,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 417d6b5f315a5c746b274873180cb05d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
-  acceleration: 120
+  acceleration: 20
   maxSpeed: 18
   friction: 80
   backpedalSpeed: 10
   jumpForce: 22
-  quickFallGravity: 8
-  normalGravity: 4
+  quickFallGravity: 20
+  normalGravity: 15
   coyoteTime: 0.15
   jumpCooldownTime: 0.1
   groundCheck: {fileID: 9012700062167166385}
@@ -76,7 +76,7 @@ MonoBehaviour:
   packageObject: {fileID: 8695598006118224900, guid: 4c2b73d2f91f9db4f992b1b9e5053712, type: 3}
   attachmentCount: 0
   attachmentPoint: {fileID: 2081324249960395563}
-  bloodSplatterPrefab: {fileID: 0}
+  bloodSplatterPrefab: {fileID: 2225019445086027189, guid: 13ae96f4aa80dd7499eaf9839f9d01e9, type: 3}
   windEffect: {fileID: 0}
   jumpSfx: {fileID: 0}
   dashSfx: {fileID: 0}
