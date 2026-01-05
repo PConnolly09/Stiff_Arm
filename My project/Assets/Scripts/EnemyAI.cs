@@ -2,124 +2,107 @@ using UnityEngine;
 using System.Collections;
 
 [RequireComponent(typeof(Rigidbody2D))]
-[RequireComponent(typeof(CapsuleCollider2D))]
 public abstract class EnemyAI : MonoBehaviour
 {
     [Header("Base AI Settings")]
     [Range(0.1f, 20f)] public float moveSpeed = 3f;
-    public float detectionRange = 8f;
+    public float detectionRange = 10f;
     public LayerMask obstacleLayer;
-    public LayerMask enemyLayer; // Assign the Enemy layer here
-
-    [Header("Variety Settings")]
-    [SerializeField] protected float speedVariance = 0.5f;
-    protected float personalSpeed;
-
-    [Header("Detection Offsets")]
-    public float wallCheckDistance = 0.5f;
-    public Vector2 checkOffset = new Vector2(0.6f, 0f);
-
-    [Header("Visuals")]
     public GameObject bloodSplatterPrefab;
 
+    [Header("Visuals")]
     protected bool movingRight = true;
     protected Rigidbody2D rb;
     protected Transform playerTransform;
+    protected Transform currentTarget;
     protected bool isChasing = false;
-    protected bool isKnockedBack = false;
+    public bool isKnockedBack = false;
 
     protected virtual void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
-        rb.freezeRotation = true;
-        rb.collisionDetectionMode = CollisionDetectionMode2D.Continuous;
+        rb.gravityScale = 4f;
 
         GameObject p = GameObject.FindGameObjectWithTag("Player");
         if (p) playerTransform = p.transform;
 
-        // Variety: Randomize speed slightly so they don't move in sync
-        personalSpeed = moveSpeed + Random.Range(-speedVariance, speedVariance);
-
-        // Allow enemies to pass through each other physically
         int layer = gameObject.layer;
         Physics2D.IgnoreLayerCollision(layer, layer, true);
-
         Physics2D.queriesStartInColliders = false;
     }
 
     protected virtual void FixedUpdate()
     {
-        if (isKnockedBack || !enabled || personalSpeed <= 0) return;
+        if (isKnockedBack || !enabled) return;
 
-        CheckForPlayer();
+        DetermineTarget();
 
-        // Anti-Stacking: Check if another enemy is right in front of us
-        float currentTargetSpeed = personalSpeed;
-        Vector2 checkDir = movingRight ? Vector2.right : Vector2.left;
-        RaycastHit2D enemyHit = Physics2D.Raycast(transform.position, checkDir, 1.0f, 1 << gameObject.layer);
+        if (isChasing) Chase();
+        else Patrol();
+    }
 
-        if (enemyHit.collider != null)
+    protected void DetermineTarget()
+    {
+        if (GameManager.Instance && GameManager.Instance.currentState == GameManager.GameState.Fumble)
         {
-            // Slow down or stagger slightly to avoid standing on top
-            currentTargetSpeed *= 0.5f;
+            if (GameManager.Instance.currentPackageTransform != null)
+            {
+                currentTarget = GameManager.Instance.currentPackageTransform;
+                isChasing = true;
+                return;
+            }
         }
 
-        if (isChasing) Chase(currentTargetSpeed);
-        else Patrol(currentTargetSpeed);
-    }
-
-    protected void CheckForPlayer()
-    {
-        if (playerTransform == null) return;
-        isChasing = Vector2.Distance(transform.position, playerTransform.position) < detectionRange;
-    }
-
-    protected virtual void Patrol(float speed)
-    {
-        rb.linearVelocity = new Vector2(movingRight ? speed : -speed, rb.linearVelocity.y);
-
-        Vector2 origin = (Vector2)transform.position + new Vector2(movingRight ? checkOffset.x : -checkOffset.x, checkOffset.y);
-        if (Physics2D.Raycast(origin, movingRight ? Vector2.right : Vector2.left, wallCheckDistance, obstacleLayer))
+        if (playerTransform != null)
         {
-            Flip();
+            currentTarget = playerTransform;
+            float dist = Vector2.Distance(transform.position, playerTransform.position);
+            isChasing = dist < detectionRange;
         }
     }
 
-    protected abstract void Chase(float speed);
+    protected virtual void Patrol()
+    {
+        rb.linearVelocity = new Vector2(movingRight ? moveSpeed : -moveSpeed, rb.linearVelocity.y);
+        // Simple wall check
+        Vector2 origin = (Vector2)transform.position + new Vector2(movingRight ? 0.6f : -0.6f, 0);
+        if (Physics2D.Raycast(origin, movingRight ? Vector2.right : Vector2.left, 0.5f, obstacleLayer)) Flip();
+    }
 
-    public void TakeHit(float force, Vector2 direction, bool isStun, bool isSuperHit)
+    protected abstract void Chase();
+
+    // FIX: Removed unused 'isSuperHit' parameter
+    public void TakeHit(float force, Vector2 direction, bool isStun)
     {
         StopAllCoroutines();
-        StartCoroutine(KnockbackRoutine(force, direction, isStun, isSuperHit));
+        StartCoroutine(KnockbackRoutine(force, direction, isStun));
     }
 
-    private IEnumerator KnockbackRoutine(float force, Vector2 direction, bool isStun, bool isSuperHit)
+    private IEnumerator KnockbackRoutine(float force, Vector2 direction, bool isStun)
     {
         isKnockedBack = true;
         rb.linearVelocity = Vector2.zero;
         rb.AddForce(direction * force, ForceMode2D.Impulse);
-        yield return new WaitForSeconds(isStun ? 2.0f : 0.6f);
+        yield return new WaitForSeconds(isStun ? 2.0f : 0.8f);
         isKnockedBack = false;
     }
 
     protected void Flip()
     {
         movingRight = !movingRight;
-        transform.localScale = new Vector3(movingRight ? Mathf.Abs(transform.localScale.x) : -Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
+        Vector3 s = transform.localScale;
+        s.x *= -1;
+        transform.localScale = s;
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    protected virtual void OnCollisionEnter2D(Collision2D collision)
     {
-        // If we hit an obstacle while being knocked back, splatter and die
         if (isKnockedBack && ((1 << collision.gameObject.layer) & obstacleLayer) != 0)
         {
-            if (bloodSplatterPrefab != null)
+            if (bloodSplatterPrefab)
             {
-                Instantiate(bloodSplatterPrefab, collision.contacts[0].point, Quaternion.identity);
+                Instantiate(bloodSplatterPrefab, new Vector3(collision.contacts[0].point.x, collision.contacts[0].point.y, -5), Quaternion.identity);
             }
-
-            // Logic for "Death"
-            CameraController.Instance.Shake(0.5f); // Juice on impact
             Destroy(gameObject);
         }
     }

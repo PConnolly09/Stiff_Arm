@@ -205,13 +205,8 @@ MonoBehaviour:
   detectionRange: 8
   obstacleLayer:
     serializedVersion: 2
-    m_Bits: 576
-  enemyLayer:
-    serializedVersion: 2
-    m_Bits: 0
-  speedVariance: 0.5
-  wallCheckDistance: 0.5
-  checkOffset: {x: 0.6, y: 0}
+    m_Bits: 1088
   bloodSplatterPrefab: {fileID: 2225019445086027189, guid: 13ae96f4aa80dd7499eaf9839f9d01e9, type: 3}
+  isKnockedBack: 0
   tackleRange: 5
   tackleForce: 15

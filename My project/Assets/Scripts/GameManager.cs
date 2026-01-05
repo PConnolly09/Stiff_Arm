@@ -1,82 +1,144 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using TMPro; // Requires TextMeshPro
+using TMPro;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;
 
-    public enum GameState { MainMenu, Playing, GameOver, Victory }
+    public enum GameState { MainMenu, Playing, Fumble, GameOver, Victory }
     public GameState currentState;
 
     [Header("UI Panels")]
     public GameObject mainMenuPanel;
     public GameObject inGameHUD;
+    public GameObject fumbleHUD;
     public GameObject gameOverPanel;
     public GameObject victoryPanel;
 
-    [Header("In-Game UI Elements")]
+    [Header("HUD Elements")]
     public TextMeshProUGUI yardsText;
-    public TextMeshProUGUI fumbleWarningText;
+    public TextMeshProUGUI downsText;
+    public TextMeshProUGUI attachedText;
+    public TextMeshProUGUI fumbleTimerText;
 
-    [Header("Win Condition")]
-    public float endZoneX = 100f; // Reach this X to win
+    [Header("Game Rules")]
+    public int maxDowns = 4;
+    public int currentDown = 1;
     public Transform playerTransform;
+    public float endZoneX = 100f;
+
+    // FIX: Added missing variable accessed by PlayerController
+    public bool isIntroSequence = false;
+
+    [Header("Fumble Settings")]
+    public float maxFumbleTime = 10f;
+    private float currentFumbleTimer;
+    public Transform currentPackageTransform;
 
     private float startingX;
-    private bool isGameActive = false;
 
     void Awake()
     {
         if (Instance == null) Instance = this;
         else Destroy(gameObject);
+        Time.timeScale = 0f;
     }
 
     void Start()
     {
-        SetState(GameState.MainMenu);
         if (playerTransform != null) startingX = playerTransform.position.x;
+        UpdateDownsUI();
+        SetState(GameState.MainMenu);
     }
 
     void Update()
     {
         if (currentState == GameState.Playing)
         {
-            UpdateScore();
+            UpdateHUD();
             CheckWinCondition();
+        }
+        else if (currentState == GameState.Fumble)
+        {
+            HandleFumbleMode();
         }
     }
 
-    private void SetState(GameState newState)
+    public void SetState(GameState newState)
     {
         currentState = newState;
 
-        // Toggle Panels
-        mainMenuPanel.SetActive(newState == GameState.MainMenu);
-        inGameHUD.SetActive(newState == GameState.Playing);
-        gameOverPanel.SetActive(newState == GameState.GameOver);
-        victoryPanel.SetActive(newState == GameState.Victory);
+        if (mainMenuPanel) mainMenuPanel.SetActive(false);
+        if (inGameHUD) inGameHUD.SetActive(false);
+        if (fumbleHUD) fumbleHUD.SetActive(false);
+        if (gameOverPanel) gameOverPanel.SetActive(false);
+        if (victoryPanel) victoryPanel.SetActive(false);
 
-        Time.timeScale = (newState == GameState.Playing) ? 1f : 0f;
-        isGameActive = (newState == GameState.Playing);
-    }
-
-    public void StartGame() => SetState(GameState.Playing);
-
-    public void OnPackageLost() => SetState(GameState.GameOver);
-
-    private void CheckWinCondition()
-    {
-        if (playerTransform.position.x >= endZoneX)
+        switch (newState)
         {
-            SetState(GameState.Victory);
+            case GameState.MainMenu:
+                if (mainMenuPanel) mainMenuPanel.SetActive(true);
+                Time.timeScale = 0f;
+                break;
+            case GameState.Playing:
+                if (inGameHUD) inGameHUD.SetActive(true);
+                Time.timeScale = 1f;
+                break;
+            case GameState.Fumble:
+                if (fumbleHUD) fumbleHUD.SetActive(true);
+                Time.timeScale = 1f;
+                break;
+            case GameState.GameOver:
+                if (gameOverPanel) gameOverPanel.SetActive(true);
+                Time.timeScale = 0f;
+                break;
+            case GameState.Victory:
+                if (victoryPanel) victoryPanel.SetActive(true);
+                Time.timeScale = 0f;
+                break;
         }
     }
 
-    private void UpdateScore()
+    // --- FUMBLE LOGIC ---
+    public void StartFumbleEvent(Transform package)
     {
-        float yards = Mathf.Max(0, playerTransform.position.x - startingX);
-        if (yardsText != null) yardsText.text = $"Yards: {Mathf.FloorToInt(yards)}";
+        currentPackageTransform = package;
+        currentFumbleTimer = maxFumbleTime;
+        SetState(GameState.Fumble);
+    }
+
+    public void RecoverFumble()
+    {
+        currentPackageTransform = null;
+        SetState(GameState.Playing);
+    }
+
+    public void PenalizeFumbleTime(float seconds)
+    {
+        currentFumbleTimer -= seconds;
+    }
+
+    private void HandleFumbleMode()
+    {
+        currentFumbleTimer -= Time.deltaTime;
+
+        if (fumbleTimerText)
+            fumbleTimerText.text = currentFumbleTimer.ToString("F1");
+
+        if (currentFumbleTimer <= 0)
+        {
+            UseDown();
+        }
+    }
+
+    // --- STANDARD LOGIC ---
+    public void StartGame()
+    {
+        currentDown = 1;
+        UpdateDownsUI();
+        SetState(GameState.Playing);
     }
 
     public void RestartLevel()
@@ -85,5 +147,46 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
-    public void QuitGame() => Application.Quit();
+    public void UseDown()
+    {
+        currentDown++;
+        if (currentDown > maxDowns) SetState(GameState.GameOver);
+        else RestartLevel();
+    }
+
+    public void QuitToDesktop()
+    {
+#if UNITY_EDITOR
+        UnityEditor.EditorApplication.isPlaying = false;
+#else
+            Application.Quit();
+#endif
+    }
+
+    private void UpdateHUD()
+    {
+        if (playerTransform == null || yardsText == null) return;
+        float yards = Mathf.Max(0, playerTransform.position.x - startingX);
+        yardsText.text = "YARDS: " + Mathf.FloorToInt(yards).ToString();
+    }
+
+    public void UpdateAttachmentCount(int count)
+    {
+        if (attachedText) attachedText.text = "WEIGHT: " + count.ToString();
+    }
+
+    private void UpdateDownsUI()
+    {
+        if (downsText)
+        {
+            string suffix = (currentDown == 1) ? "st" : (currentDown == 2) ? "nd" : (currentDown == 3) ? "rd" : "th";
+            downsText.text = $"{currentDown}{suffix} & GOAL";
+        }
+    }
+
+    private void CheckWinCondition()
+    {
+        if (playerTransform != null && playerTransform.position.x >= endZoneX)
+            SetState(GameState.Victory);
+    }
 }

@@ -1,5 +1,36 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5196968533422480323
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1283929763488100593}
+  m_Layer: 0
+  m_Name: ArmCheck
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1283929763488100593
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5196968533422480323}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.0000047683716, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1415903467104532381}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5382959583181163722
 GameObject:
   m_ObjectHideFlags: 0
@@ -15,6 +46,7 @@ GameObject:
   - component: {fileID: 6060112932463639006}
   - component: {fileID: -9163013707453330700}
   - component: {fileID: 8258075017361325925}
+  - component: {fileID: 7538876805845919640}
   m_Layer: 8
   m_Name: Player
   m_TagString: Player
@@ -37,6 +69,7 @@ Transform:
   m_Children:
   - {fileID: 2081324249960395563}
   - {fileID: 9012700062167166385}
+  - {fileID: 1283929763488100593}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &8301792555045899496
@@ -55,35 +88,45 @@ MonoBehaviour:
   maxSpeed: 18
   friction: 80
   backpedalSpeed: 10
+  baseRunSpeed: 8
   jumpForce: 22
+  hurdleBoost: 5
   quickFallGravity: 20
   normalGravity: 15
-  coyoteTime: 0.15
   jumpCooldownTime: 0.1
+  airControl: 2
+  coyoteTime: 0.15
   groundCheck: {fileID: 9012700062167166385}
   groundCheckRadius: 0.25
   groundLayer:
     serializedVersion: 2
     m_Bits: 64
   isGrounded: 0
-  isStiffArming: 0
-  isSpinning: 0
-  dashForce: 30
+  stiffArmPoint: {fileID: 1283929763488100593}
+  stiffArmRange: 1.5
   stiffArmBaseForce: 15
   speedPushMultiplier: 0.8
+  jukeDuration: 0.3
+  jukeCooldown: 1
+  jukeColor: {r: 1, g: 1, b: 1, a: 0.5}
+  isStiffArming: 0
+  isSpinning: 0
+  isJuking: 0
+  isProne: 0
+  isDashing: 0
   hasPackage: 1
   baseFumbleChance: 0.05
   packageObject: {fileID: 8695598006118224900, guid: 4c2b73d2f91f9db4f992b1b9e5053712, type: 3}
   attachmentCount: 0
   attachmentPoint: {fileID: 2081324249960395563}
   bloodSplatterPrefab: {fileID: 2225019445086027189, guid: 13ae96f4aa80dd7499eaf9839f9d01e9, type: 3}
-  windEffect: {fileID: 0}
   jumpSfx: {fileID: 0}
-  dashSfx: {fileID: 0}
+  jukeSfx: {fileID: 0}
   spinSfx: {fileID: 0}
   stiffArmSfx: {fileID: 0}
   fumbleSfx: {fileID: 0}
   impactSfx: {fileID: 0}
+  ignoreGameManagerForTesting: 1
 --- !u!212 &3682917277409767073
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -356,6 +399,28 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!95 &7538876805845919640
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5382959583181163722}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &5905840322153651254
 GameObject:
   m_ObjectHideFlags: 0
@@ -366,7 +431,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2081324249960395563}
   m_Layer: 8
-  m_Name: attachmentPoint
+  m_Name: AttachmentPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

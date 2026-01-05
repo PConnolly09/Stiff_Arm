@@ -47,6 +47,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae587d96b6eef8648b38da0ee7872122, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Package
+  enemyKnockForce: 15
+  timePenaltyPerHit: 2
+  torqueAmount: 10
 --- !u!212 &644726239655489583
 SpriteRenderer:
   m_ObjectHideFlags: 0
