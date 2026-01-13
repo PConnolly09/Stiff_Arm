@@ -6,8 +6,6 @@ using UnityEngine.UI;
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;
-
-    // Persist this choice across scene reloads
     public static bool AutoStartNextLoad = false;
 
     public enum GameState { MainMenu, Playing, Fumble, GameOver, Victory }
@@ -46,7 +44,6 @@ public class GameManager : MonoBehaviour
         if (Instance == null) Instance = this;
         else Destroy(gameObject);
 
-        // Ensure clean slate on time, BUT don't pause yet if we are auto-starting
         Time.timeScale = 1f;
     }
 
@@ -55,15 +52,14 @@ public class GameManager : MonoBehaviour
         if (playerTransform != null) startingX = playerTransform.position.x;
         UpdateDownsUI();
 
-        // RESTART FIX: Check if we just clicked "Try Again"
         if (AutoStartNextLoad)
         {
-            AutoStartNextLoad = false; // Reset flag
-            StartGame(); // Jump straight to action
+            AutoStartNextLoad = false;
+            StartGame();
         }
         else
         {
-            SetState(GameState.MainMenu); // Standard boot
+            SetState(GameState.MainMenu);
         }
     }
 
@@ -94,7 +90,7 @@ public class GameManager : MonoBehaviour
         {
             case GameState.MainMenu:
                 if (mainMenuPanel) mainMenuPanel.SetActive(true);
-                Time.timeScale = 0f; // Pause only on menu
+                Time.timeScale = 0f;
                 break;
             case GameState.Playing:
                 if (inGameHUD) inGameHUD.SetActive(true);
@@ -115,7 +111,6 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    // --- FUMBLE LOGIC ---
     public void StartFumbleEvent(Transform package)
     {
         currentPackageTransform = package;
@@ -137,11 +132,16 @@ public class GameManager : MonoBehaviour
     private void HandleFumbleMode()
     {
         currentFumbleTimer -= Time.deltaTime;
-        if (fumbleTimerText) fumbleTimerText.text = currentFumbleTimer.ToString("F1");
-        if (currentFumbleTimer <= 0) UseDown();
+
+        if (fumbleTimerText)
+            fumbleTimerText.text = currentFumbleTimer.ToString("F1");
+
+        if (currentFumbleTimer <= 0)
+        {
+            UseDown();
+        }
     }
 
-    // --- STANDARD LOGIC ---
     public void StartGame()
     {
         currentDown = 1;
@@ -151,7 +151,7 @@ public class GameManager : MonoBehaviour
 
     public void RestartLevel()
     {
-        AutoStartNextLoad = true; // Set flag so next Awake/Start skips menu
+        AutoStartNextLoad = true;
         Time.timeScale = 1f;
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }

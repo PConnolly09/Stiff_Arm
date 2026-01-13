@@ -135,7 +135,7 @@ public class PlayerController : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (isProne || isSpinning) return;
+        if (isProne || isSpinning) return; // Physics controlled by abilities/state
         HandleMovement();
         if (tackleDebuffTimer > 0) tackleDebuffTimer -= Time.fixedDeltaTime;
     }
@@ -157,6 +157,7 @@ public class PlayerController : MonoBehaviour
     private void HandleMovement()
     {
         float penalty = (attachmentCount * 2.5f) + (tackleDebuffTimer > 0 ? 8f : 0f);
+        // Symmetric speed handling
         float currentMax = (horizontalInput < 0) ? backpedalSpeed : maxSpeed;
         float targetSpeed = horizontalInput * Mathf.Max(2f, currentMax - penalty);
 
@@ -200,6 +201,7 @@ public class PlayerController : MonoBehaviour
     private void PerformStiffArm()
     {
         StartCoroutine(StiffArmRoutine());
+        anim.SetTrigger("StiffArmTrigger");
 
         Collider2D[] enemies = Physics2D.OverlapCircleAll(stiffArmPoint.position, stiffArmRange);
         bool hitSomething = false;
@@ -256,15 +258,29 @@ public class PlayerController : MonoBehaviour
         isSpinning = true;
         impulseSource.GenerateImpulse(0.3f);
         PlaySound(spinSfx);
+        anim.SetTrigger("SpinTrigger");
+
+        int playerLayer = gameObject.layer;
+        int enemyLayer = LayerMask.NameToLayer("Enemy");
+
+        // Invincibility ON
+        Physics2D.IgnoreLayerCollision(playerLayer, enemyLayer, true);
+
+        // Movement Speed & Direction
+        float spinMoveForce = 12f; // Covers distance
+        float facingDir = transform.localScale.x > 0 ? 1 : -1;
 
         if (attachmentCount == 0)
         {
+            // Apply constant velocity for traversal
+            rb.linearVelocity = new Vector2(facingDir * spinMoveForce, rb.linearVelocity.y);
+
+            // AOE Push
             Collider2D[] nearby = Physics2D.OverlapCircleAll(transform.position, 2.5f);
             foreach (var col in nearby)
             {
                 if (col.CompareTag("Enemy"))
                 {
-                    // FIX: Replaced ?. null propagation with TryGetComponent logic
                     if (col.TryGetComponent<EnemyAI>(out var enemyScript))
                     {
                         enemyScript.TakeHit(10f, (col.transform.position - transform.position).normalized, true);
@@ -274,19 +290,23 @@ public class PlayerController : MonoBehaviour
         }
         else
         {
+            // Shed Enemy (Stop movement to emphasize the shed)
+            rb.linearVelocity = Vector2.zero;
+
             GameObject drop = attachedEnemies[0];
             attachedEnemies.RemoveAt(0);
             attachmentCount--;
             UpdateUI();
 
             drop.transform.SetParent(null);
+
+            // Fix Z-Depth so enemy doesn't vanish
+            Vector3 dropPos = drop.transform.position;
+            dropPos.z = 0;
+            drop.transform.position = dropPos;
+
             drop.GetComponent<Collider2D>().enabled = true;
-
-            if (drop.TryGetComponent<Rigidbody2D>(out var erb))
-            {
-                erb.simulated = true;
-            }
-
+            if (drop.TryGetComponent<Rigidbody2D>(out var erb)) { erb.simulated = true; }
             if (drop.TryGetComponent<EnemyAI>(out var script))
             {
                 script.enabled = true;
@@ -294,7 +314,23 @@ public class PlayerController : MonoBehaviour
             }
         }
 
-        yield return new WaitForSeconds(0.4f);
+        // FLIP FLOP VISUALS
+        float spinDuration = 0.4f;
+        float flipInterval = 0.05f;
+        float elapsed = 0;
+        while (elapsed < spinDuration)
+        {
+            transform.localScale = new Vector3(-transform.localScale.x, 1, 1);
+            yield return new WaitForSeconds(flipInterval);
+            elapsed += flipInterval;
+        }
+
+        // Restore Orientation
+        if (horizontalInput != 0) transform.localScale = new Vector3(Mathf.Sign(horizontalInput), 1, 1);
+        else transform.localScale = new Vector3(facingDir, 1, 1);
+
+        // Invincibility OFF
+        Physics2D.IgnoreLayerCollision(playerLayer, enemyLayer, false);
         isSpinning = false;
     }
 
@@ -330,12 +366,7 @@ public class PlayerController : MonoBehaviour
         UpdateUI();
         Physics2D.IgnoreCollision(playerCollider, enemy.GetComponent<Collider2D>(), true);
         enemy.GetComponent<EnemyAI>().enabled = false;
-
-        if (enemy.TryGetComponent<Rigidbody2D>(out var erb))
-        {
-            erb.linearVelocity = Vector2.zero;
-            erb.simulated = false;
-        }
+        if (enemy.TryGetComponent<Rigidbody2D>(out var erb)) { erb.linearVelocity = Vector2.zero; erb.simulated = false; }
         enemy.transform.SetParent(attachmentPoint);
         enemy.transform.localPosition = new Vector3(Random.Range(-0.4f, 0.4f), Random.Range(-0.2f, 0.3f), 0);
     }
@@ -381,8 +412,6 @@ public class PlayerController : MonoBehaviour
         float multiplier = Mathf.Clamp(currentSpeed / baseRunSpeed, 0.5f, 3f);
         anim.SetFloat("RunMultiplier", multiplier);
         anim.SetBool("isGrounded", isGrounded);
-        anim.SetBool("isStiffArming", isStiffArming);
-        anim.SetBool("isSpinning", isSpinning);
         anim.SetBool("isProne", isProne);
     }
 
@@ -391,6 +420,9 @@ public class PlayerController : MonoBehaviour
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
         if (isGrounded) coyoteCounter = coyoteTime;
         else coyoteCounter -= Time.deltaTime;
+
+        if (isGrounded && CameraController.Instance) CameraController.Instance.SetPlayerGrounded(true);
+        if (!isGrounded && CameraController.Instance) CameraController.Instance.SetPlayerGrounded(false);
     }
 
     private void UpdateUI()
@@ -400,7 +432,7 @@ public class PlayerController : MonoBehaviour
 
     private void SpawnBloodSplatter(Vector2 pos)
     {
-        if (bloodSplatterPrefab) Instantiate(bloodSplatterPrefab, new Vector3(pos.x, pos.y, -5), Quaternion.identity);
+        if (bloodSplatterPrefab) Instantiate(bloodSplatterPrefab, new Vector3(pos.x, pos.y, 10), Quaternion.identity);
     }
 
     private void PlaySound(AudioClip clip, float volume = 1f)
@@ -419,7 +451,6 @@ public class PlayerController : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D col)
     {
-        // FIX: Re-ordered operands for better performance
         if (!isSpinning && col.gameObject.CompareTag("Enemy"))
         {
             if (col.gameObject.TryGetComponent<EnemyAI>(out var enemy))
