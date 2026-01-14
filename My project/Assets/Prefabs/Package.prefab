@@ -30,7 +30,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -14.97, y: -5.85, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.25, y: 0.25, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -47,9 +47,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae587d96b6eef8648b38da0ee7872122, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Package
-  enemyKnockForce: 15
-  timePenaltyPerHit: 2
-  torqueAmount: 10
+  isHeld: 0
+  startHeld: 0
+  dropGravity: 4
+  airDrag: 0.5
 --- !u!212 &644726239655489583
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -169,5 +170,5 @@ Rigidbody2D:
     m_Bits: 0
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 0

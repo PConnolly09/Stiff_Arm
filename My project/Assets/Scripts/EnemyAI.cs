@@ -8,7 +8,14 @@ public abstract class EnemyAI : MonoBehaviour
     [Range(0.1f, 20f)] public float moveSpeed = 3f;
     public float detectionRange = 10f;
     public LayerMask obstacleLayer;
-    public GameObject bloodSplatterPrefab;
+
+    [Header("Patrol")]
+    public Transform[] patrolPoints; // Drag waypoints here
+    private int currentPointIndex = 0;
+
+    [Header("Chasing")]
+    public float maxChaseTime = 5f;
+    private float chaseTimer;
 
     [Header("Visuals")]
     protected bool movingRight = true;
@@ -29,6 +36,19 @@ public abstract class EnemyAI : MonoBehaviour
         int layer = gameObject.layer;
         Physics2D.IgnoreLayerCollision(layer, layer, true);
         Physics2D.queriesStartInColliders = false;
+
+        SnapToGround();
+    }
+
+    private void SnapToGround()
+    {
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, 5f, obstacleLayer);
+        if (hit.collider != null)
+        {
+            // Adjust based on pivot (assuming pivot is center, move up by half height)
+            float halfHeight = GetComponent<CapsuleCollider2D>()?.size.y / 2f ?? 0.5f;
+            transform.position = new Vector3(transform.position.x, hit.point.y + halfHeight, transform.position.z);
+        }
     }
 
     protected virtual void FixedUpdate()
@@ -37,12 +57,27 @@ public abstract class EnemyAI : MonoBehaviour
 
         DetermineTarget();
 
-        if (isChasing) Chase();
-        else Patrol();
+        if (isChasing)
+        {
+            Chase();
+            chaseTimer += Time.fixedDeltaTime;
+            if (chaseTimer > maxChaseTime)
+            {
+                isChasing = false; // Give up
+                currentTarget = null;
+            }
+        }
+        else
+        {
+            chaseTimer = 0;
+            Patrol();
+        }
     }
 
     protected void DetermineTarget()
     {
+        // ... (Existing target logic for Package/Player) ...
+        // Ensure to set isChasing = true if target found within range
         if (GameManager.Instance && GameManager.Instance.currentState == GameManager.GameState.Fumble)
         {
             if (GameManager.Instance.currentPackageTransform != null)
@@ -55,23 +90,37 @@ public abstract class EnemyAI : MonoBehaviour
 
         if (playerTransform != null)
         {
-            currentTarget = playerTransform;
             float dist = Vector2.Distance(transform.position, playerTransform.position);
-            isChasing = dist < detectionRange;
+            if (dist < detectionRange)
+            {
+                currentTarget = playerTransform;
+                isChasing = true;
+            }
         }
     }
 
     protected virtual void Patrol()
     {
-        rb.linearVelocity = new Vector2(movingRight ? moveSpeed : -moveSpeed, rb.linearVelocity.y);
-        // Simple wall check
-        Vector2 origin = (Vector2)transform.position + new Vector2(movingRight ? 0.6f : -0.6f, 0);
-        if (Physics2D.Raycast(origin, movingRight ? Vector2.right : Vector2.left, 0.5f, obstacleLayer)) Flip();
+        if (patrolPoints.Length == 0) return; // Idle if no points
+
+        Transform targetPoint = patrolPoints[currentPointIndex];
+        float dist = Vector2.Distance(transform.position, targetPoint.position);
+
+        if (dist < 0.5f)
+        {
+            currentPointIndex = (currentPointIndex + 1) % patrolPoints.Length;
+            return;
+        }
+
+        float dir = (targetPoint.position.x > transform.position.x) ? 1 : -1;
+        rb.linearVelocity = new Vector2(dir * moveSpeed, rb.linearVelocity.y);
+
+        if ((dir > 0 && !movingRight) || (dir < 0 && movingRight)) Flip();
     }
 
     protected abstract void Chase();
 
-    // FIX: Removed unused 'isSuperHit' parameter
+    // ... (Keep TakeHit, Flip, OnCollisionEnter2D) ...
     public void TakeHit(float force, Vector2 direction, bool isStun)
     {
         StopAllCoroutines();
@@ -99,10 +148,7 @@ public abstract class EnemyAI : MonoBehaviour
     {
         if (isKnockedBack && ((1 << collision.gameObject.layer) & obstacleLayer) != 0)
         {
-            if (bloodSplatterPrefab)
-            {
-                Instantiate(bloodSplatterPrefab, new Vector3(collision.contacts[0].point.x, collision.contacts[0].point.y, -5), Quaternion.identity);
-            }
+            EffectManager.Instance?.PlayEffect(EffectManager.Instance.bloodSplatterPrefab, collision.contacts[0].point);
             Destroy(gameObject);
         }
     }

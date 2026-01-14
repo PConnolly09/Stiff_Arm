@@ -10,36 +10,36 @@ using Unity.Cinemachine;
 [RequireComponent(typeof(Animator))]
 public class PlayerController : MonoBehaviour
 {
-    [Header("Movement & Momentum")]
-    public float acceleration = 120f;
+    [Header("Ground Movement")]
+    public float acceleration = 90f;
     public float maxSpeed = 20f;
-    public float friction = 80f;
-    public float backpedalSpeed = 10f;
-    [Tooltip("Reference speed for animation playback speed (prevents skating effect)")]
+    public float friction = 70f;
+    public float backpedalSpeed = 18f; // Fast enough to not feel "stalled"
     public float baseRunSpeed = 8f;
 
-    [Header("Vault Jump Settings")]
-    public float jumpForce = 24f;
-    public float hurdleBoost = 5f;
+    [Header("Air Physics (Tuned to Tiles)")]
+    [Tooltip("Clears ~2.2 tiles from standstill")]
+    public float baseJumpForce = 17f;
+    [Tooltip("Adds height based on horizontal speed. Total ~3.5 tiles at max speed")]
+    public float momentumJumpBonus = 5f;
+    public float normalGravity = 4.5f;
     public float quickFallGravity = 10f;
-    public float normalGravity = 5f;
-    public float jumpCooldownTime = 0.1f;
-    public float airControl = 2f;
+    public float airAcceleration = 35f;
     public float coyoteTime = 0.15f;
     private float coyoteCounter;
     private float jumpCooldownTimer;
 
-    [Header("Ground Detection")]
+    [Header("Detection")]
     public Transform groundCheck;
-    public float groundCheckRadius = 0.25f;
+    public float groundCheckRadius = 0.3f;
     public LayerMask groundLayer;
     [SerializeField] private bool isGrounded;
 
     [Header("Abilities")]
     public Transform stiffArmPoint;
-    public float stiffArmRange = 1.5f;
-    public float stiffArmBaseForce = 20f;
-    public float speedPushMultiplier = 0.8f;
+    public float stiffArmRange = 2.0f;
+    public float stiffArmBaseForce = 25f;
+    public float speedPushMultiplier = 1.0f;
 
     [Header("Juke Settings")]
     public float jukeDuration = 0.3f;
@@ -47,26 +47,22 @@ public class PlayerController : MonoBehaviour
     public Color jukeColor = new(1, 1, 1, 0.5f);
     private float jukeTimer;
 
-    [Header("States")]
-    public bool isStiffArming = false;
-    public bool isSpinning = false;
-    public bool isJuking = false;
-    public bool isProne = false;
-    public bool isDashing = false;
-
-    [Header("Package & Fumbles")]
+    [Header("States & References")]
+    [Header("Package")]
     public bool hasPackage = true;
     public float baseFumbleChance = 0.05f;
+    public float fumblePickupDelay = 1.2f; // Time before player can pick up a loose ball
     public GameObject packageObject;
-
-    [Header("Attachments")]
-    public int attachmentCount = 0;
     public Transform attachmentPoint;
+    public int attachmentCount = 0;
     private readonly List<GameObject> attachedEnemies = new();
-    private float tackleDebuffTimer = 0f;
 
-    [Header("Visuals & Audio")]
-    public GameObject bloodSplatterPrefab;
+    public bool isStiffArming, isSpinning, isJuking, isProne;
+    private float proneTimer;
+    private float tackleDebuffTimer;
+    private float pickupTimer; // Counter to track the delay
+
+    [Header("Audio Clips")]
     public AudioClip jumpSfx;
     public AudioClip jukeSfx;
     public AudioClip spinSfx;
@@ -81,9 +77,9 @@ public class PlayerController : MonoBehaviour
     private AudioSource audioSource;
     private Animator anim;
     private float horizontalInput;
-    private float proneTimer;
     private Color normalColor = Color.white;
 
+    // Set this to false when using the real GameManager
     public bool ignoreGameManagerForTesting = true;
 
     void Awake()
@@ -95,18 +91,9 @@ public class PlayerController : MonoBehaviour
         audioSource = GetComponent<AudioSource>();
         anim = GetComponent<Animator>();
 
-        rb.gravityScale = normalGravity;
         rb.interpolation = RigidbodyInterpolation2D.Interpolate;
         rb.collisionDetectionMode = CollisionDetectionMode2D.Continuous;
         rb.constraints = RigidbodyConstraints2D.FreezeRotation;
-
-        if (packageObject != null)
-        {
-            if (packageObject.TryGetComponent<Collider2D>(out var packColl))
-            {
-                Physics2D.IgnoreCollision(playerCollider, packColl, true);
-            }
-        }
     }
 
     void Update()
@@ -131,11 +118,12 @@ public class PlayerController : MonoBehaviour
 
         if (jumpCooldownTimer > 0) jumpCooldownTimer -= Time.deltaTime;
         if (jukeTimer > 0) jukeTimer -= Time.deltaTime;
+        if (pickupTimer > 0) pickupTimer -= Time.deltaTime; // Decrement pickup delay
     }
 
     void FixedUpdate()
     {
-        if (isProne || isSpinning) return; // Physics controlled by abilities/state
+        if (isProne || isSpinning) return;
         HandleMovement();
         if (tackleDebuffTimer > 0) tackleDebuffTimer -= Time.fixedDeltaTime;
     }
@@ -146,7 +134,7 @@ public class PlayerController : MonoBehaviour
 
         if (Input.GetButtonDown("Jump") && coyoteCounter > 0 && jumpCooldownTimer <= 0)
         {
-            PerformHurdleJump();
+            PerformJump();
         }
 
         if (Input.GetKeyDown(KeyCode.Q) && !isSpinning) StartCoroutine(PerformSpinMove());
@@ -157,18 +145,21 @@ public class PlayerController : MonoBehaviour
     private void HandleMovement()
     {
         float penalty = (attachmentCount * 2.5f) + (tackleDebuffTimer > 0 ? 8f : 0f);
-        // Symmetric speed handling
         float currentMax = (horizontalInput < 0) ? backpedalSpeed : maxSpeed;
         float targetSpeed = horizontalInput * Mathf.Max(2f, currentMax - penalty);
 
-        float speedDif = targetSpeed - rb.linearVelocity.x;
         float accelRate;
+        if (isGrounded)
+        {
+            accelRate = (Mathf.Abs(targetSpeed) > 0.1f) ? acceleration : friction;
+        }
+        else
+        {
+            accelRate = airAcceleration;
+        }
 
-        if (isGrounded) accelRate = (Mathf.Abs(targetSpeed) > 0.1f) ? acceleration : friction;
-        else accelRate = airControl;
-
-        float movement = speedDif * accelRate;
-        rb.AddForce(movement * Vector2.right, ForceMode2D.Force);
+        float newX = Mathf.MoveTowards(rb.linearVelocity.x, targetSpeed, accelRate * Time.fixedDeltaTime);
+        rb.linearVelocity = new Vector2(newX, rb.linearVelocity.y);
 
         if (!isSpinning && horizontalInput != 0)
         {
@@ -176,36 +167,51 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    private void PerformHurdleJump()
+    private void PerformJump()
     {
-        float jumpPenalty = attachmentCount * 1.5f;
-        rb.linearVelocity = new Vector2(rb.linearVelocity.x, 0);
-        rb.AddForce(Vector2.up * (jumpForce - jumpPenalty), ForceMode2D.Impulse);
+        float speedRatio = Mathf.Abs(rb.linearVelocity.x) / maxSpeed;
+        float totalJumpForce = baseJumpForce + (momentumJumpBonus * speedRatio) - (attachmentCount * 1.5f);
 
-        if (Mathf.Abs(horizontalInput) > 0.1f)
-        {
-            rb.AddForce(Vector2.right * horizontalInput * hurdleBoost, ForceMode2D.Impulse);
-        }
+        rb.linearVelocity = new Vector2(rb.linearVelocity.x, 0);
+        rb.AddForce(Vector2.up * totalJumpForce, ForceMode2D.Impulse);
 
         coyoteCounter = 0;
-        jumpCooldownTimer = jumpCooldownTime;
+        jumpCooldownTimer = 0.1f;
         PlaySound(jumpSfx);
+        EffectManager.Instance?.PlayEffect(EffectManager.Instance.jumpDustPrefab, groundCheck.position);
     }
 
     private void ApplyCustomGravity()
     {
-        if (rb.linearVelocity.y < 0) rb.gravityScale = quickFallGravity;
-        else rb.gravityScale = normalGravity;
+        if (rb.linearVelocity.y < 0 || (rb.linearVelocity.y > 0 && !Input.GetButton("Jump")))
+            rb.gravityScale = quickFallGravity;
+        else
+            rb.gravityScale = normalGravity;
     }
+
+    // --- ABILITIES ---
 
     private void PerformStiffArm()
     {
         StartCoroutine(StiffArmRoutine());
         anim.SetTrigger("StiffArmTrigger");
+        PlaySound(stiffArmSfx);
+    }
 
+    private IEnumerator StiffArmRoutine()
+    {
+        isStiffArming = true;
+        // Multi-scan for collision consistency
+        CheckStiffArmHit();
+        yield return new WaitForSeconds(0.1f);
+        CheckStiffArmHit();
+        yield return new WaitForSeconds(0.2f);
+        isStiffArming = false;
+    }
+
+    private void CheckStiffArmHit()
+    {
         Collider2D[] enemies = Physics2D.OverlapCircleAll(stiffArmPoint.position, stiffArmRange);
-        bool hitSomething = false;
-
         foreach (var enemyCol in enemies)
         {
             if (enemyCol.CompareTag("Enemy"))
@@ -216,28 +222,12 @@ public class PlayerController : MonoBehaviour
                     Vector2 dir = new Vector2(transform.localScale.x, 0.2f).normalized;
 
                     enemyScript.TakeHit(stiffArmBaseForce + momentumBonus, dir, false);
-                    SpawnBloodSplatter(enemyCol.transform.position);
-                    hitSomething = true;
+                    EffectManager.Instance?.PlayEffect(EffectManager.Instance.stiffArmImpactPrefab, enemyCol.transform.position);
+                    impulseSource.GenerateImpulse(0.5f);
+                    PlaySound(impactSfx);
                 }
             }
         }
-
-        if (hitSomething)
-        {
-            impulseSource.GenerateImpulse(0.5f);
-            PlaySound(impactSfx);
-        }
-        else
-        {
-            PlaySound(stiffArmSfx);
-        }
-    }
-
-    private IEnumerator StiffArmRoutine()
-    {
-        isStiffArming = true;
-        yield return new WaitForSeconds(0.3f);
-        isStiffArming = false;
     }
 
     private IEnumerator PerformJuke()
@@ -245,6 +235,7 @@ public class PlayerController : MonoBehaviour
         isJuking = true;
         jukeTimer = jukeCooldown;
         PlaySound(jukeSfx);
+        EffectManager.Instance?.PlayEffect(EffectManager.Instance.jukeGhostPrefab, transform.position);
         spriteRenderer.color = jukeColor;
         Physics2D.IgnoreLayerCollision(gameObject.layer, LayerMask.NameToLayer("Enemy"), true);
         yield return new WaitForSeconds(jukeDuration);
@@ -259,79 +250,109 @@ public class PlayerController : MonoBehaviour
         impulseSource.GenerateImpulse(0.3f);
         PlaySound(spinSfx);
         anim.SetTrigger("SpinTrigger");
+        EffectManager.Instance?.PlayEffect(EffectManager.Instance.spinTrailPrefab, transform.position);
 
         int playerLayer = gameObject.layer;
         int enemyLayer = LayerMask.NameToLayer("Enemy");
-
-        // Invincibility ON
         Physics2D.IgnoreLayerCollision(playerLayer, enemyLayer, true);
 
-        // Movement Speed & Direction
-        float spinMoveForce = 12f; // Covers distance
+        float spinSpeed = 12f;
         float facingDir = transform.localScale.x > 0 ? 1 : -1;
+        bool hasInput = Mathf.Abs(horizontalInput) > 0.1f;
 
         if (attachmentCount == 0)
         {
-            // Apply constant velocity for traversal
-            rb.linearVelocity = new Vector2(facingDir * spinMoveForce, rb.linearVelocity.y);
+            // Traverse or Spin
+            if (hasInput) rb.linearVelocity = new Vector2(Mathf.Sign(horizontalInput) * spinSpeed, rb.linearVelocity.y);
+            else rb.linearVelocity = Vector2.zero;
 
-            // AOE Push
+            // Clear path
             Collider2D[] nearby = Physics2D.OverlapCircleAll(transform.position, 2.5f);
             foreach (var col in nearby)
             {
-                if (col.CompareTag("Enemy"))
-                {
-                    if (col.TryGetComponent<EnemyAI>(out var enemyScript))
-                    {
-                        enemyScript.TakeHit(10f, (col.transform.position - transform.position).normalized, true);
-                    }
-                }
+                if (col.CompareTag("Enemy") && col.TryGetComponent<EnemyAI>(out var e))
+                    e.TakeHit(10f, (col.transform.position - transform.position).normalized, true);
             }
         }
         else
         {
-            // Shed Enemy (Stop movement to emphasize the shed)
+            // Eject stacked enemy
             rb.linearVelocity = Vector2.zero;
-
             GameObject drop = attachedEnemies[0];
             attachedEnemies.RemoveAt(0);
             attachmentCount--;
             UpdateUI();
 
             drop.transform.SetParent(null);
-
-            // Fix Z-Depth so enemy doesn't vanish
             Vector3 dropPos = drop.transform.position;
-            dropPos.z = 0;
+            dropPos.z = 0; // Fix vanishing
             drop.transform.position = dropPos;
 
             drop.GetComponent<Collider2D>().enabled = true;
-            if (drop.TryGetComponent<Rigidbody2D>(out var erb)) { erb.simulated = true; }
+            if (drop.TryGetComponent<Rigidbody2D>(out var erb)) erb.simulated = true;
             if (drop.TryGetComponent<EnemyAI>(out var script))
             {
                 script.enabled = true;
-                script.TakeHit(15f, Vector2.up, true);
+                Vector2 ejectDir = new Vector2(Random.Range(-1f, 1f), 1f).normalized;
+                script.TakeHit(15f, ejectDir, true);
+            }
+            Physics2D.IgnoreCollision(playerCollider, drop.GetComponent<Collider2D>(), false);
+        }
+
+        // Flip-Flop visuals
+        float elapsed = 0;
+        while (elapsed < 0.4f)
+        {
+            transform.localScale = new Vector3(-transform.localScale.x, 1, 1);
+            yield return new WaitForSeconds(0.05f);
+            elapsed += 0.05f;
+        }
+
+        transform.localScale = new Vector3(horizontalInput != 0 ? Mathf.Sign(horizontalInput) : facingDir, 1, 1);
+        Physics2D.IgnoreLayerCollision(playerLayer, enemyLayer, false);
+        isSpinning = false;
+    }
+
+    // --- SYSTEMS ---
+
+    private void OnCollisionEnter2D(Collision2D col)
+    {
+        // Solid Pickup Logic - Added pickupTimer check to prevent instant re-grab
+        if (pickupTimer <= 0 && !hasPackage && col.gameObject.CompareTag("Package"))
+        {
+            if (col.gameObject.TryGetComponent<Package>(out var pkg))
+            {
+                hasPackage = true;
+                packageObject = col.gameObject;
+                pkg.SetHeld(true, attachmentPoint);
+                Physics2D.IgnoreCollision(playerCollider, col.collider, true);
             }
         }
 
-        // FLIP FLOP VISUALS
-        float spinDuration = 0.4f;
-        float flipInterval = 0.05f;
-        float elapsed = 0;
-        while (elapsed < spinDuration)
+        // Combat Logic
+        if (!isSpinning && col.gameObject.CompareTag("Enemy"))
         {
-            transform.localScale = new Vector3(-transform.localScale.x, 1, 1);
-            yield return new WaitForSeconds(flipInterval);
-            elapsed += flipInterval;
+            if (col.gameObject.TryGetComponent<EnemyAI>(out var enemy))
+            {
+                if (isStiffArming)
+                {
+                    float f = stiffArmBaseForce + (Mathf.Abs(rb.linearVelocity.x) * speedPushMultiplier);
+                    enemy.TakeHit(f, new Vector2(transform.localScale.x, 0.3f).normalized, false);
+                    EffectManager.Instance?.PlayEffect(EffectManager.Instance.stiffArmImpactPrefab, col.contacts[0].point);
+                    PlaySound(impactSfx);
+                }
+                else if (enemy is MinionEnemy)
+                {
+                    AddAttachment(col.gameObject);
+                }
+                else
+                {
+                    if (enemy is BruteEnemy) tackleDebuffTimer = 1.5f;
+                    ProcessFumble(0.2f);
+                    PlaySound(impactSfx, 1.2f);
+                }
+            }
         }
-
-        // Restore Orientation
-        if (horizontalInput != 0) transform.localScale = new Vector3(Mathf.Sign(horizontalInput), 1, 1);
-        else transform.localScale = new Vector3(facingDir, 1, 1);
-
-        // Invincibility OFF
-        Physics2D.IgnoreLayerCollision(playerLayer, enemyLayer, false);
-        isSpinning = false;
     }
 
     public void SetProne(float duration)
@@ -343,6 +364,7 @@ public class PlayerController : MonoBehaviour
         transform.rotation = Quaternion.Euler(0, 0, 90);
         impulseSource.GenerateImpulse(1.5f);
         PlaySound(impactSfx);
+        EffectManager.Instance?.PlayEffect(EffectManager.Instance.tackleImpactPrefab, transform.position);
         ProcessFumble(0.4f);
     }
 
@@ -369,6 +391,7 @@ public class PlayerController : MonoBehaviour
         if (enemy.TryGetComponent<Rigidbody2D>(out var erb)) { erb.linearVelocity = Vector2.zero; erb.simulated = false; }
         enemy.transform.SetParent(attachmentPoint);
         enemy.transform.localPosition = new Vector3(Random.Range(-0.4f, 0.4f), Random.Range(-0.2f, 0.3f), 0);
+        EffectManager.Instance?.PlayEffect(EffectManager.Instance.attachPoofPrefab, enemy.transform.position);
     }
 
     public void ProcessFumble(float extraRisk = 0)
@@ -379,104 +402,59 @@ public class PlayerController : MonoBehaviour
         {
             hasPackage = false;
 
-            Package pkgScript = null;
-            if (packageObject != null) packageObject.TryGetComponent(out pkgScript);
-            else TryGetComponent(out pkgScript);
+            // Set cooldown so the player doesn't immediately pick the ball back up
+            pickupTimer = fumblePickupDelay;
 
-            if (pkgScript != null) pkgScript.SetHeld(false);
+            if (packageObject != null && packageObject.TryGetComponent<Package>(out var pkg))
+                pkg.SetHeld(false, null);
 
             impulseSource.GenerateImpulse(1.5f);
             PlaySound(fumbleSfx);
+            EffectManager.Instance?.PlayEffect(EffectManager.Instance.fumbleExplosionPrefab, transform.position);
             Debug.Log("FUMBLE!");
-        }
-    }
-
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        if (!hasPackage && other.CompareTag("Package"))
-        {
-            if (other.TryGetComponent<Package>(out var pkg))
-            {
-                hasPackage = true;
-                pkg.SetHeld(true, attachmentPoint);
-                PlaySound(jumpSfx);
-            }
         }
     }
 
     private void UpdateAnimations()
     {
         if (anim == null) return;
-        float currentSpeed = Mathf.Abs(rb.linearVelocity.x);
-        anim.SetFloat("Speed", currentSpeed);
-        float multiplier = Mathf.Clamp(currentSpeed / baseRunSpeed, 0.5f, 3f);
-        anim.SetFloat("RunMultiplier", multiplier);
+        float s = Mathf.Abs(rb.linearVelocity.x);
+        anim.SetFloat("Speed", s);
+        anim.SetFloat("RunMultiplier", Mathf.Clamp(s / baseRunSpeed, 0.5f, 3f));
         anim.SetBool("isGrounded", isGrounded);
         anim.SetBool("isProne", isProne);
     }
 
     private void CheckGrounded()
     {
+        bool was = isGrounded;
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
-        if (isGrounded) coyoteCounter = coyoteTime;
-        else coyoteCounter -= Time.deltaTime;
-
-        if (isGrounded && CameraController.Instance) CameraController.Instance.SetPlayerGrounded(true);
-        if (!isGrounded && CameraController.Instance) CameraController.Instance.SetPlayerGrounded(false);
+        if (isGrounded)
+        {
+            coyoteCounter = coyoteTime;
+            if (!was)
+            {
+                EffectManager.Instance?.PlayEffect(EffectManager.Instance.landDustPrefab, groundCheck.position);
+                if (CameraController.Instance) CameraController.Instance.SetPlayerGrounded(true);
+            }
+        }
+        else
+        {
+            coyoteCounter -= Time.deltaTime;
+            if (CameraController.Instance) CameraController.Instance.SetPlayerGrounded(false);
+        }
     }
 
-    private void UpdateUI()
-    {
-        if (GameManager.Instance) GameManager.Instance.UpdateAttachmentCount(attachmentCount);
-    }
-
-    private void SpawnBloodSplatter(Vector2 pos)
-    {
-        if (bloodSplatterPrefab) Instantiate(bloodSplatterPrefab, new Vector3(pos.x, pos.y, 10), Quaternion.identity);
-    }
-
-    private void PlaySound(AudioClip clip, float volume = 1f)
-    {
-        if (clip && audioSource) audioSource.PlayOneShot(clip, volume);
-    }
+    private void UpdateUI() { if (GameManager.Instance) GameManager.Instance.UpdateAttachmentCount(attachmentCount); }
+    private void PlaySound(AudioClip c, float v = 1f) { if (c && audioSource) audioSource.PlayOneShot(c, v); }
 
     private void OnDrawGizmosSelected()
     {
+        if (groundCheck) Gizmos.DrawWireSphere(groundCheck.position, groundCheckRadius);
         if (stiffArmPoint)
         {
             Gizmos.color = Color.red;
             Gizmos.DrawWireSphere(stiffArmPoint.position, stiffArmRange);
-        }
-    }
-
-    private void OnCollisionEnter2D(Collision2D col)
-    {
-        if (!isSpinning && col.gameObject.CompareTag("Enemy"))
-        {
-            if (col.gameObject.TryGetComponent<EnemyAI>(out var enemy))
-            {
-                if (isStiffArming)
-                {
-                    float force = stiffArmBaseForce + (Mathf.Abs(rb.linearVelocity.x) * speedPushMultiplier);
-                    impulseSource.GenerateImpulse(force * 0.05f);
-                    Vector2 pushDir = new Vector2(transform.localScale.x, 0.3f).normalized;
-                    enemy.TakeHit(force, pushDir, isDashing);
-                    SpawnBloodSplatter(col.contacts[0].point);
-                    PlaySound(impactSfx);
-                }
-                else
-                {
-                    if (enemy is InterceptorEnemy) ProcessFumble();
-                    else if (enemy is BruteEnemy)
-                    {
-                        impulseSource.GenerateImpulse(1.2f);
-                        tackleDebuffTimer = 1.5f;
-                        ProcessFumble(0.4f);
-                        PlaySound(impactSfx, 1.2f);
-                    }
-                    else if (enemy is MinionEnemy) AddAttachment(col.gameObject);
-                }
-            }
         }
     }
 }
