@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerStats
   groundLayer:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 4160
   maxRunSpeed: 20
   groundAccelerationTime: 0.1
   groundDecelerationTime: 0.05

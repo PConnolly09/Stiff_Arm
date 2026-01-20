@@ -1,3 +1,4 @@
+using Unity.VisualScripting.Antlr3.Runtime.Misc;
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D))]
@@ -5,38 +6,61 @@ using UnityEngine;
 public class HeavyObject : MonoBehaviour
 {
     [Header("Crush Settings")]
-    public float minCrushVelocity = 5f;
-    public float damage = 50f;
-    public GameObject crushEffect; // Particle system
+    public float minCrushVelocity = 5f; // Velocity needed to kill
+    public GameObject crushEffect;
 
     private Rigidbody2D rb;
+    
 
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
-        gameObject.tag = "Grabbable"; // Important for the claw!
+        gameObject.tag = "Grabbable"; // Required for Crane
+
+        // PHYSICS SETUP: Heavy and Stable
+        rb.mass = 2204f; // High mass prevents player from pushing it easily
+        rb.gravityScale = 50f; // Heavy fall
+        rb.linearDamping = 30f; // High drag stops sliding quickly on ground
+        rb.collisionDetectionMode = CollisionDetectionMode2D.Continuous;
+
+    }
+
+    // Call this from CraneController when picking up
+    public void OnGrab()
+    {
+        // Kinematic allows movement via Transform (Crane) but keeps collisions active
+        rb.bodyType = RigidbodyType2D.Kinematic;
+        rb.linearVelocity = Vector2.zero;
+        rb.angularVelocity = 0f;
+    }
+
+    // Call this from CraneController when dropping
+    public void OnRelease()
+    {
+        // Switch back to Dynamic so gravity takes over
+        rb.bodyType = RigidbodyType2D.Dynamic;
+        rb.WakeUp();
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        // Check relative velocity to see if this is a "Crush" impact
-        if (collision.relativeVelocity.magnitude > minCrushVelocity)
+        // CRUSH LOGIC: Only kill if we are falling (Dynamic) or moving fast
+        if (rb.bodyType == RigidbodyType2D.Dynamic && collision.relativeVelocity.y > minCrushVelocity)
         {
-            // Check if we hit an enemy
+            // Crush Logic
             if (collision.gameObject.CompareTag("Enemy"))
             {
-                // Try to find the EnemyAI script we wrote earlier
-                // Using reflection or SendMessage is okay, but GetComponent is better
-                var enemy = collision.gameObject.GetComponent<EnemyAI>();
-                if (enemy != null)
+                // Try to find ANY Enemy script (Base class covers all types)
+                if (collision.gameObject.TryGetComponent<EnemyAI>(out var enemy))
                 {
-                    // Instant kill or heavy damage
-                    enemy.TakeHit(damage, Vector2.down, true); // Stun them too
+                    Debug.Log("CRUSHED " + collision.gameObject.name);
 
+                    // Instantiate Effect
                     if (crushEffect)
                         Instantiate(crushEffect, transform.position, Quaternion.identity);
 
-                    Debug.Log("CRUSHED " + collision.gameObject.name);
+                    // Kill Enemy Instantly
+                    Destroy(collision.gameObject);
                 }
             }
         }
