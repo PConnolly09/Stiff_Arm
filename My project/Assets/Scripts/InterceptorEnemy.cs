@@ -1,5 +1,5 @@
 using UnityEngine;
-
+using System.Collections;
 /// <summary>
 /// Subclass for a fast-moving 'Interceptor' enemy.
 /// Focuses on chasing the player when in range.
@@ -13,15 +13,23 @@ public class InterceptorEnemy : EnemyAI
     [SerializeField] private Transform groundCheck;
     [SerializeField] private float checkDistance = 0.5f;
     [SerializeField] private LayerMask groundLayer;
-
     private bool hasAttacked = false;
+    private bool isRetreating = false; // Added tracking for reset
+
+    protected override void ResetState()
+    {
+        hasAttacked = false;
+        isRetreating = false;
+    }
 
     protected override void Chase()
     {
         if (hasAttacked)
-        {
-            // Flee Logic
-            rb.linearVelocity = new Vector2((movingRight ? 1 : -1) * moveSpeed * 2f, rb.linearVelocity.y);
+        { // Retreat Logic
+            isRetreating = true;
+            // FIX: Renamed 'dir' to 'retreatDir' to avoid scope conflict with the variable below
+            float retreatDir = (transform.position.x > currentTarget.position.x) ? 1 : -1; // Run away
+            rb.linearVelocity = new Vector2(retreatDir * moveSpeed * 2f, rb.linearVelocity.y);
             return;
         }
 
@@ -32,7 +40,6 @@ public class InterceptorEnemy : EnemyAI
         if ((dir > 0 && !movingRight) || (dir < 0 && movingRight)) Flip();
     }
 
-    // FIX: Use TryGetComponent
     protected override void OnCollisionEnter2D(Collision2D col)
     {
         if (col.gameObject.CompareTag("Player") && !hasAttacked && !isKnockedBack)
@@ -40,11 +47,19 @@ public class InterceptorEnemy : EnemyAI
             if (col.gameObject.TryGetComponent<PlayerController>(out var player))
             {
                 hasAttacked = true;
-                player.ProcessFumble(0.2f); // Attempt strip
-                Flip(); // Turn around to run away
+                player.ProcessFumble(0.2f);
+                Flip();
+                StartCoroutine(ResetAttack());
             }
         }
         base.OnCollisionEnter2D(col);
+    }
+
+    private IEnumerator ResetAttack()
+    {
+        yield return new WaitForSeconds(2.0f);
+        hasAttacked = false;
+        isRetreating = false;
     }
 
 }

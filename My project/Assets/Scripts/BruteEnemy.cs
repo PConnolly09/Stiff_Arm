@@ -3,23 +3,27 @@ using System.Collections;
 
 public class BruteEnemy : EnemyAI
 {
-    [Header("Tackle Settings")]
+    [Header("Tackle")]
     public float tackleRange = 5f;
     public float tackleForce = 18f;
-    public float tackleCooldown = 3f;
-
     private bool canTackle = true;
     private bool isRetreating = false;
+
+    protected override void ResetState()
+    {
+        canTackle = true;
+        isRetreating = false;
+    }
 
     protected override void Chase()
     {
         if (currentTarget == null) return;
 
-        // If we just hit the player, back off
+        // Retreat Logic
         if (isRetreating)
         {
-            float retreatDir = (transform.position.x > currentTarget.position.x) ? 1 : -1;
-            rb.linearVelocity = new Vector2(retreatDir * moveSpeed * 0.8f, rb.linearVelocity.y);
+            float dir = (transform.position.x > currentTarget.position.x) ? 1 : -1;
+            rb.linearVelocity = new Vector2(dir * moveSpeed * 0.8f, rb.linearVelocity.y);
             return;
         }
 
@@ -27,7 +31,7 @@ public class BruteEnemy : EnemyAI
 
         if (canTackle && dist < tackleRange)
         {
-            StartCoroutine(TackleSequence());
+            StartCoroutine(Tackle());
         }
         else if (canTackle)
         {
@@ -37,7 +41,7 @@ public class BruteEnemy : EnemyAI
         }
     }
 
-    private IEnumerator TackleSequence()
+    private IEnumerator Tackle()
     {
         canTackle = false;
         rb.linearVelocity = Vector2.zero; // Wind up
@@ -49,15 +53,8 @@ public class BruteEnemy : EnemyAI
             rb.linearVelocity = new Vector2(dir * tackleForce, 1f);
         }
 
-        yield return new WaitForSeconds(1.5f); // Recovery time
+        yield return new WaitForSeconds(1.5f);
         canTackle = true;
-    }
-
-    private IEnumerator RetreatRoutine()
-    {
-        isRetreating = true;
-        yield return new WaitForSeconds(2.0f); // Walk away for 2 seconds
-        isRetreating = false;
     }
 
     protected override void OnCollisionEnter2D(Collision2D col)
@@ -67,9 +64,16 @@ public class BruteEnemy : EnemyAI
             if (col.gameObject.TryGetComponent<PlayerController>(out var player))
             {
                 player.SetProne(1.0f);
-                StartCoroutine(RetreatRoutine()); // Back off after hit
+                StartCoroutine(RetreatRoutine());
             }
         }
         base.OnCollisionEnter2D(col);
+    }
+
+    private IEnumerator RetreatRoutine()
+    {
+        isRetreating = true;
+        yield return new WaitForSeconds(2.0f);
+        isRetreating = false;
     }
 }

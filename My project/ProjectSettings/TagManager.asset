@@ -8,6 +8,8 @@ TagManager:
   - Enemy
   - Obstacle
   - Package
+  - Water
+  - Container
   layers:
   - Default
   - TransparentFX
@@ -20,8 +22,8 @@ TagManager:
   - Player
   - Package
   - Obstacles
-  - 
-  - 
+  - Water
+  - Containers
   - 
   - 
   - 
@@ -42,11 +44,20 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: BackgroundProps
+    uniqueID: 1664661331
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Playable
+    uniqueID: 4133811073
+    locked: 0
   - name: Particles
     uniqueID: 2283344025
+    locked: 0
+  - name: UI
+    uniqueID: 3794583545
     locked: 0
   m_RenderingLayers:
   - Default

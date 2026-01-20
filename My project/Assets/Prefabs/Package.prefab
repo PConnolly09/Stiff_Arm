@@ -49,8 +49,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Package
   isHeld: 0
   startHeld: 0
+  currentHolder: {fileID: 0}
   dropGravity: 4
   airDrag: 0.5
+  maxFumbleSpeed: 15
+  fumbleMaterial: {fileID: 6200000, guid: 2673d290239694b419aadea2c06aae24, type: 2}
 --- !u!212 &644726239655489583
 SpriteRenderer:
   m_ObjectHideFlags: 0

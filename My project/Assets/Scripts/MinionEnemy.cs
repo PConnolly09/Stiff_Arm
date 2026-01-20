@@ -12,19 +12,19 @@ public class MinionEnemy : EnemyAI
     {
         if (currentTarget == null) return;
 
-        float dir = currentTarget.position.x > transform.position.x ? 1 : -1;
-        rb.linearVelocity = new Vector2(dir * moveSpeed * 1.2f, rb.linearVelocity.y);
-        if ((dir > 0 && !movingRight) || (dir < 0 && movingRight)) Flip();
+        float xDiff = currentTarget.position.x - transform.position.x;
 
-        // Jump Logic
-        if (jumpTimer > 0) jumpTimer -= Time.fixedDeltaTime;
-
-        bool targetIsAbove = currentTarget.position.y > transform.position.y + 1.5f;
-        // Simple wall check or just pure vertical difference
-        if (targetIsAbove && jumpTimer <= 0)
+        // FIX: Don't jitter if we are directly above/below target
+        if (Mathf.Abs(xDiff) > 0.2f)
         {
-            rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
-            jumpTimer = jumpCooldown;
+            float dir = Mathf.Sign(xDiff);
+            rb.linearVelocity = new Vector2(dir * moveSpeed * 1.2f, rb.linearVelocity.y);
+            if ((dir > 0 && !movingRight) || (dir < 0 && movingRight)) Flip();
+        }
+        else
+        {
+            // Calm down horizontal movement
+            rb.linearVelocity = new Vector2(0, rb.linearVelocity.y);
         }
     }
 

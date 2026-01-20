@@ -11,21 +11,40 @@ public class CameraController : MonoBehaviour
     private CinemachineImpulseSource globalImpulseSource;
     private Rigidbody2D playerRb;
 
-    [Header("Framing Settings")]
-    [Tooltip("Keep player in left third (-0.2). Set Y to ~0.25 for a platformer baseline.")]
-    public Vector2 screenBias = new Vector2(-0.2f, 0.25f);
+    [Header("Zoom & Framing")]
+    [Tooltip("Default Zoom")]
+    public float orthographicSize = 8f;
 
-    [Tooltip("Dead zone allows jumping without moving camera. 0.25 Y is usually good.")]
-    public Vector2 deadZoneSize = new Vector2(0.1f, 0.25f);
+    [Header("Directional Framing (Hysteresis)")]
+    [Tooltip("Screen X when moving Right (Standard). E.g. -0.2 (Player on Left)")]
+    public float forwardBias = -0.2f;
+    [Tooltip("Screen X when moving Left (Backpedal). E.g. 0.2 (Player on Right)")]
+    public float backwardBias = 0.2f;
+    [Tooltip("Speed required to switch camera sides.")]
+    public float switchThreshold = 2f;
+    [Tooltip("Time required moving in new direction before camera shifts.")]
+    public float turnDelay = 0.25f;
+    [Tooltip("How fast the camera pans to the new side.")]
+    public float biasShiftSpeed = 2f;
 
-    [Header("Look Down / Fall Preview")]
-    [Tooltip("How far (in Unity Units) to pan down when falling or holding Down.")]
-    public float lookDownOffset = -5f;
-    [Tooltip("How fast the camera shifts focus.")]
+    // State tracking
+    private float currentXBias;
+    private bool isFacingRight = true;
+    private float turnTimer = 0f;
+    private float targetSize;
+    private float defaultScreenXBias;
+    private bool isCraneView = false;
+
+    [Header("Grounded Vertical Logic")]
+    public float verticalDamping = 0.0f;
+    public float verticalDeadZone = 0.05f;
+    public float screenYBias = 0.2f;
+    public float horizontalDamping = 0.5f;
+
+    [Header("Look Down Logic")]
+    public float lookDownOffset = -4f;
     public float lookShiftSpeed = 2f;
-
     private float currentYOffset = 0f;
-    private bool isPlayerGrounded = false;
 
     void Awake()
     {
@@ -38,59 +57,117 @@ public class CameraController : MonoBehaviour
         if (virtualCamera != null)
         {
             positionComposer = virtualCamera.GetComponent<CinemachinePositionComposer>();
+            currentXBias = forwardBias;
+            defaultScreenXBias = forwardBias;
+            targetSize = orthographicSize;
             ApplyCameraSettings();
         }
     }
 
-    void LateUpdate()
+    void Update()
+    {
+        if (virtualCamera != null)
+        {
+            virtualCamera.Lens.OrthographicSize = Mathf.Lerp(virtualCamera.Lens.OrthographicSize, targetSize, Time.deltaTime * 2f);
+        }
+
+        if (!isCraneView)
+        {
+            HandleDirectionalFraming();
+            HandleLookDown();
+        }
+    }
+
+    private void HandleDirectionalFraming()
     {
         if (playerRb == null || positionComposer == null) return;
 
-        // --- LOOK DOWN LOGIC ---
-        // 1. Manual Look Down (Input)
-        bool manualLookDown = Input.GetAxisRaw("Vertical") < -0.5f;
+        float velocityX = playerRb.linearVelocity.x;
+        bool tryingToSwitch = false;
 
-        // 2. Automatic Fall Look Down (Velocity)
-        bool falling = playerRb.linearVelocity.y < -8f; // Only trigger on fast falls
+        // Check if moving against current facing
+        if (isFacingRight && velocityX < -switchThreshold)
+        {
+            tryingToSwitch = true;
+            turnTimer += Time.deltaTime;
+            if (turnTimer > turnDelay)
+            {
+                isFacingRight = false;
+                turnTimer = 0f;
+            }
+        }
+        else if (!isFacingRight && velocityX > switchThreshold)
+        {
+            tryingToSwitch = true;
+            turnTimer += Time.deltaTime;
+            if (turnTimer > turnDelay)
+            {
+                isFacingRight = true;
+                turnTimer = 0f;
+            }
+        }
+
+        // Reset timer if not consistently moving in new direction
+        if (!tryingToSwitch) turnTimer = 0f;
+
+        float targetX = isFacingRight ? forwardBias : backwardBias;
+        currentXBias = Mathf.MoveTowards(currentXBias, targetX, biasShiftSpeed * Time.deltaTime);
+
+        var comp = positionComposer.Composition;
+        comp.ScreenPosition = new Vector2(currentXBias, screenYBias);
+        positionComposer.Composition = comp;
+    }
+
+    private void HandleLookDown()
+    {
+        if (playerRb == null || positionComposer == null) return;
 
         float targetOffset = 0f;
+        bool manualLookDown = Input.GetAxisRaw("Vertical") < -0.5f;
+        bool fallingFast = playerRb.linearVelocity.y < -12f;
 
-        if (manualLookDown || falling)
-        {
-            targetOffset = lookDownOffset;
-        }
-        else if (isPlayerGrounded && Mathf.Abs(playerRb.linearVelocity.y) < 0.1f)
-        {
-            // If grounded and still, reset offset to 0 (Snap back to normal framing)
-            targetOffset = 0f;
-        }
+        if (manualLookDown || fallingFast) targetOffset = lookDownOffset;
 
-        // Smoothly interpolate the offset
         currentYOffset = Mathf.Lerp(currentYOffset, targetOffset, Time.deltaTime * lookShiftSpeed);
-
-        // Apply to TargetOffset (Moves the camera focus point without changing screen bounds)
         positionComposer.TargetOffset = new Vector3(0, currentYOffset, 0);
     }
 
-    public void SetPlayerGrounded(bool grounded)
+    public void SetCraneView(bool active)
     {
-        isPlayerGrounded = grounded;
+        isCraneView = active;
+        if (active)
+        {
+            targetSize = 10f;
+            currentXBias = -0.4f;
+            if (positionComposer)
+            {
+                var comp = positionComposer.Composition;
+                comp.ScreenPosition = new Vector2(currentXBias, screenYBias);
+                positionComposer.Composition = comp;
+            }
+        }
+        else
+        {
+            targetSize = orthographicSize;
+            isFacingRight = true;
+            currentXBias = forwardBias;
+        }
     }
 
     public void ApplyCameraSettings()
     {
         if (positionComposer == null) return;
-        var comp = positionComposer.Composition;
 
-        comp.ScreenPosition = screenBias;
-        comp.DeadZone.Size = deadZoneSize;
-        comp.HardLimits.Size = new Vector2(0.9f, 0.9f); // Keep player on screen
+        var comp = positionComposer.Composition;
+        comp.ScreenPosition = new Vector2(currentXBias, screenYBias);
+        comp.DeadZone.Size = new Vector2(0.1f, verticalDeadZone);
+        comp.HardLimits.Size = new Vector2(0.8f, 0.8f);
 
         positionComposer.Composition = comp;
-
-        // Damping: X is smooth (0.5), Y is tighter (0.2) to track landings, but deadzone handles the jitter
-        positionComposer.Damping = new Vector3(0.5f, 0.2f, 0f);
+        positionComposer.Damping = new Vector3(horizontalDamping, verticalDamping, 0f);
     }
+
+    public void SetPlayerGrounded(bool grounded) { }
 
     public void Shake(float force = 1f)
     {
@@ -102,6 +179,7 @@ public class CameraController : MonoBehaviour
         if (virtualCamera != null && positionComposer == null)
             positionComposer = virtualCamera.GetComponent<CinemachinePositionComposer>();
 
-        if (positionComposer != null) ApplyCameraSettings();
+        if (positionComposer != null)
+            ApplyCameraSettings();
     }
 }

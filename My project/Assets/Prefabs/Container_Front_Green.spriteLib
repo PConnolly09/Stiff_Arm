@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5e6fedc2472449cead18ef23b5cb30d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.2D.Animation.Runtime::UnityEngine.U2D.Animation.SpriteLibrarySourceAsset
+  m_Library:
+  - m_Name: Container_Front_Okay
+    m_Hash: 663515955
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: 1_0
+      m_Hash: 17966978
+      m_Sprite: {fileID: -855298285791758126, guid: 93478105c46cd1246bb7698f528cd317, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -855298285791758126, guid: 93478105c46cd1246bb7698f528cd317, type: 3}
+    - m_Name: 5_0
+      m_Hash: 102469470
+      m_Sprite: {fileID: 4130640169021434097, guid: de4997108edc9c14facba48ba248395d, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 4130640169021434097, guid: de4997108edc9c14facba48ba248395d, type: 3}
+    - m_Name: 9_0
+      m_Hash: 251754042
+      m_Sprite: {fileID: 4113829005332862926, guid: c1ab052d0671e5442a2ee840eb5f093a, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 4113829005332862926, guid: c1ab052d0671e5442a2ee840eb5f093a, type: 3}
+    - m_Name: 13_0
+      m_Hash: 335833638
+      m_Sprite: {fileID: 8389134475083476877, guid: 286f6540d9f0fc847805de12e89902cd, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 8389134475083476877, guid: 286f6540d9f0fc847805de12e89902cd, type: 3}
+    - m_Name: 24_0
+      m_Hash: 67031885
+      m_Sprite: {fileID: 8102358098348255977, guid: 857001040e3bd404bbc7d825ad7db1a1, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 8102358098348255977, guid: 857001040e3bd404bbc7d825ad7db1a1, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 5
+  m_PrimaryLibraryGUID: 
+  m_ModificationHash: 639042754392658875
+  m_Version: 1
