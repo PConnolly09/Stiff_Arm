@@ -123,10 +123,11 @@ public class CraneController : MonoBehaviour
     void UpdateRopes()
     {
         if (!cart || !grabber || !ropeLeft || !ropeRight) return;
-        float height = Mathf.Abs(cart.position.y - grabber.position.y);
-        Vector2 newSize = new Vector2(ropeLeft.size.x, height);
-        ropeLeft.size = newSize;
-        ropeRight.size = newSize;
+        float height = Mathf.Abs(Mathf.Abs(cart.position.y) - Mathf.Abs(grabber.position.y));
+        Vector2 newSizeL = new (ropeLeft.size.x, height);
+        Vector2 newSizeR = new (ropeRight.size.x, height);
+        ropeLeft.size = newSizeL;
+        ropeRight.size = newSizeR;
     }
 
     void AttemptGrab()
@@ -134,6 +135,7 @@ public class CraneController : MonoBehaviour
         Collider2D hit = Physics2D.OverlapCircle(grabPoint.position, grabRadius, grabbableLayer);
         if (hit && hit.CompareTag("Grabbable"))
         {
+            Debug.Log("Grabbed: " + hit.gameObject.name);
             currentObject = hit.gameObject;
             grabJoint = grabber.gameObject.AddComponent<FixedJoint2D>();
             grabJoint.connectedBody = hit.attachedRigidbody;
@@ -144,6 +146,7 @@ public class CraneController : MonoBehaviour
 
     void Release()
     {
+        Debug.Log("Released: " + (currentObject ? currentObject.name : "null"));
         if (grabJoint) { Destroy(grabJoint); grabJoint = null; }
         if (currentObject)
         {

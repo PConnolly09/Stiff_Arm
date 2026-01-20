@@ -21,12 +21,12 @@ MonoBehaviour:
   airAccelMult: 0.5
   airDecelMult: 0.5
   jumpHeight: 3.5
-  timeToJumpApex: 0.35
-  downwardGravityMult: 1.5
+  timeToJumpApex: 0.15
+  downwardGravityMult: 3
   jumpCutGravityMult: 3
   maxFallSpeed: 25
   momentumJumpBonus: 1.5
-  coyoteTime: 0.1
+  coyoteTime: 0.15
   jumpBufferTime: 0.15
   cornerCorrectionDistance: 0.5
   groundCheckRadius: 0.3
