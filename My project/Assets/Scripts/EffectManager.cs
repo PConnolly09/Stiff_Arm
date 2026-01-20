@@ -32,7 +32,7 @@ public class EffectManager : MonoBehaviour
         if (prefab == null) return;
 
         // Force Z to -5 to ensure it renders in front of background
-        Vector3 spawnPos = new Vector3(position.x, position.y, -5f);
+        Vector3 spawnPos = new (position.x, position.y, -5f);
         GameObject vfx = Instantiate(prefab, spawnPos, Quaternion.identity);
         vfx.transform.localScale *= scale;
 

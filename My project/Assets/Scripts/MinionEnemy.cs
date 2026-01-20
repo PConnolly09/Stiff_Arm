@@ -6,7 +6,7 @@ public class MinionEnemy : EnemyAI
     [Header("Minion Jump")]
     public float jumpForce = 12f;
     public float jumpCooldown = 2f;
-    private float jumpTimer;
+    private readonly float _jumpTimer;
 
     protected override void Chase()
     {
@@ -32,6 +32,7 @@ public class MinionEnemy : EnemyAI
     {
         if (col.gameObject.CompareTag("Player") && !isKnockedBack)
         {
+            // FIX: Replaced null propagation
             if (col.gameObject.TryGetComponent<PlayerController>(out var player))
             {
                 player.AddAttachment(gameObject);

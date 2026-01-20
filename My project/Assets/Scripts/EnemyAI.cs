@@ -10,6 +10,10 @@ public abstract class EnemyAI : MonoBehaviour
     public LayerMask obstacleLayer;
     public GameObject bloodSplatterPrefab;
 
+    [Header("Package Logic")]
+    public bool carriesPackage = false; // Restored
+    public Transform packageHoldPoint;
+
     [Header("Visuals")]
     protected bool movingRight = true;
     protected Rigidbody2D rb;
@@ -34,6 +38,13 @@ public abstract class EnemyAI : MonoBehaviour
     protected virtual void FixedUpdate()
     {
         if (isKnockedBack || !enabled) return;
+
+        // If carrying the ball, RUN AWAY (Base behavior)
+        if (carriesPackage)
+        {
+            RunAway();
+            return;
+        }
 
         DetermineTarget();
 
@@ -68,16 +79,35 @@ public abstract class EnemyAI : MonoBehaviour
         if (Physics2D.Raycast(origin, movingRight ? Vector2.right : Vector2.left, 0.5f, obstacleLayer)) Flip();
     }
 
+    protected void RunAway()
+    {
+        if (playerTransform == null) return;
+        float dir = (transform.position.x > playerTransform.position.x) ? 1 : -1;
+        rb.linearVelocity = new Vector2(dir * moveSpeed * 1.5f, rb.linearVelocity.y);
+        if ((dir > 0 && !movingRight) || (dir < 0 && movingRight)) Flip();
+    }
+
     protected abstract void Chase();
 
-    // Reset Hook for Subclasses
+    // Fixes 'no suitable method found to override' error
     protected virtual void ResetState() { }
 
     public void TakeHit(float force, Vector2 direction, bool isStun)
     {
-        StopAllCoroutines(); // Kills any active Tackle/Retreat
-        ResetState(); // Resets flags so AI doesn't get stuck
+        if (carriesPackage) DropPackage();
+        StopAllCoroutines();
+        ResetState(); // Reset subclass state logic
         StartCoroutine(KnockbackRoutine(force, direction, isStun));
+    }
+
+    public void DropPackage()
+    {
+        carriesPackage = false;
+        Package pkg = FindFirstObjectByType<Package>();
+        if (pkg != null && pkg.currentHolder == this)
+        {
+            pkg.SetHeld(false, null, null);
+        }
     }
 
     private IEnumerator KnockbackRoutine(float force, Vector2 direction, bool isStun)
@@ -99,12 +129,23 @@ public abstract class EnemyAI : MonoBehaviour
 
     protected virtual void OnCollisionEnter2D(Collision2D collision)
     {
+        // Pick up package if we don't have it and it's loose
+        if (!carriesPackage && collision.gameObject.CompareTag("Package"))
+        {
+            if (collision.gameObject.TryGetComponent<Package>(out var pkg) && !pkg.isHeld)
+            {
+                carriesPackage = true;
+                pkg.SetHeld(true, packageHoldPoint, this);
+            }
+        }
+
         if (isKnockedBack && ((1 << collision.gameObject.layer) & obstacleLayer) != 0)
         {
             if (bloodSplatterPrefab)
             {
                 Instantiate(bloodSplatterPrefab, new Vector3(collision.contacts[0].point.x, collision.contacts[0].point.y, -5), Quaternion.identity);
             }
+            if (carriesPackage) DropPackage();
             Destroy(gameObject);
         }
     }

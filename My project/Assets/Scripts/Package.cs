@@ -75,8 +75,11 @@ public class Package : MonoBehaviour
 
         if (isHeld && targetAnchor != null)
         {
-            transform.position = targetAnchor.position;
-            transform.rotation = targetAnchor.rotation;
+            transform.SetPositionAndRotation(
+                targetAnchor.position,
+                targetAnchor.rotation
+            );
+
         }
     }
 
@@ -122,7 +125,7 @@ public class Package : MonoBehaviour
             // (Start() does not call this)
             float sideForce = Random.Range(-5f, 5f);
             float upForce = Random.Range(8f, 12f);
-            Vector2 popVector = new Vector2(sideForce, upForce);
+            Vector2 popVector = new (sideForce, upForce);
 
             rb.linearVelocity = Vector2.zero; // Reset momentum
             rb.AddForce(popVector, ForceMode2D.Impulse);

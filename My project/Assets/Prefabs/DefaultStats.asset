@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb80b3ef8316f3549a433956584d7361, type: 3}
+  m_Name: DefaultStats
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerStats
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  maxRunSpeed: 20
+  groundAccelerationTime: 0.1
+  groundDecelerationTime: 0.05
+  airAccelMult: 0.5
+  airDecelMult: 0.5
+  jumpHeight: 3.5
+  timeToJumpApex: 0.35
+  downwardGravityMult: 1.5
+  jumpCutGravityMult: 3
+  maxFallSpeed: 25
+  momentumJumpBonus: 1.5
+  coyoteTime: 0.1
+  jumpBufferTime: 0.15
+  cornerCorrectionDistance: 0.5
+  groundCheckRadius: 0.3
+  dashForce: 30
+  stiffArmForce: 25
+  stiffArmRange: 2
+  stiffArmDuration: 0.3
+  speedPushMultiplier: 1
+  jukeDuration: 0.3
+  jukeCooldown: 1
+  spinDuration: 0.4
+  spinMoveForce: 12
+  baseFumbleChance: 0.05
+  fumblePickupDelay: 1.2
+  baseRunSpeed: 8
+  jukeColor: {r: 1, g: 1, b: 1, a: 0.5}
+  squashStretchAmount: 0.1
+  squashSpeed: 10

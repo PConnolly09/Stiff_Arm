@@ -44,6 +44,7 @@ public class InterceptorEnemy : EnemyAI
     {
         if (col.gameObject.CompareTag("Player") && !hasAttacked && !isKnockedBack)
         {
+            // FIX: Replaced null propagation
             if (col.gameObject.TryGetComponent<PlayerController>(out var player))
             {
                 hasAttacked = true;

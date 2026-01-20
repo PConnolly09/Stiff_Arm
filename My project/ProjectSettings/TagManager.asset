@@ -10,6 +10,7 @@ TagManager:
   - Package
   - Water
   - Container
+  - Grabbable
   layers:
   - Default
   - TransparentFX
