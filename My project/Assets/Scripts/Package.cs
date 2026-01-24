@@ -17,18 +17,19 @@ public class Package : MonoBehaviour
     [Header("Physics Settings")]
     public float dropGravity = 3f;
     public float airDrag = 0.5f;
-    [Tooltip("Cap speed to prevent falling through the floor.")]
     public float maxFumbleSpeed = 15f;
     public PhysicsMaterial2D fumbleMaterial;
+
+    private PhysicsMaterial2D settlingMaterial;
 
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         coll = GetComponent<CircleCollider2D>();
         gameObject.tag = "Package";
-
-        // CRITICAL: Continuous detection prevents floor tunneling
         rb.collisionDetectionMode = CollisionDetectionMode2D.Continuous;
+
+        settlingMaterial = new PhysicsMaterial2D("DeadBall") { bounciness = 0f, friction = 0.8f };
 
         if (fumbleMaterial != null) coll.sharedMaterial = fumbleMaterial;
     }
@@ -47,26 +48,28 @@ public class Package : MonoBehaviour
         }
         else
         {
-            // INITIALIZE LOOSE (Static):
-            // We set the state manually here instead of calling SetHeld(false),
-            // so we DO NOT apply the explosive fumble force on start.
+            // FIX: Silent initialization. 
+            // We set physics properties directly instead of calling SetHeld(false), 
+            // which avoids triggering the Fumble Event on scene start.
             isHeld = false;
             transform.SetParent(null);
 
             rb.simulated = true;
             coll.enabled = true;
-            coll.isTrigger = false; // Solid so it sits on floor
+            coll.isTrigger = false;
 
             rb.gravityScale = dropGravity;
             rb.linearDamping = airDrag;
-            rb.linearVelocity = Vector2.zero; // Ensure it starts still
+
+            // Ensure it sits still
+            rb.linearVelocity = Vector2.zero;
             rb.angularVelocity = 0f;
+            coll.sharedMaterial = settlingMaterial; // Start dead so it doesn't bounce away
         }
     }
 
     void Update()
     {
-        // Failsafe: If holder dies/vanishes, drop the ball
         if (isHeld && targetAnchor == null)
         {
             SetHeld(false, null, null);
@@ -75,11 +78,8 @@ public class Package : MonoBehaviour
 
         if (isHeld && targetAnchor != null)
         {
-            transform.SetPositionAndRotation(
-                targetAnchor.position,
-                targetAnchor.rotation
-            );
-
+            transform.position = targetAnchor.position;
+            transform.rotation = targetAnchor.rotation;
         }
     }
 
@@ -87,8 +87,13 @@ public class Package : MonoBehaviour
     {
         if (!isHeld)
         {
-            // Anti-Tunneling: Clamp speed
             rb.linearVelocity = Vector2.ClampMagnitude(rb.linearVelocity, maxFumbleSpeed);
+
+            if (rb.linearVelocity.magnitude < 3f)
+            {
+                if (coll.sharedMaterial != settlingMaterial)
+                    coll.sharedMaterial = settlingMaterial;
+            }
         }
     }
 
@@ -100,7 +105,6 @@ public class Package : MonoBehaviour
 
         if (held)
         {
-            // Physics OFF
             rb.simulated = false;
             rb.linearVelocity = Vector2.zero;
             rb.angularVelocity = 0f;
@@ -111,7 +115,6 @@ public class Package : MonoBehaviour
         }
         else
         {
-            // Physics ON (The Fumble Pop)
             transform.SetParent(null);
             rb.simulated = true;
             coll.enabled = true;
@@ -119,18 +122,15 @@ public class Package : MonoBehaviour
 
             rb.gravityScale = dropGravity;
             rb.linearDamping = airDrag;
+            coll.sharedMaterial = fumbleMaterial; // Bounce!
             rb.WakeUp();
 
-            // Only apply force if this is an actual DROP/FUMBLE event
-            // (Start() does not call this)
-            float sideForce = Random.Range(-5f, 5f);
-            float upForce = Random.Range(8f, 12f);
-            Vector2 popVector = new (sideForce, upForce);
-
-            rb.linearVelocity = Vector2.zero; // Reset momentum
-            rb.AddForce(popVector, ForceMode2D.Impulse);
+            // POP
+            Vector2 fumbleDir = new Vector2(Random.Range(-0.6f, 0.6f), 1f).normalized;
+            rb.AddForce(fumbleDir * 12f, ForceMode2D.Impulse);
             rb.AddTorque(Random.Range(-50f, 50f), ForceMode2D.Impulse);
 
+            // Trigger Event
             if (GameManager.Instance)
                 GameManager.Instance.StartFumbleEvent(this.transform);
         }

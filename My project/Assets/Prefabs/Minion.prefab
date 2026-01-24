@@ -176,7 +176,9 @@ MonoBehaviour:
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 4160
-  bloodSplatterPrefab: {fileID: 2225019445086027189, guid: 13ae96f4aa80dd7499eaf9839f9d01e9, type: 3}
+  bloodSplatterPrefab: {fileID: 3014499473695280536, guid: e9a4aa100c6d8f84eaf66453ba7ee5f1, type: 3}
+  patrolPoints: []
+  waitAtWaypointTime: 1
   carriesPackage: 0
   packageHoldPoint: {fileID: 1410606618617829195}
   isKnockedBack: 0

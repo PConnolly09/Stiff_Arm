@@ -13,7 +13,7 @@ public class CameraController : MonoBehaviour
 
     [Header("Zoom & Framing")]
     [Tooltip("Default Zoom")]
-    public float orthographicSize = 8f;
+    public float orthographicSize = 6f;
 
     [Header("Directional Framing (Hysteresis)")]
     [Tooltip("Screen X when moving Right (Standard). E.g. -0.2 (Player on Left)")]
@@ -21,11 +21,11 @@ public class CameraController : MonoBehaviour
     [Tooltip("Screen X when moving Left (Backpedal). E.g. 0.2 (Player on Right)")]
     public float backwardBias = 0.2f;
     [Tooltip("Speed required to switch camera sides.")]
-    public float switchThreshold = 2f;
+    public float switchThreshold = 8f;
     [Tooltip("Time required moving in new direction before camera shifts.")]
-    public float turnDelay = 0.25f;
+    public float turnDelay = 0.5f;
     [Tooltip("How fast the camera pans to the new side.")]
-    public float biasShiftSpeed = 2f;
+    public float biasShiftSpeed = .75f;
 
     // State tracking
     private float currentXBias;
@@ -37,7 +37,7 @@ public class CameraController : MonoBehaviour
 
     [Header("Grounded Vertical Logic")]
     public float verticalDamping = 0.0f;
-    public float verticalDeadZone = 0.05f;
+    public float verticalDeadZone = 0.3f;
     public float screenYBias = 0.2f;
     public float horizontalDamping = 0.5f;
 

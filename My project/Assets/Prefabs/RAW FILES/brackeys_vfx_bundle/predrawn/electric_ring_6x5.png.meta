@@ -1,0 +1,1573 @@
+fileFormatVersion: 2
+guid: 0648884ca9619704487d08564a0c057f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -274709132503083278
+    second: electric_ring_6x5_0
+  - first:
+      213: 7903327763890257909
+    second: electric_ring_6x5_1
+  - first:
+      213: 7039432302805729687
+    second: electric_ring_6x5_2
+  - first:
+      213: -557573281542975126
+    second: electric_ring_6x5_3
+  - first:
+      213: -4014571676256843069
+    second: electric_ring_6x5_4
+  - first:
+      213: -8355352384485891584
+    second: electric_ring_6x5_5
+  - first:
+      213: 2979381990663383376
+    second: electric_ring_6x5_6
+  - first:
+      213: 3427783500346701872
+    second: electric_ring_6x5_7
+  - first:
+      213: 473795512046074203
+    second: electric_ring_6x5_8
+  - first:
+      213: -2560643705891607459
+    second: electric_ring_6x5_9
+  - first:
+      213: -1105175314504062712
+    second: electric_ring_6x5_10
+  - first:
+      213: 2570297844102870543
+    second: electric_ring_6x5_11
+  - first:
+      213: -5646541072500778806
+    second: electric_ring_6x5_12
+  - first:
+      213: -3636427995555141179
+    second: electric_ring_6x5_13
+  - first:
+      213: -4034527948929276125
+    second: electric_ring_6x5_14
+  - first:
+      213: 8347619101617440989
+    second: electric_ring_6x5_15
+  - first:
+      213: -3544852452973417507
+    second: electric_ring_6x5_16
+  - first:
+      213: -8933007141188343195
+    second: electric_ring_6x5_17
+  - first:
+      213: -5684157555085774741
+    second: electric_ring_6x5_18
+  - first:
+      213: -6418344855864469478
+    second: electric_ring_6x5_19
+  - first:
+      213: 3867640209477809987
+    second: electric_ring_6x5_20
+  - first:
+      213: -8532506788540420639
+    second: electric_ring_6x5_21
+  - first:
+      213: 5868421774433617971
+    second: electric_ring_6x5_22
+  - first:
+      213: 7448470197400800513
+    second: electric_ring_6x5_23
+  - first:
+      213: 3181794080880738439
+    second: electric_ring_6x5_24
+  - first:
+      213: -2369970239962470075
+    second: electric_ring_6x5_25
+  - first:
+      213: -4848947544078918127
+    second: electric_ring_6x5_26
+  - first:
+      213: -3311130225490581837
+    second: electric_ring_6x5_27
+  - first:
+      213: -6373401913640221573
+    second: electric_ring_6x5_28
+  - first:
+      213: 9218695071140977096
+    second: electric_ring_6x5_29
+  - first:
+      213: 4381810783487191702
+    second: electric_ring_6x5_30
+  - first:
+      213: -1546223434137009985
+    second: electric_ring_6x5_31
+  - first:
+      213: 6180568693391452592
+    second: electric_ring_6x5_32
+  - first:
+      213: -1018986526487064355
+    second: electric_ring_6x5_33
+  - first:
+      213: 3189336125618485877
+    second: electric_ring_6x5_34
+  - first:
+      213: -505862889477486970
+    second: electric_ring_6x5_35
+  - first:
+      213: -563955062271190090
+    second: electric_ring_6x5_36
+  - first:
+      213: -9151862848949840834
+    second: electric_ring_6x5_37
+  - first:
+      213: -2659867348550763254
+    second: electric_ring_6x5_38
+  - first:
+      213: -3369789343571081533
+    second: electric_ring_6x5_39
+  - first:
+      213: -4016728284373374042
+    second: electric_ring_6x5_40
+  - first:
+      213: 433621268978970963
+    second: electric_ring_6x5_41
+  - first:
+      213: 7857771773583394496
+    second: electric_ring_6x5_42
+  - first:
+      213: -1426072943132785444
+    second: electric_ring_6x5_43
+  - first:
+      213: 3408981798734317346
+    second: electric_ring_6x5_44
+  - first:
+      213: -7297308578866303737
+    second: electric_ring_6x5_45
+  - first:
+      213: -1082328308535194903
+    second: electric_ring_6x5_46
+  - first:
+      213: 6221042600570036933
+    second: electric_ring_6x5_47
+  - first:
+      213: 5356625557716301540
+    second: electric_ring_6x5_48
+  - first:
+      213: -505006827748640066
+    second: electric_ring_6x5_49
+  - first:
+      213: -7843865535239088748
+    second: electric_ring_6x5_50
+  - first:
+      213: 4678685638238335561
+    second: electric_ring_6x5_51
+  - first:
+      213: 595275547211114258
+    second: electric_ring_6x5_52
+  - first:
+      213: -5279894864019760509
+    second: electric_ring_6x5_53
+  - first:
+      213: -8038495475806940068
+    second: electric_ring_6x5_54
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: electric_ring_6x5_0
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 1066
+        width: 218
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f6199cdf79003cf0800000000000000
+      internalID: -274709132503083278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electric_ring_6x5_1
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 1310
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ff39264ab24ead60800000000000000
+      internalID: 7903327763890257909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electric_ring_6x5_2
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 1066
+        width: 222
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7914525026611b160800000000000000
+      internalID: 7039432302805729687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electric_ring_6x5_3
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 1314
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a61d169fd0a1348f0800000000000000
+      internalID: -557573281542975126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electric_ring_6x5_4
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 1106
+        width: 186
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cacd5f94506948c0800000000000000
+      internalID: -4014571676256843069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electric_ring_6x5_5
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 1062
+        width: 150
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 002618d5643db0c80800000000000000
+      internalID: -8355352384485891584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electric_ring_6x5_6
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 1102
+        width: 190
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 059efa39224e85920800000000000000
+      internalID: 2979381990663383376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electric_ring_6x5_7
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 1062
+        width: 122
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0383c11beeee19f20800000000000000
+      internalID: 3427783500346701872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electric_ring_6x5_8
+      rect:
+        serializedVersion: 2
+        x: 1081
+        y: 1102
+        width: 198
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b593ea70282439600800000000000000
+      internalID: 473795512046074203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electric_ring_6x5_9
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 1222
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5cadf9cd14c67cd0800000000000000
+      internalID: -2560643705891607459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electric_ring_6x5_10
+      rect:
+        serializedVersion: 2
+        x: 1346
+        y: 1098
+        width: 202
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 809647c28e0a9a0f0800000000000000
+      internalID: -1105175314504062712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electric_ring_6x5_11
+      rect:
+        serializedVersion: 2
+        x: 1241
+        y: 1074
+        width: 82
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0634bc65488ba320800000000000000
+      internalID: 2570297844102870543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electric_ring_6x5_12
+      rect:
+        serializedVersion: 2
+        x: 1574
+        y: 1162
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac810fbafc473a1b0800000000000000
+      internalID: -5646541072500778806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electric_ring_6x5_13
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 1150
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c966a13100d88dc0800000000000000
+      internalID: -3636427995555141179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electric_ring_6x5_14
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 1138
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3276fafc43a7208c0800000000000000
+      internalID: -4034527948929276125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electric_ring_6x5_15
+      rect:
+        serializedVersion: 2
+        x: 1546
+        y: 1102
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd84c286853b8d370800000000000000
+      internalID: 8347619101617440989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electric_ring_6x5_16
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 1070
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddbe857b9772ecec0800000000000000
+      internalID: -3544852452973417507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electric_ring_6x5_17
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 829
+        width: 206
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56ae07d8555970480800000000000000
+      internalID: -8933007141188343195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electric_ring_6x5_18
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 829
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6072c1d1d0dd11b0800000000000000
+      internalID: -5684157555085774741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electric_ring_6x5_19
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 825
+        width: 218
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a181e340c557de6a0800000000000000
+      internalID: -6418344855864469478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electric_ring_6x5_20
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 821
+        width: 226
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34731f4674e9ca530800000000000000
+      internalID: 3867640209477809987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electric_ring_6x5_21
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 817
+        width: 230
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ed60717842769980800000000000000
+      internalID: -8532506788540420639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electric_ring_6x5_22
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 813
+        width: 234
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3388849f282d07150800000000000000
+      internalID: 5868421774433617971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electric_ring_6x5_23
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 548
+        width: 242
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10d882c4e284e5760800000000000000
+      internalID: 7448470197400800513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electric_ring_6x5_24
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 544
+        width: 238
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7804653dbd0082c20800000000000000
+      internalID: 3181794080880738439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electric_ring_6x5_25
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 540
+        width: 230
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5492ac69f9c2c1fd0800000000000000
+      internalID: -2369970239962470075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electric_ring_6x5_26
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 536
+        width: 218
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11e5ca446e315bcb0800000000000000
+      internalID: -4848947544078918127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electric_ring_6x5_27
+      rect:
+        serializedVersion: 2
+        x: 1093
+        y: 536
+        width: 222
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b623906a908c02d0800000000000000
+      internalID: -3311130225490581837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electric_ring_6x5_28
+      rect:
+        serializedVersion: 2
+        x: 1217
+        y: 784
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b740eae2ab02d87a0800000000000000
+      internalID: -6373401913640221573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electric_ring_6x5_29
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 640
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c9900013526fef70800000000000000
+      internalID: 9218695071140977096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electric_ring_6x5_30
+      rect:
+        serializedVersion: 2
+        x: 1354
+        y: 576
+        width: 186
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69aeab611b15fcc30800000000000000
+      internalID: 4381810783487191702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electric_ring_6x5_31
+      rect:
+        serializedVersion: 2
+        x: 1438
+        y: 532
+        width: 146
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb001e89af5ba8ae0800000000000000
+      internalID: -1546223434137009985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electric_ring_6x5_32
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 307
+        width: 190
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b96f770b7ac5c550800000000000000
+      internalID: 6180568693391452592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electric_ring_6x5_33
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 267
+        width: 118
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd054d92725dbd1f0800000000000000
+      internalID: -1018986526487064355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electric_ring_6x5_34
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 307
+        width: 198
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57a7fc4fe4cc24c20800000000000000
+      internalID: 3189336125618485877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electric_ring_6x5_35
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 459
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68644a7d160daf8f0800000000000000
+      internalID: -505862889477486970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electric_ring_6x5_36
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 303
+        width: 202
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bbda0cdbdd6c28f0800000000000000
+      internalID: -563955062271190090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electric_ring_6x5_37
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 299
+        width: 206
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e34104f3a3d0ef080800000000000000
+      internalID: -9151862848949840834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electric_ring_6x5_38
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 299
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0db8f33db0461bd0800000000000000
+      internalID: -2659867348550763254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electric_ring_6x5_39
+      rect:
+        serializedVersion: 2
+        x: 1338
+        y: 295
+        width: 218
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c68c88227a1c31d0800000000000000
+      internalID: -3369789343571081533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electric_ring_6x5_40
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 427
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ab29aa28e6b148c0800000000000000
+      internalID: -4016728284373374042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electric_ring_6x5_41
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 299
+        width: 58
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 351bb882f38840600800000000000000
+      internalID: 433621268978970963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electric_ring_6x5_42
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 355
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c6878abbc96c0d60800000000000000
+      internalID: 7857771773583394496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electric_ring_6x5_43
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 335
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd446c0c632953ce0800000000000000
+      internalID: -1426072943132785444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electric_ring_6x5_44
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 275
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 227c45762e22f4f20800000000000000
+      internalID: 3408981798734317346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electric_ring_6x5_45
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 279
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70d6344a280caba90800000000000000
+      internalID: -7297308578866303737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electric_ring_6x5_46
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 283
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ea0967432ccaf0f0800000000000000
+      internalID: -1082328308535194903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electric_ring_6x5_47
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 26
+        width: 226
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c2ac83e845955650800000000000000
+      internalID: 6221042600570036933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electric_ring_6x5_48
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 22
+        width: 230
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e6757a609e865a40800000000000000
+      internalID: 5356625557716301540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electric_ring_6x5_49
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 18
+        width: 234
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eba35ee37faddf8f0800000000000000
+      internalID: -505006827748640066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electric_ring_6x5_50
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 18
+        width: 242
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4951522baddf42390800000000000000
+      internalID: -7843865535239088748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electric_ring_6x5_51
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 110
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 942faea9cc70ee040800000000000000
+      internalID: 4678685638238335561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electric_ring_6x5_52
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 14
+        width: 234
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 217aefec4f7d24800800000000000000
+      internalID: 595275547211114258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electric_ring_6x5_53
+      rect:
+        serializedVersion: 2
+        x: 1354
+        y: 10
+        width: 222
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38a51b2689b0ab6b0800000000000000
+      internalID: -5279894864019760509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electric_ring_6x5_54
+      rect:
+        serializedVersion: 2
+        x: 1069
+        y: 94
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5451fb54f6817090800000000000000
+      internalID: -8038495475806940068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      electric_ring_6x5_0: -274709132503083278
+      electric_ring_6x5_1: 7903327763890257909
+      electric_ring_6x5_10: -1105175314504062712
+      electric_ring_6x5_11: 2570297844102870543
+      electric_ring_6x5_12: -5646541072500778806
+      electric_ring_6x5_13: -3636427995555141179
+      electric_ring_6x5_14: -4034527948929276125
+      electric_ring_6x5_15: 8347619101617440989
+      electric_ring_6x5_16: -3544852452973417507
+      electric_ring_6x5_17: -8933007141188343195
+      electric_ring_6x5_18: -5684157555085774741
+      electric_ring_6x5_19: -6418344855864469478
+      electric_ring_6x5_2: 7039432302805729687
+      electric_ring_6x5_20: 3867640209477809987
+      electric_ring_6x5_21: -8532506788540420639
+      electric_ring_6x5_22: 5868421774433617971
+      electric_ring_6x5_23: 7448470197400800513
+      electric_ring_6x5_24: 3181794080880738439
+      electric_ring_6x5_25: -2369970239962470075
+      electric_ring_6x5_26: -4848947544078918127
+      electric_ring_6x5_27: -3311130225490581837
+      electric_ring_6x5_28: -6373401913640221573
+      electric_ring_6x5_29: 9218695071140977096
+      electric_ring_6x5_3: -557573281542975126
+      electric_ring_6x5_30: 4381810783487191702
+      electric_ring_6x5_31: -1546223434137009985
+      electric_ring_6x5_32: 6180568693391452592
+      electric_ring_6x5_33: -1018986526487064355
+      electric_ring_6x5_34: 3189336125618485877
+      electric_ring_6x5_35: -505862889477486970
+      electric_ring_6x5_36: -563955062271190090
+      electric_ring_6x5_37: -9151862848949840834
+      electric_ring_6x5_38: -2659867348550763254
+      electric_ring_6x5_39: -3369789343571081533
+      electric_ring_6x5_4: -4014571676256843069
+      electric_ring_6x5_40: -4016728284373374042
+      electric_ring_6x5_41: 433621268978970963
+      electric_ring_6x5_42: 7857771773583394496
+      electric_ring_6x5_43: -1426072943132785444
+      electric_ring_6x5_44: 3408981798734317346
+      electric_ring_6x5_45: -7297308578866303737
+      electric_ring_6x5_46: -1082328308535194903
+      electric_ring_6x5_47: 6221042600570036933
+      electric_ring_6x5_48: 5356625557716301540
+      electric_ring_6x5_49: -505006827748640066
+      electric_ring_6x5_5: -8355352384485891584
+      electric_ring_6x5_50: -7843865535239088748
+      electric_ring_6x5_51: 4678685638238335561
+      electric_ring_6x5_52: 595275547211114258
+      electric_ring_6x5_53: -5279894864019760509
+      electric_ring_6x5_54: -8038495475806940068
+      electric_ring_6x5_6: 2979381990663383376
+      electric_ring_6x5_7: 3427783500346701872
+      electric_ring_6x5_8: 473795512046074203
+      electric_ring_6x5_9: -2560643705891607459
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

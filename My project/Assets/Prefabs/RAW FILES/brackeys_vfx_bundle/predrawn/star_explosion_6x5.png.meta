@@ -1,0 +1,1027 @@
+fileFormatVersion: 2
+guid: b417e849ccdf67b48803ade10e14096b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2379797320228715657
+    second: star_explosion_6x5_0
+  - first:
+      213: 3621500835148459431
+    second: star_explosion_6x5_1
+  - first:
+      213: 980433111292181494
+    second: star_explosion_6x5_2
+  - first:
+      213: -8963562269018107127
+    second: star_explosion_6x5_3
+  - first:
+      213: -6422269324129606096
+    second: star_explosion_6x5_4
+  - first:
+      213: 1987432123474958928
+    second: star_explosion_6x5_5
+  - first:
+      213: -7838158040806262876
+    second: star_explosion_6x5_6
+  - first:
+      213: 4949705021635450674
+    second: star_explosion_6x5_7
+  - first:
+      213: 3828491926763762431
+    second: star_explosion_6x5_8
+  - first:
+      213: -948818617997441622
+    second: star_explosion_6x5_9
+  - first:
+      213: 6161469985928884898
+    second: star_explosion_6x5_10
+  - first:
+      213: -4731587756120388178
+    second: star_explosion_6x5_11
+  - first:
+      213: 6473891154242079711
+    second: star_explosion_6x5_12
+  - first:
+      213: 5787117973682920265
+    second: star_explosion_6x5_13
+  - first:
+      213: -3712195173994917909
+    second: star_explosion_6x5_14
+  - first:
+      213: 8436199357655129114
+    second: star_explosion_6x5_15
+  - first:
+      213: -5331380034504273656
+    second: star_explosion_6x5_16
+  - first:
+      213: -1598482440622790364
+    second: star_explosion_6x5_17
+  - first:
+      213: -7447516754027302344
+    second: star_explosion_6x5_18
+  - first:
+      213: 3239014901014602101
+    second: star_explosion_6x5_19
+  - first:
+      213: 7459524280750528483
+    second: star_explosion_6x5_20
+  - first:
+      213: -5655002275240725798
+    second: star_explosion_6x5_21
+  - first:
+      213: -5007117344196894604
+    second: star_explosion_6x5_22
+  - first:
+      213: 6689660050936225162
+    second: star_explosion_6x5_23
+  - first:
+      213: -3822914001828556712
+    second: star_explosion_6x5_24
+  - first:
+      213: -4224655907049376964
+    second: star_explosion_6x5_25
+  - first:
+      213: 1753194063387218169
+    second: star_explosion_6x5_26
+  - first:
+      213: -4305320709528134411
+    second: star_explosion_6x5_27
+  - first:
+      213: 5846173592505452834
+    second: star_explosion_6x5_28
+  - first:
+      213: 6025339532340606324
+    second: star_explosion_6x5_29
+  - first:
+      213: -7039544581657249609
+    second: star_explosion_6x5_30
+  - first:
+      213: 6327497985666373047
+    second: star_explosion_6x5_31
+  - first:
+      213: 2264897473889332054
+    second: star_explosion_6x5_32
+  - first:
+      213: -1488978549416421249
+    second: star_explosion_6x5_33
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: star_explosion_6x5_0
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 570
+        width: 53
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98cb8a5dd0db60120800000000000000
+      internalID: 2379797320228715657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star_explosion_6x5_1
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 567
+        width: 62
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7adedc072d7224230800000000000000
+      internalID: 3621500835148459431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star_explosion_6x5_2
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 566
+        width: 68
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fbf99c58b23b9d00800000000000000
+      internalID: 980433111292181494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star_explosion_6x5_3
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 562
+        width: 78
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 903d4197b970b9380800000000000000
+      internalID: -8963562269018107127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star_explosion_6x5_4
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 559
+        width: 87
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 036ed5b83148fd6a0800000000000000
+      internalID: -6422269324129606096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star_explosion_6x5_5
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 559
+        width: 97
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05adce68cf6c49b10800000000000000
+      internalID: 1987432123474958928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star_explosion_6x5_6
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 448
+        width: 101
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a7fe5c4ac4493390800000000000000
+      internalID: -7838158040806262876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star_explosion_6x5_7
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 526
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2375c851e72e0b440800000000000000
+      internalID: 4949705021635450674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star_explosion_6x5_8
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 446
+        width: 106
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff274388f19812530800000000000000
+      internalID: 3828491926763762431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star_explosion_6x5_9
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 518
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa54cf57e7e15d2f0800000000000000
+      internalID: -948818617997441622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star_explosion_6x5_10
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 443
+        width: 107
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a2b58dae40f18550800000000000000
+      internalID: 6161469985928884898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star_explosion_6x5_11
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 520
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ead4bdc3106065eb0800000000000000
+      internalID: -4731587756120388178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star_explosion_6x5_12
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 440
+        width: 111
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdb842364b1e7d950800000000000000
+      internalID: 6473891154242079711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star_explosion_6x5_13
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 528
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94b16a6b229ff4050800000000000000
+      internalID: 5787117973682920265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star_explosion_6x5_14
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 440
+        width: 112
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bef0d154822ab7cc0800000000000000
+      internalID: -3712195173994917909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star_explosion_6x5_15
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 527
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1c996f6e96631570800000000000000
+      internalID: 8436199357655129114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star_explosion_6x5_16
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 437
+        width: 90
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80153c00b122306b0800000000000000
+      internalID: -5331380034504273656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star_explosion_6x5_17
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 451
+        width: 80
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 429aafa70bc01d9e0800000000000000
+      internalID: -1598482440622790364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star_explosion_6x5_18
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 340
+        width: 82
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 832be6988fa15a890800000000000000
+      internalID: -7447516754027302344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star_explosion_6x5_19
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 339
+        width: 84
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5712c2534ea43fc20800000000000000
+      internalID: 3239014901014602101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star_explosion_6x5_20
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 339
+        width: 84
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e75983afcd858760800000000000000
+      internalID: 7459524280750528483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star_explosion_6x5_21
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 337
+        width: 85
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad2304464656581b0800000000000000
+      internalID: -5655002275240725798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star_explosion_6x5_22
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 336
+        width: 86
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4706276ed45238ab0800000000000000
+      internalID: -5007117344196894604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star_explosion_6x5_23
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 336
+        width: 85
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8ddc2c7f5276dc50800000000000000
+      internalID: 6689660050936225162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star_explosion_6x5_24
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 335
+        width: 84
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 850542258f742fac0800000000000000
+      internalID: -3822914001828556712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star_explosion_6x5_25
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 226
+        width: 84
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c33f012f5d10f55c0800000000000000
+      internalID: -4224655907049376964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star_explosion_6x5_26
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 224
+        width: 82
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f0d48a36b8945810800000000000000
+      internalID: 1753194063387218169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star_explosion_6x5_27
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 223
+        width: 81
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fc517010ad6044c0800000000000000
+      internalID: -4305320709528134411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star_explosion_6x5_28
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 223
+        width: 80
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2298e8478e7c12150800000000000000
+      internalID: 5846173592505452834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star_explosion_6x5_29
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 224
+        width: 80
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 475b74c816e4e9350800000000000000
+      internalID: 6025339532340606324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star_explosion_6x5_30
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 224
+        width: 79
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b83bc500838e4e90800000000000000
+      internalID: -7039544581657249609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star_explosion_6x5_31
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 224
+        width: 80
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b5d4a8b4e9cfc750800000000000000
+      internalID: 6327497985666373047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star_explosion_6x5_32
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 116
+        width: 80
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65b6ad7a0488e6f10800000000000000
+      internalID: 2264897473889332054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star_explosion_6x5_33
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 117
+        width: 80
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f789bd3f5e5165be0800000000000000
+      internalID: -1488978549416421249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      star_explosion_6x5_0: 2379797320228715657
+      star_explosion_6x5_1: 3621500835148459431
+      star_explosion_6x5_10: 6161469985928884898
+      star_explosion_6x5_11: -4731587756120388178
+      star_explosion_6x5_12: 6473891154242079711
+      star_explosion_6x5_13: 5787117973682920265
+      star_explosion_6x5_14: -3712195173994917909
+      star_explosion_6x5_15: 8436199357655129114
+      star_explosion_6x5_16: -5331380034504273656
+      star_explosion_6x5_17: -1598482440622790364
+      star_explosion_6x5_18: -7447516754027302344
+      star_explosion_6x5_19: 3239014901014602101
+      star_explosion_6x5_2: 980433111292181494
+      star_explosion_6x5_20: 7459524280750528483
+      star_explosion_6x5_21: -5655002275240725798
+      star_explosion_6x5_22: -5007117344196894604
+      star_explosion_6x5_23: 6689660050936225162
+      star_explosion_6x5_24: -3822914001828556712
+      star_explosion_6x5_25: -4224655907049376964
+      star_explosion_6x5_26: 1753194063387218169
+      star_explosion_6x5_27: -4305320709528134411
+      star_explosion_6x5_28: 5846173592505452834
+      star_explosion_6x5_29: 6025339532340606324
+      star_explosion_6x5_3: -8963562269018107127
+      star_explosion_6x5_30: -7039544581657249609
+      star_explosion_6x5_31: 6327497985666373047
+      star_explosion_6x5_32: 2264897473889332054
+      star_explosion_6x5_33: -1488978549416421249
+      star_explosion_6x5_4: -6422269324129606096
+      star_explosion_6x5_5: 1987432123474958928
+      star_explosion_6x5_6: -7838158040806262876
+      star_explosion_6x5_7: 4949705021635450674
+      star_explosion_6x5_8: 3828491926763762431
+      star_explosion_6x5_9: -948818617997441622
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

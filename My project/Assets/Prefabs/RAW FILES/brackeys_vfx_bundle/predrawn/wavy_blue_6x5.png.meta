@@ -1,0 +1,3289 @@
+fileFormatVersion: 2
+guid: 313a7db62ad1f3548968bafd3bca6c71
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9011984832652347878
+    second: wavy_blue_6x5_0
+  - first:
+      213: -1772106278589640505
+    second: wavy_blue_6x5_1
+  - first:
+      213: 57375556386657855
+    second: wavy_blue_6x5_2
+  - first:
+      213: -6757012382704923917
+    second: wavy_blue_6x5_3
+  - first:
+      213: -3165525103800634460
+    second: wavy_blue_6x5_4
+  - first:
+      213: 7108290975380482265
+    second: wavy_blue_6x5_5
+  - first:
+      213: 8162018723627659358
+    second: wavy_blue_6x5_6
+  - first:
+      213: -166850341308635338
+    second: wavy_blue_6x5_7
+  - first:
+      213: 7905185242796174193
+    second: wavy_blue_6x5_8
+  - first:
+      213: -4500664301265521843
+    second: wavy_blue_6x5_9
+  - first:
+      213: 645159866156437932
+    second: wavy_blue_6x5_10
+  - first:
+      213: -9152542010621165376
+    second: wavy_blue_6x5_11
+  - first:
+      213: 4299080704822960136
+    second: wavy_blue_6x5_12
+  - first:
+      213: -129967331765269616
+    second: wavy_blue_6x5_13
+  - first:
+      213: -7798092178729651997
+    second: wavy_blue_6x5_14
+  - first:
+      213: -8606064535938702183
+    second: wavy_blue_6x5_15
+  - first:
+      213: -5516341953874957542
+    second: wavy_blue_6x5_16
+  - first:
+      213: 512149976430120098
+    second: wavy_blue_6x5_17
+  - first:
+      213: 1365273289606128244
+    second: wavy_blue_6x5_18
+  - first:
+      213: -2994504662389330399
+    second: wavy_blue_6x5_19
+  - first:
+      213: 509039712203095579
+    second: wavy_blue_6x5_20
+  - first:
+      213: 5656174075334503044
+    second: wavy_blue_6x5_21
+  - first:
+      213: -1548601723193643520
+    second: wavy_blue_6x5_22
+  - first:
+      213: -2447045817501154556
+    second: wavy_blue_6x5_23
+  - first:
+      213: 5810018160780564440
+    second: wavy_blue_6x5_24
+  - first:
+      213: 7333399328207273645
+    second: wavy_blue_6x5_25
+  - first:
+      213: -9020003675620384189
+    second: wavy_blue_6x5_26
+  - first:
+      213: 2435574635922007934
+    second: wavy_blue_6x5_27
+  - first:
+      213: 9171268922909250948
+    second: wavy_blue_6x5_28
+  - first:
+      213: 943544400536579218
+    second: wavy_blue_6x5_29
+  - first:
+      213: 5127420187218173598
+    second: wavy_blue_6x5_30
+  - first:
+      213: -5933079548578929679
+    second: wavy_blue_6x5_31
+  - first:
+      213: -9207629488873211681
+    second: wavy_blue_6x5_32
+  - first:
+      213: -6660041189574388818
+    second: wavy_blue_6x5_33
+  - first:
+      213: -1389012060433961808
+    second: wavy_blue_6x5_34
+  - first:
+      213: 8864321663996416612
+    second: wavy_blue_6x5_35
+  - first:
+      213: -8633946964202090123
+    second: wavy_blue_6x5_36
+  - first:
+      213: 6178043816336605127
+    second: wavy_blue_6x5_37
+  - first:
+      213: -5425265610294736829
+    second: wavy_blue_6x5_38
+  - first:
+      213: -1872395288895131518
+    second: wavy_blue_6x5_39
+  - first:
+      213: 7072631394894138196
+    second: wavy_blue_6x5_40
+  - first:
+      213: -735062362252472247
+    second: wavy_blue_6x5_41
+  - first:
+      213: -1315721730891166128
+    second: wavy_blue_6x5_42
+  - first:
+      213: 3762930403920348342
+    second: wavy_blue_6x5_43
+  - first:
+      213: 3097204576807434323
+    second: wavy_blue_6x5_44
+  - first:
+      213: -2305929070056553099
+    second: wavy_blue_6x5_45
+  - first:
+      213: -9088300932600812685
+    second: wavy_blue_6x5_46
+  - first:
+      213: -2589094217034503489
+    second: wavy_blue_6x5_47
+  - first:
+      213: 4672389161512803530
+    second: wavy_blue_6x5_48
+  - first:
+      213: 1604851573729951082
+    second: wavy_blue_6x5_49
+  - first:
+      213: 7725165009965802543
+    second: wavy_blue_6x5_50
+  - first:
+      213: 8090575506086159962
+    second: wavy_blue_6x5_51
+  - first:
+      213: 4548311599790526619
+    second: wavy_blue_6x5_52
+  - first:
+      213: -4308847290166643385
+    second: wavy_blue_6x5_53
+  - first:
+      213: 3830106109343607787
+    second: wavy_blue_6x5_54
+  - first:
+      213: 6541728271358141163
+    second: wavy_blue_6x5_55
+  - first:
+      213: 2179256264103454834
+    second: wavy_blue_6x5_56
+  - first:
+      213: -1583861348104160428
+    second: wavy_blue_6x5_57
+  - first:
+      213: -785346988881249045
+    second: wavy_blue_6x5_58
+  - first:
+      213: 6809668636471692940
+    second: wavy_blue_6x5_59
+  - first:
+      213: -8262724824597301501
+    second: wavy_blue_6x5_60
+  - first:
+      213: -1734332795528755599
+    second: wavy_blue_6x5_61
+  - first:
+      213: -1746851839969103666
+    second: wavy_blue_6x5_62
+  - first:
+      213: -5124126571076799981
+    second: wavy_blue_6x5_63
+  - first:
+      213: 1960342090204432159
+    second: wavy_blue_6x5_64
+  - first:
+      213: -5501643696143967210
+    second: wavy_blue_6x5_65
+  - first:
+      213: 5500625745957972744
+    second: wavy_blue_6x5_66
+  - first:
+      213: -2778632683446530148
+    second: wavy_blue_6x5_67
+  - first:
+      213: 3251961315740798675
+    second: wavy_blue_6x5_68
+  - first:
+      213: 4823189712069792879
+    second: wavy_blue_6x5_69
+  - first:
+      213: 6721478957317321962
+    second: wavy_blue_6x5_70
+  - first:
+      213: 6156549835320906282
+    second: wavy_blue_6x5_71
+  - first:
+      213: 672125341550276875
+    second: wavy_blue_6x5_72
+  - first:
+      213: -638867856226533535
+    second: wavy_blue_6x5_73
+  - first:
+      213: -23303183527651656
+    second: wavy_blue_6x5_74
+  - first:
+      213: 4213682340998485693
+    second: wavy_blue_6x5_75
+  - first:
+      213: 8125963643994695317
+    second: wavy_blue_6x5_76
+  - first:
+      213: -4792270686794459823
+    second: wavy_blue_6x5_77
+  - first:
+      213: 9040814388601101951
+    second: wavy_blue_6x5_78
+  - first:
+      213: -2201485800265288959
+    second: wavy_blue_6x5_79
+  - first:
+      213: 4354342681685788828
+    second: wavy_blue_6x5_80
+  - first:
+      213: -965065580955571719
+    second: wavy_blue_6x5_81
+  - first:
+      213: -2298964201764453256
+    second: wavy_blue_6x5_82
+  - first:
+      213: -7086257974471656582
+    second: wavy_blue_6x5_83
+  - first:
+      213: -659708646529382385
+    second: wavy_blue_6x5_84
+  - first:
+      213: -8895323852115650070
+    second: wavy_blue_6x5_85
+  - first:
+      213: 6916587612653883240
+    second: wavy_blue_6x5_86
+  - first:
+      213: -3376445799839880340
+    second: wavy_blue_6x5_87
+  - first:
+      213: -6696999532488066345
+    second: wavy_blue_6x5_88
+  - first:
+      213: -4386543401041053956
+    second: wavy_blue_6x5_89
+  - first:
+      213: -9070426519961185411
+    second: wavy_blue_6x5_90
+  - first:
+      213: -1201644682237531924
+    second: wavy_blue_6x5_91
+  - first:
+      213: 364866567559087644
+    second: wavy_blue_6x5_92
+  - first:
+      213: -6937013203866830154
+    second: wavy_blue_6x5_93
+  - first:
+      213: -452479146210481016
+    second: wavy_blue_6x5_94
+  - first:
+      213: 581999492422903784
+    second: wavy_blue_6x5_95
+  - first:
+      213: -5126175156491668052
+    second: wavy_blue_6x5_96
+  - first:
+      213: -4404084900013003985
+    second: wavy_blue_6x5_97
+  - first:
+      213: -5849424943866546565
+    second: wavy_blue_6x5_98
+  - first:
+      213: 387551138913187659
+    second: wavy_blue_6x5_99
+  - first:
+      213: -6958152718758969661
+    second: wavy_blue_6x5_100
+  - first:
+      213: 8249309523666489335
+    second: wavy_blue_6x5_101
+  - first:
+      213: 1189771924486906293
+    second: wavy_blue_6x5_102
+  - first:
+      213: -7041561244338323805
+    second: wavy_blue_6x5_103
+  - first:
+      213: -4339784839869945291
+    second: wavy_blue_6x5_104
+  - first:
+      213: -3384289154074026271
+    second: wavy_blue_6x5_105
+  - first:
+      213: -901729229996161837
+    second: wavy_blue_6x5_106
+  - first:
+      213: -2245347088544774404
+    second: wavy_blue_6x5_107
+  - first:
+      213: -2092023126456005967
+    second: wavy_blue_6x5_108
+  - first:
+      213: -2471365113148376311
+    second: wavy_blue_6x5_109
+  - first:
+      213: -5656305626847283262
+    second: wavy_blue_6x5_110
+  - first:
+      213: -653395292471330897
+    second: wavy_blue_6x5_111
+  - first:
+      213: -8272378571693267483
+    second: wavy_blue_6x5_112
+  - first:
+      213: 2751240506334454243
+    second: wavy_blue_6x5_113
+  - first:
+      213: -5564403746084540136
+    second: wavy_blue_6x5_114
+  - first:
+      213: 7448038890937185382
+    second: wavy_blue_6x5_115
+  - first:
+      213: -9207380910840982446
+    second: wavy_blue_6x5_116
+  - first:
+      213: 2414807420334382001
+    second: wavy_blue_6x5_117
+  - first:
+      213: 4632480052486144549
+    second: wavy_blue_6x5_118
+  - first:
+      213: -379574274068722283
+    second: wavy_blue_6x5_119
+  - first:
+      213: 8609175010211622534
+    second: wavy_blue_6x5_120
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: wavy_blue_6x5_0
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 1750
+        width: 186
+        height: 418
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a167c80da8ffee280800000000000000
+      internalID: -9011984832652347878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_1
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 1750
+        width: 186
+        height: 418
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c0dc688ab63867e0800000000000000
+      internalID: -1772106278589640505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_2
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 2166
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f369739b3c6dbc000800000000000000
+      internalID: 57375556386657855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_3
+      rect:
+        serializedVersion: 2
+        x: 1203
+        y: 2166
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fa05f1c9054a32a0800000000000000
+      internalID: -6757012382704923917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_4
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 1754
+        width: 186
+        height: 410
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a3b16490bbc114d0800000000000000
+      internalID: -3165525103800634460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_5
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 1754
+        width: 186
+        height: 410
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d82ba31bf8b5a260800000000000000
+      internalID: 7108290975380482265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_6
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 1750
+        width: 178
+        height: 410
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e50f9efe8c0554170800000000000000
+      internalID: 8162018723627659358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_7
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 1750
+        width: 178
+        height: 410
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63765a3af7a3fadf0800000000000000
+      internalID: -166850341308635338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_8
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 1750
+        width: 174
+        height: 410
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17ba688481cd4bd60800000000000000
+      internalID: 7905185242796174193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_9
+      rect:
+        serializedVersion: 2
+        x: 1416
+        y: 2158
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4379cdd9ad6a81c0800000000000000
+      internalID: -4500664301265521843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_10
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 1750
+        width: 174
+        height: 410
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca1d795ea7114f800800000000000000
+      internalID: 645159866156437932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_11
+      rect:
+        serializedVersion: 2
+        x: 1636
+        y: 2158
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c006199883abf080800000000000000
+      internalID: -9152542010621165376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_12
+      rect:
+        serializedVersion: 2
+        x: 2354
+        y: 2138
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80065bf9f1769ab30800000000000000
+      internalID: 4299080704822960136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_13
+      rect:
+        serializedVersion: 2
+        x: 2438
+        y: 2138
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09bc9bd7663423ef0800000000000000
+      internalID: -129967331765269616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_14
+      rect:
+        serializedVersion: 2
+        x: 1769
+        y: 1750
+        width: 170
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e03111ca7c97c390800000000000000
+      internalID: -7798092178729651997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_15
+      rect:
+        serializedVersion: 2
+        x: 1957
+        y: 2070
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9946945c6ed119880800000000000000
+      internalID: -8606064535938702183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_16
+      rect:
+        serializedVersion: 2
+        x: 1993
+        y: 1750
+        width: 170
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1be2b348340273b0800000000000000
+      internalID: -5516341953874957542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_17
+      rect:
+        serializedVersion: 2
+        x: 2206
+        y: 1750
+        width: 174
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ac87d8a0b58b1700800000000000000
+      internalID: 512149976430120098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_18
+      rect:
+        serializedVersion: 2
+        x: 2390
+        y: 2070
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4726d48c2dc62f210800000000000000
+      internalID: 1365273289606128244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_19
+      rect:
+        serializedVersion: 2
+        x: 2410
+        y: 2070
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12e680800e16176d0800000000000000
+      internalID: -2994504662389330399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_20
+      rect:
+        serializedVersion: 2
+        x: 2426
+        y: 1750
+        width: 174
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1ebe66dbe8701700800000000000000
+      internalID: 509039712203095579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_21
+      rect:
+        serializedVersion: 2
+        x: 1516
+        y: 2062
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48a26149a54ce7e40800000000000000
+      internalID: 5656174075334503044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_22
+      rect:
+        serializedVersion: 2
+        x: 1524
+        y: 2062
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00e2c7600f2428ae0800000000000000
+      internalID: -1548601723193643520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_23
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 2062
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4030db24bc85a0ed0800000000000000
+      internalID: -2447045817501154556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_24
+      rect:
+        serializedVersion: 2
+        x: 1945
+        y: 2050
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d7d4e30cb451a050800000000000000
+      internalID: 5810018160780564440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_25
+      rect:
+        serializedVersion: 2
+        x: 1977
+        y: 2050
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daef1e1c5d775c560800000000000000
+      internalID: 7333399328207273645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_26
+      rect:
+        serializedVersion: 2
+        x: 2378
+        y: 2054
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 342ede1727282d280800000000000000
+      internalID: -9020003675620384189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_27
+      rect:
+        serializedVersion: 2
+        x: 2418
+        y: 2054
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7725162a36ecc120800000000000000
+      internalID: 2435574635922007934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_28
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 2050
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 485d5917e74e64f70800000000000000
+      internalID: 9171268922909250948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_29
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 2054
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29caac712a4281d00800000000000000
+      internalID: 943544400536579218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_30
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 2054
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9e5e497e71482740800000000000000
+      internalID: 5127420187218173598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_31
+      rect:
+        serializedVersion: 2
+        x: 1504
+        y: 2046
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f361dad59779ada0800000000000000
+      internalID: -5933079548578929679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_32
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 2046
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd8fc4493cde73080800000000000000
+      internalID: -9207629488873211681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_33
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 2046
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea3d2f113d7c293a0800000000000000
+      internalID: -6660041189574388818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_34
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 2046
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bca91de3ec39bce0800000000000000
+      internalID: -1389012060433961808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_35
+      rect:
+        serializedVersion: 2
+        x: 1937
+        y: 2042
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4625e459695640b70800000000000000
+      internalID: 8864321663996416612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_36
+      rect:
+        serializedVersion: 2
+        x: 1989
+        y: 2042
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5711c2d0bfe0e2880800000000000000
+      internalID: -8633946964202090123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_37
+      rect:
+        serializedVersion: 2
+        x: 2378
+        y: 1894
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cfba874e12dcb550800000000000000
+      internalID: 6178043816336605127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_38
+      rect:
+        serializedVersion: 2
+        x: 2422
+        y: 1894
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3484d36fba595b4b0800000000000000
+      internalID: -5425265610294736829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_39
+      rect:
+        serializedVersion: 2
+        x: 2382
+        y: 1886
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2807a46b76ae306e0800000000000000
+      internalID: -1872395288895131518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_40
+      rect:
+        serializedVersion: 2
+        x: 2418
+        y: 1886
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45bc0fff7c8072260800000000000000
+      internalID: 7072631394894138196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_41
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 1713
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9409e221da88cc5f0800000000000000
+      internalID: -735062362252472247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_42
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 1717
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05e48f68e0e9dbde0800000000000000
+      internalID: -1315721730891166128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_43
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 1717
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b48038f34d983430800000000000000
+      internalID: 3762930403920348342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_44
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 1713
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3583255272b7bfa20800000000000000
+      internalID: 3097204576807434323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_45
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 1313
+        width: 194
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57548066ab1bfffd0800000000000000
+      internalID: -2305929070056553099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_46
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 1313
+        width: 194
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37b2a74247edfd180800000000000000
+      internalID: -9088300932600812685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_47
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 1313
+        width: 198
+        height: 414
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbae3a7f680b11cd0800000000000000
+      internalID: -2589094217034503489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_48
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 1313
+        width: 198
+        height: 414
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acc1b50ef29a7d040800000000000000
+      internalID: 4672389161512803530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_49
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 1313
+        width: 198
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6d7661e004954610800000000000000
+      internalID: 1604851573729951082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_50
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 1717
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f24e94a95ac453b60800000000000000
+      internalID: 7725165009965802543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_51
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 1313
+        width: 198
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a56edbc9e8f774070800000000000000
+      internalID: 8090575506086159962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_52
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 1717
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b909d415d49de1f30800000000000000
+      internalID: 4548311599790526619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_53
+      rect:
+        serializedVersion: 2
+        x: 1753
+        y: 1317
+        width: 202
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74576360836e334c0800000000000000
+      internalID: -4308847290166643385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_54
+      rect:
+        serializedVersion: 2
+        x: 1977
+        y: 1317
+        width: 202
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bebaa73b635472530800000000000000
+      internalID: 3830106109343607787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_55
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1313
+        width: 190
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be2ae670433e8ca50800000000000000
+      internalID: 6541728271358141163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_56
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 1709
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2786e68a6064e3e10800000000000000
+      internalID: 2179256264103454834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_57
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 1313
+        width: 190
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45bb7ccde7ef40ae0800000000000000
+      internalID: -1583861348104160428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_58
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 1709
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bec7f461313e915f0800000000000000
+      internalID: -785346988881249045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_59
+      rect:
+        serializedVersion: 2
+        x: 2202
+        y: 1317
+        width: 198
+        height: 394
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8e8303bb8dc08e50800000000000000
+      internalID: 6809668636471692940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_60
+      rect:
+        serializedVersion: 2
+        x: 2346
+        y: 1709
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3077311cc87e45d80800000000000000
+      internalID: -8262724824597301501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_61
+      rect:
+        serializedVersion: 2
+        x: 2406
+        y: 1317
+        width: 198
+        height: 394
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 176c238e2896ee7e0800000000000000
+      internalID: -1734332795528755599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_62
+      rect:
+        serializedVersion: 2
+        x: 2454
+        y: 1709
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec0776bb18fe1c7e0800000000000000
+      internalID: -1746851839969103666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_63
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 1677
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 312b3da480273e8b0800000000000000
+      internalID: -5124126571076799981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_64
+      rect:
+        serializedVersion: 2
+        x: 1953
+        y: 1681
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f17c1e4aeb8843b10800000000000000
+      internalID: 1960342090204432159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_65
+      rect:
+        serializedVersion: 2
+        x: 1969
+        y: 1681
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61c5292153c36a3b0800000000000000
+      internalID: -5501643696143967210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_66
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 1661
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80b613ee8f5265c40800000000000000
+      internalID: 5500625745957972744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_67
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 1661
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9f01e5db405079d0800000000000000
+      internalID: -2778632683446530148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_68
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1649
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3deca084699412d20800000000000000
+      internalID: 3251961315740798675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_69
+      rect:
+        serializedVersion: 2
+        x: 2194
+        y: 1629
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f641d302d796fe240800000000000000
+      internalID: 4823189712069792879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_70
+      rect:
+        serializedVersion: 2
+        x: 2606
+        y: 1629
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae47920ff7d774d50800000000000000
+      internalID: 6721478957317321962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_71
+      rect:
+        serializedVersion: 2
+        x: 2198
+        y: 1605
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a22da48d475707550800000000000000
+      internalID: 6156549835320906282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_72
+      rect:
+        serializedVersion: 2
+        x: 2602
+        y: 1605
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0174a3ef6ed35900800000000000000
+      internalID: 672125341550276875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_73
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 1264
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16fb333d1194227f0800000000000000
+      internalID: -638867856226533535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_74
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 1264
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b6d2b7c0e53daff0800000000000000
+      internalID: -23303183527651656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_75
+      rect:
+        serializedVersion: 2
+        x: 2366
+        y: 1284
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db61d8b93c10a7a30800000000000000
+      internalID: 4213682340998485693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_76
+      rect:
+        serializedVersion: 2
+        x: 2434
+        y: 1284
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 596ea0a81e835c070800000000000000
+      internalID: 8125963643994695317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_77
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 876
+        width: 182
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 155591e633f6e7db0800000000000000
+      internalID: -4792270686794459823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_78
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 876
+        width: 182
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7e1fc049cc677d70800000000000000
+      internalID: 9040814388601101951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_79
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 880
+        width: 190
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 103fe112450c271e0800000000000000
+      internalID: -2201485800265288959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_80
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 880
+        width: 190
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c980434499bbd6c30800000000000000
+      internalID: 4354342681685788828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_81
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 1272
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f9ef2e97f56b92f0800000000000000
+      internalID: -965065580955571719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_82
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 1272
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8748d7a2d307810e0800000000000000
+      internalID: -2298964201764453256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_83
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 884
+        width: 178
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7b76d4baed88ad90800000000000000
+      internalID: -7086257974471656582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_84
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 884
+        width: 178
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f08cc543b7e38d6f0800000000000000
+      internalID: -659708646529382385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_85
+      rect:
+        serializedVersion: 2
+        x: 1773
+        y: 884
+        width: 182
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae9569006167d8480800000000000000
+      internalID: -8895323852115650070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_86
+      rect:
+        serializedVersion: 2
+        x: 1977
+        y: 884
+        width: 182
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86f0a1eb9c7acff50800000000000000
+      internalID: 6916587612653883240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_87
+      rect:
+        serializedVersion: 2
+        x: 2214
+        y: 896
+        width: 174
+        height: 382
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6b2f292f647421d0800000000000000
+      internalID: -3376445799839880340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_88
+      rect:
+        serializedVersion: 2
+        x: 2418
+        y: 896
+        width: 174
+        height: 382
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7da771d486a7f03a0800000000000000
+      internalID: -6696999532488066345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_89
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 880
+        width: 182
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf63d15840edf13c0800000000000000
+      internalID: -4386543401041053956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_90
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 880
+        width: 182
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d735e64232f5f1280800000000000000
+      internalID: -9070426519961185411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_91
+      rect:
+        serializedVersion: 2
+        x: 2286
+        y: 888
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce8aef03786e25fe0800000000000000
+      internalID: -1201644682237531924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_92
+      rect:
+        serializedVersion: 2
+        x: 2514
+        y: 888
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1686c5c534401500800000000000000
+      internalID: 364866567559087644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_93
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 463
+        width: 378
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bab255be37cabf90800000000000000
+      internalID: -6937013203866830154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_94
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 471
+        width: 378
+        height: 394
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88c2ad52d9878b9f0800000000000000
+      internalID: -452479146210481016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_95
+      rect:
+        serializedVersion: 2
+        x: 1905
+        y: 863
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e7235d647da31800800000000000000
+      internalID: 581999492422903784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_96
+      rect:
+        serializedVersion: 2
+        x: 2021
+        y: 863
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca5b1e4dada2cd8b0800000000000000
+      internalID: -5126175156491668052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_97
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 451
+        width: 186
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2b20160e1c81e2c0800000000000000
+      internalID: -4404084900013003985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_98
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 451
+        width: 186
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b767680510ba2dea0800000000000000
+      internalID: -5849424943866546565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_99
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 463
+        width: 370
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b47f73f15bbd06500800000000000000
+      internalID: 387551138913187659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_100
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 847
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cef379d7fcaf6f90800000000000000
+      internalID: -6958152718758969661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_101
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 847
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ff43681e4f6b7270800000000000000
+      internalID: 8249309523666489335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_102
+      rect:
+        serializedVersion: 2
+        x: 1893
+        y: 839
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b166caf24be28010800000000000000
+      internalID: 1189771924486906293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_103
+      rect:
+        serializedVersion: 2
+        x: 2025
+        y: 839
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ae7e072b59574e90800000000000000
+      internalID: -7041561244338323805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_104
+      rect:
+        serializedVersion: 2
+        x: 2210
+        y: 463
+        width: 386
+        height: 394
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53a2de96eacf5c3c0800000000000000
+      internalID: -4339784839869945291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_105
+      rect:
+        serializedVersion: 2
+        x: 1773
+        y: 475
+        width: 386
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1eed532f1f69801d0800000000000000
+      internalID: -3384289154074026271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_106
+      rect:
+        serializedVersion: 2
+        x: 1905
+        y: 467
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d40e7afa0a6c73f0800000000000000
+      internalID: -901729229996161837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_107
+      rect:
+        serializedVersion: 2
+        x: 2017
+        y: 467
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf6c4d528bce6d0e0800000000000000
+      internalID: -2245347088544774404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_108
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 402
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ba00bdec04a7f2e0800000000000000
+      internalID: -2092023126456005967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_109
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 18
+        width: 370
+        height: 394
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90b7f700682f3bdd0800000000000000
+      internalID: -2471365113148376311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_110
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 402
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c779b23004c081b0800000000000000
+      internalID: -5656305626847283262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_111
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 18
+        width: 370
+        height: 386
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa7755e717caee6f0800000000000000
+      internalID: -653395292471330897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_112
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 394
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e56baa948b923d80800000000000000
+      internalID: -8272378571693267483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_113
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 394
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e12bbfe9ae5e2620800000000000000
+      internalID: 2751240506334454243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_114
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 14
+        width: 370
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81137cf364447c2b0800000000000000
+      internalID: -5564403746084540136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_115
+      rect:
+        serializedVersion: 2
+        x: 1348
+        y: 10
+        width: 362
+        height: 414
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 664fa9fe8efbc5760800000000000000
+      internalID: 7448038890937185382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_116
+      rect:
+        serializedVersion: 2
+        x: 1781
+        y: 6
+        width: 370
+        height: 418
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2545c9928dfc83080800000000000000
+      internalID: -9207380910840982446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_117
+      rect:
+        serializedVersion: 2
+        x: 2218
+        y: 10
+        width: 182
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bb120afd8e138120800000000000000
+      internalID: 2414807420334382001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_118
+      rect:
+        serializedVersion: 2
+        x: 2406
+        y: 10
+        width: 182
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52205855010e94040800000000000000
+      internalID: 4632480052486144549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_119
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 378
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59dc144753b7bbaf0800000000000000
+      internalID: -379574274068722283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_blue_6x5_120
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 378
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68e65d4fe0fe97770800000000000000
+      internalID: 8609175010211622534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      wavy_blue_6x5_0: -9011984832652347878
+      wavy_blue_6x5_1: -1772106278589640505
+      wavy_blue_6x5_10: 645159866156437932
+      wavy_blue_6x5_100: -6958152718758969661
+      wavy_blue_6x5_101: 8249309523666489335
+      wavy_blue_6x5_102: 1189771924486906293
+      wavy_blue_6x5_103: -7041561244338323805
+      wavy_blue_6x5_104: -4339784839869945291
+      wavy_blue_6x5_105: -3384289154074026271
+      wavy_blue_6x5_106: -901729229996161837
+      wavy_blue_6x5_107: -2245347088544774404
+      wavy_blue_6x5_108: -2092023126456005967
+      wavy_blue_6x5_109: -2471365113148376311
+      wavy_blue_6x5_11: -9152542010621165376
+      wavy_blue_6x5_110: -5656305626847283262
+      wavy_blue_6x5_111: -653395292471330897
+      wavy_blue_6x5_112: -8272378571693267483
+      wavy_blue_6x5_113: 2751240506334454243
+      wavy_blue_6x5_114: -5564403746084540136
+      wavy_blue_6x5_115: 7448038890937185382
+      wavy_blue_6x5_116: -9207380910840982446
+      wavy_blue_6x5_117: 2414807420334382001
+      wavy_blue_6x5_118: 4632480052486144549
+      wavy_blue_6x5_119: -379574274068722283
+      wavy_blue_6x5_12: 4299080704822960136
+      wavy_blue_6x5_120: 8609175010211622534
+      wavy_blue_6x5_13: -129967331765269616
+      wavy_blue_6x5_14: -7798092178729651997
+      wavy_blue_6x5_15: -8606064535938702183
+      wavy_blue_6x5_16: -5516341953874957542
+      wavy_blue_6x5_17: 512149976430120098
+      wavy_blue_6x5_18: 1365273289606128244
+      wavy_blue_6x5_19: -2994504662389330399
+      wavy_blue_6x5_2: 57375556386657855
+      wavy_blue_6x5_20: 509039712203095579
+      wavy_blue_6x5_21: 5656174075334503044
+      wavy_blue_6x5_22: -1548601723193643520
+      wavy_blue_6x5_23: -2447045817501154556
+      wavy_blue_6x5_24: 5810018160780564440
+      wavy_blue_6x5_25: 7333399328207273645
+      wavy_blue_6x5_26: -9020003675620384189
+      wavy_blue_6x5_27: 2435574635922007934
+      wavy_blue_6x5_28: 9171268922909250948
+      wavy_blue_6x5_29: 943544400536579218
+      wavy_blue_6x5_3: -6757012382704923917
+      wavy_blue_6x5_30: 5127420187218173598
+      wavy_blue_6x5_31: -5933079548578929679
+      wavy_blue_6x5_32: -9207629488873211681
+      wavy_blue_6x5_33: -6660041189574388818
+      wavy_blue_6x5_34: -1389012060433961808
+      wavy_blue_6x5_35: 8864321663996416612
+      wavy_blue_6x5_36: -8633946964202090123
+      wavy_blue_6x5_37: 6178043816336605127
+      wavy_blue_6x5_38: -5425265610294736829
+      wavy_blue_6x5_39: -1872395288895131518
+      wavy_blue_6x5_4: -3165525103800634460
+      wavy_blue_6x5_40: 7072631394894138196
+      wavy_blue_6x5_41: -735062362252472247
+      wavy_blue_6x5_42: -1315721730891166128
+      wavy_blue_6x5_43: 3762930403920348342
+      wavy_blue_6x5_44: 3097204576807434323
+      wavy_blue_6x5_45: -2305929070056553099
+      wavy_blue_6x5_46: -9088300932600812685
+      wavy_blue_6x5_47: -2589094217034503489
+      wavy_blue_6x5_48: 4672389161512803530
+      wavy_blue_6x5_49: 1604851573729951082
+      wavy_blue_6x5_5: 7108290975380482265
+      wavy_blue_6x5_50: 7725165009965802543
+      wavy_blue_6x5_51: 8090575506086159962
+      wavy_blue_6x5_52: 4548311599790526619
+      wavy_blue_6x5_53: -4308847290166643385
+      wavy_blue_6x5_54: 3830106109343607787
+      wavy_blue_6x5_55: 6541728271358141163
+      wavy_blue_6x5_56: 2179256264103454834
+      wavy_blue_6x5_57: -1583861348104160428
+      wavy_blue_6x5_58: -785346988881249045
+      wavy_blue_6x5_59: 6809668636471692940
+      wavy_blue_6x5_6: 8162018723627659358
+      wavy_blue_6x5_60: -8262724824597301501
+      wavy_blue_6x5_61: -1734332795528755599
+      wavy_blue_6x5_62: -1746851839969103666
+      wavy_blue_6x5_63: -5124126571076799981
+      wavy_blue_6x5_64: 1960342090204432159
+      wavy_blue_6x5_65: -5501643696143967210
+      wavy_blue_6x5_66: 5500625745957972744
+      wavy_blue_6x5_67: -2778632683446530148
+      wavy_blue_6x5_68: 3251961315740798675
+      wavy_blue_6x5_69: 4823189712069792879
+      wavy_blue_6x5_7: -166850341308635338
+      wavy_blue_6x5_70: 6721478957317321962
+      wavy_blue_6x5_71: 6156549835320906282
+      wavy_blue_6x5_72: 672125341550276875
+      wavy_blue_6x5_73: -638867856226533535
+      wavy_blue_6x5_74: -23303183527651656
+      wavy_blue_6x5_75: 4213682340998485693
+      wavy_blue_6x5_76: 8125963643994695317
+      wavy_blue_6x5_77: -4792270686794459823
+      wavy_blue_6x5_78: 9040814388601101951
+      wavy_blue_6x5_79: -2201485800265288959
+      wavy_blue_6x5_8: 7905185242796174193
+      wavy_blue_6x5_80: 4354342681685788828
+      wavy_blue_6x5_81: -965065580955571719
+      wavy_blue_6x5_82: -2298964201764453256
+      wavy_blue_6x5_83: -7086257974471656582
+      wavy_blue_6x5_84: -659708646529382385
+      wavy_blue_6x5_85: -8895323852115650070
+      wavy_blue_6x5_86: 6916587612653883240
+      wavy_blue_6x5_87: -3376445799839880340
+      wavy_blue_6x5_88: -6696999532488066345
+      wavy_blue_6x5_89: -4386543401041053956
+      wavy_blue_6x5_9: -4500664301265521843
+      wavy_blue_6x5_90: -9070426519961185411
+      wavy_blue_6x5_91: -1201644682237531924
+      wavy_blue_6x5_92: 364866567559087644
+      wavy_blue_6x5_93: -6937013203866830154
+      wavy_blue_6x5_94: -452479146210481016
+      wavy_blue_6x5_95: 581999492422903784
+      wavy_blue_6x5_96: -5126175156491668052
+      wavy_blue_6x5_97: -4404084900013003985
+      wavy_blue_6x5_98: -5849424943866546565
+      wavy_blue_6x5_99: 387551138913187659
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

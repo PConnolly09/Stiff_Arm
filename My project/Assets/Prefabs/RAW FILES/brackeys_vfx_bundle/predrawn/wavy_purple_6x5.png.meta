@@ -1,0 +1,3237 @@
+fileFormatVersion: 2
+guid: c2f03a7e54128884cb676ebf2bb13d9d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5506552573108579295
+    second: wavy_purple_6x5_0
+  - first:
+      213: -8442031108074731395
+    second: wavy_purple_6x5_1
+  - first:
+      213: 8631364760120456654
+    second: wavy_purple_6x5_2
+  - first:
+      213: -303664695929375592
+    second: wavy_purple_6x5_3
+  - first:
+      213: 2527808733350309354
+    second: wavy_purple_6x5_4
+  - first:
+      213: 5537995611821899529
+    second: wavy_purple_6x5_5
+  - first:
+      213: 1584564104238021743
+    second: wavy_purple_6x5_6
+  - first:
+      213: 6905897957305100313
+    second: wavy_purple_6x5_7
+  - first:
+      213: 2702979337862354593
+    second: wavy_purple_6x5_8
+  - first:
+      213: -2420351270811867495
+    second: wavy_purple_6x5_9
+  - first:
+      213: -8885864451039857442
+    second: wavy_purple_6x5_10
+  - first:
+      213: 958300813864856677
+    second: wavy_purple_6x5_11
+  - first:
+      213: 8415045648299193824
+    second: wavy_purple_6x5_12
+  - first:
+      213: -5156460256411023790
+    second: wavy_purple_6x5_13
+  - first:
+      213: -3466199358356728476
+    second: wavy_purple_6x5_14
+  - first:
+      213: -227092219518966362
+    second: wavy_purple_6x5_15
+  - first:
+      213: 9078848253981378745
+    second: wavy_purple_6x5_16
+  - first:
+      213: 4031847281320449206
+    second: wavy_purple_6x5_17
+  - first:
+      213: -2311759629103339752
+    second: wavy_purple_6x5_18
+  - first:
+      213: 1105398816699700728
+    second: wavy_purple_6x5_19
+  - first:
+      213: -4256207907314291841
+    second: wavy_purple_6x5_20
+  - first:
+      213: -9129381428188482543
+    second: wavy_purple_6x5_21
+  - first:
+      213: 2124536241482760951
+    second: wavy_purple_6x5_22
+  - first:
+      213: -2703530475720929012
+    second: wavy_purple_6x5_23
+  - first:
+      213: -4392442599030784852
+    second: wavy_purple_6x5_24
+  - first:
+      213: 8608966525667972401
+    second: wavy_purple_6x5_25
+  - first:
+      213: -8694925506677350669
+    second: wavy_purple_6x5_26
+  - first:
+      213: 8919478977220039300
+    second: wavy_purple_6x5_27
+  - first:
+      213: -7868370546394850778
+    second: wavy_purple_6x5_28
+  - first:
+      213: -3052847920180924794
+    second: wavy_purple_6x5_29
+  - first:
+      213: -5723799428270815948
+    second: wavy_purple_6x5_30
+  - first:
+      213: -2085131276976071782
+    second: wavy_purple_6x5_31
+  - first:
+      213: 6474857497495023848
+    second: wavy_purple_6x5_32
+  - first:
+      213: 1873218702465605523
+    second: wavy_purple_6x5_33
+  - first:
+      213: -8291609835685458870
+    second: wavy_purple_6x5_34
+  - first:
+      213: 3147037052168022944
+    second: wavy_purple_6x5_35
+  - first:
+      213: 6337567498171651515
+    second: wavy_purple_6x5_36
+  - first:
+      213: -7409132992198471525
+    second: wavy_purple_6x5_37
+  - first:
+      213: -6781850018965472825
+    second: wavy_purple_6x5_38
+  - first:
+      213: 546908928090095806
+    second: wavy_purple_6x5_39
+  - first:
+      213: -4400552812827464852
+    second: wavy_purple_6x5_40
+  - first:
+      213: 3917827124439146730
+    second: wavy_purple_6x5_41
+  - first:
+      213: 1024606883199392837
+    second: wavy_purple_6x5_42
+  - first:
+      213: 1256032689467829357
+    second: wavy_purple_6x5_43
+  - first:
+      213: 3598245926811498261
+    second: wavy_purple_6x5_44
+  - first:
+      213: 2247068176666852124
+    second: wavy_purple_6x5_45
+  - first:
+      213: -2922581571722539190
+    second: wavy_purple_6x5_46
+  - first:
+      213: 8910548586389403920
+    second: wavy_purple_6x5_47
+  - first:
+      213: -3643957636959542848
+    second: wavy_purple_6x5_48
+  - first:
+      213: -6807338459857148184
+    second: wavy_purple_6x5_49
+  - first:
+      213: -4287577633182242921
+    second: wavy_purple_6x5_50
+  - first:
+      213: 7924762562043769237
+    second: wavy_purple_6x5_51
+  - first:
+      213: -8993308003739195888
+    second: wavy_purple_6x5_52
+  - first:
+      213: 1867916131858224722
+    second: wavy_purple_6x5_53
+  - first:
+      213: -8653068296665771406
+    second: wavy_purple_6x5_54
+  - first:
+      213: -2219730849661029160
+    second: wavy_purple_6x5_55
+  - first:
+      213: 3024960817145833587
+    second: wavy_purple_6x5_56
+  - first:
+      213: 2324269532738784267
+    second: wavy_purple_6x5_57
+  - first:
+      213: -6896052813895725664
+    second: wavy_purple_6x5_58
+  - first:
+      213: 3839482911005814030
+    second: wavy_purple_6x5_59
+  - first:
+      213: -683881554827737552
+    second: wavy_purple_6x5_60
+  - first:
+      213: -7087137142937275576
+    second: wavy_purple_6x5_61
+  - first:
+      213: -7744774862576372347
+    second: wavy_purple_6x5_62
+  - first:
+      213: -3031939300877964321
+    second: wavy_purple_6x5_63
+  - first:
+      213: 7476036596874794280
+    second: wavy_purple_6x5_64
+  - first:
+      213: 1047512993124271726
+    second: wavy_purple_6x5_65
+  - first:
+      213: -2598655267229196195
+    second: wavy_purple_6x5_66
+  - first:
+      213: -4553076880312210679
+    second: wavy_purple_6x5_67
+  - first:
+      213: -73070927881747053
+    second: wavy_purple_6x5_68
+  - first:
+      213: -6763726753698054637
+    second: wavy_purple_6x5_69
+  - first:
+      213: -1817085486038245393
+    second: wavy_purple_6x5_70
+  - first:
+      213: 3798446870177536169
+    second: wavy_purple_6x5_71
+  - first:
+      213: -4869533942775523247
+    second: wavy_purple_6x5_72
+  - first:
+      213: -7808154094317310667
+    second: wavy_purple_6x5_73
+  - first:
+      213: -2477243784891125257
+    second: wavy_purple_6x5_74
+  - first:
+      213: -2003919931255213014
+    second: wavy_purple_6x5_75
+  - first:
+      213: -3715227969017222739
+    second: wavy_purple_6x5_76
+  - first:
+      213: -7251828111672789512
+    second: wavy_purple_6x5_77
+  - first:
+      213: 7732405047601063614
+    second: wavy_purple_6x5_78
+  - first:
+      213: -1418347825822043061
+    second: wavy_purple_6x5_79
+  - first:
+      213: 6960115640800669010
+    second: wavy_purple_6x5_80
+  - first:
+      213: 4454697638937879157
+    second: wavy_purple_6x5_81
+  - first:
+      213: 1058238234773880576
+    second: wavy_purple_6x5_82
+  - first:
+      213: -6141617228987508863
+    second: wavy_purple_6x5_83
+  - first:
+      213: -5845632285846114139
+    second: wavy_purple_6x5_84
+  - first:
+      213: 793564586025576112
+    second: wavy_purple_6x5_85
+  - first:
+      213: 5538708831033248289
+    second: wavy_purple_6x5_86
+  - first:
+      213: -378409083816398199
+    second: wavy_purple_6x5_87
+  - first:
+      213: 1259957462453812105
+    second: wavy_purple_6x5_88
+  - first:
+      213: -1937004234060008788
+    second: wavy_purple_6x5_89
+  - first:
+      213: -3157731763611554101
+    second: wavy_purple_6x5_90
+  - first:
+      213: -4323198901480987213
+    second: wavy_purple_6x5_91
+  - first:
+      213: -8884761691322930944
+    second: wavy_purple_6x5_92
+  - first:
+      213: 4480089897638765990
+    second: wavy_purple_6x5_93
+  - first:
+      213: -2888250423480898605
+    second: wavy_purple_6x5_94
+  - first:
+      213: -1441593218092117758
+    second: wavy_purple_6x5_95
+  - first:
+      213: 8064594802858387339
+    second: wavy_purple_6x5_96
+  - first:
+      213: 3531522719106612265
+    second: wavy_purple_6x5_97
+  - first:
+      213: 4876506405794431298
+    second: wavy_purple_6x5_98
+  - first:
+      213: 3608682473623541321
+    second: wavy_purple_6x5_99
+  - first:
+      213: -6328089812213657504
+    second: wavy_purple_6x5_100
+  - first:
+      213: -4557911423383581535
+    second: wavy_purple_6x5_101
+  - first:
+      213: 5656399771377949754
+    second: wavy_purple_6x5_102
+  - first:
+      213: 99406582169128814
+    second: wavy_purple_6x5_103
+  - first:
+      213: -4787313814685299429
+    second: wavy_purple_6x5_104
+  - first:
+      213: -8198126200115996603
+    second: wavy_purple_6x5_105
+  - first:
+      213: 7360939588640289778
+    second: wavy_purple_6x5_106
+  - first:
+      213: -5321012813970356884
+    second: wavy_purple_6x5_107
+  - first:
+      213: -5116781425111201166
+    second: wavy_purple_6x5_108
+  - first:
+      213: -6222813006404923437
+    second: wavy_purple_6x5_109
+  - first:
+      213: -7084556327646494774
+    second: wavy_purple_6x5_110
+  - first:
+      213: -2328843267896443018
+    second: wavy_purple_6x5_111
+  - first:
+      213: 2232325049745446102
+    second: wavy_purple_6x5_112
+  - first:
+      213: 3472332582673653624
+    second: wavy_purple_6x5_113
+  - first:
+      213: -7060426556986813170
+    second: wavy_purple_6x5_114
+  - first:
+      213: -6205066085351717971
+    second: wavy_purple_6x5_115
+  - first:
+      213: 3173190597040417236
+    second: wavy_purple_6x5_116
+  - first:
+      213: 7375653271928686307
+    second: wavy_purple_6x5_117
+  - first:
+      213: -3241030769332732597
+    second: wavy_purple_6x5_118
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: wavy_purple_6x5_0
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 1666
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12499d61c9bc493b0800000000000000
+      internalID: -5506552573108579295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_1
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 1658
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d78886c5f61e7da80800000000000000
+      internalID: -8442031108074731395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_2
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 1630
+        width: 10
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec5fdc5b484c8c770800000000000000
+      internalID: 8631364760120456654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_3
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 1630
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8947d44619a29cbf0800000000000000
+      internalID: -303664695929375592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_4
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 1350
+        width: 394
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeda97b66a4941320800000000000000
+      internalID: 2527808733350309354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_5
+      rect:
+        serializedVersion: 2
+        x: 1885
+        y: 1630
+        width: 6
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90ff05adaa9eadc40800000000000000
+      internalID: 5537995611821899529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_6
+      rect:
+        serializedVersion: 2
+        x: 2510
+        y: 1654
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6c31fc48a08df510800000000000000
+      internalID: 1584564104238021743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_7
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1350
+        width: 410
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91824486a9da6df50800000000000000
+      internalID: 6905897957305100313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_8
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 1350
+        width: 410
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a691840369e28520800000000000000
+      internalID: 2702979337862354593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_9
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 1350
+        width: 414
+        height: 298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 996e79fb75f296ed0800000000000000
+      internalID: -2420351270811867495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_10
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 1626
+        width: 6
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed47f717c511fa480800000000000000
+      internalID: -8885864451039857442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_11
+      rect:
+        serializedVersion: 2
+        x: 1175
+        y: 1646
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56ce16e43819c4d00800000000000000
+      internalID: 958300813864856677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_12
+      rect:
+        serializedVersion: 2
+        x: 2502
+        y: 1630
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e5f19bae6f38c470800000000000000
+      internalID: 8415045648299193824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_13
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 1618
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 256833687b29078b0800000000000000
+      internalID: -5156460256411023790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_14
+      rect:
+        serializedVersion: 2
+        x: 1813
+        y: 1622
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 465d57c5c0695efc0800000000000000
+      internalID: -3466199358356728476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_15
+      rect:
+        serializedVersion: 2
+        x: 1825
+        y: 1350
+        width: 398
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a5215c54d439dcf0800000000000000
+      internalID: -227092219518966362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_16
+      rect:
+        serializedVersion: 2
+        x: 2278
+        y: 1350
+        width: 402
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b84c3c926c8efd70800000000000000
+      internalID: 9078848253981378745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_17
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 1606
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b4dabf9dbff3f730800000000000000
+      internalID: 4031847281320449206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_18
+      rect:
+        serializedVersion: 2
+        x: 1821
+        y: 1610
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 817e4359ddafaefd0800000000000000
+      internalID: -2311759629103339752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_19
+      rect:
+        serializedVersion: 2
+        x: 1372
+        y: 1598
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f5d58cfd5a275f00800000000000000
+      internalID: 1105398816699700728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_20
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 1590
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7ba25a6579eee4c0800000000000000
+      internalID: -4256207907314291841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_21
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 1574
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 114f6c9e5fbed4180800000000000000
+      internalID: -9129381428188482543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_22
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 1337
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f20602947edb7d10800000000000000
+      internalID: 2124536241482760951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_23
+      rect:
+        serializedVersion: 2
+        x: 1865
+        y: 1325
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0116333b512b7ad0800000000000000
+      internalID: -2703530475720929012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_24
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 1249
+        width: 18
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cacf9747ab8ea03c0800000000000000
+      internalID: -4392442599030784852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_25
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 1285
+        width: 10
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1351bad5171397770800000000000000
+      internalID: 8608966525667972401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_26
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1305
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fe5302c15b655780800000000000000
+      internalID: -8694925506677350669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_27
+      rect:
+        serializedVersion: 2
+        x: 1837
+        y: 1013
+        width: 398
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 482d3c25fda58cb70800000000000000
+      internalID: 8919478977220039300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_28
+      rect:
+        serializedVersion: 2
+        x: 2382
+        y: 1313
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62a1dfc2daeedc290800000000000000
+      internalID: -7868370546394850778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_29
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1013
+        width: 406
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68e6354cdfa12a5d0800000000000000
+      internalID: -3052847920180924794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_30
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 1013
+        width: 382
+        height: 298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4358558febaf090b0800000000000000
+      internalID: -5723799428270815948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_31
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 1297
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9bd8cda6202013e0800000000000000
+      internalID: -2085131276976071782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_32
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 1301
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e03775b6905bd950800000000000000
+      internalID: 6474857497495023848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_33
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 1305
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39f94133c720ff910800000000000000
+      internalID: 1873218702465605523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_34
+      rect:
+        serializedVersion: 2
+        x: 2310
+        y: 1013
+        width: 378
+        height: 298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4c45d709c84eec80800000000000000
+      internalID: -8291609835685458870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_35
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 1013
+        width: 390
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aba77576858cab20800000000000000
+      internalID: 3147037052168022944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_36
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 1289
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb5159ccf0093f750800000000000000
+      internalID: 6337567498171651515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_37
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 1013
+        width: 390
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9012628cc87d2990800000000000000
+      internalID: -7409132992198471525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_38
+      rect:
+        serializedVersion: 2
+        x: 1829
+        y: 1281
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c9369be65702e1a0800000000000000
+      internalID: -6781850018965472825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_39
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 1273
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb0cc4fb5c2079700800000000000000
+      internalID: 546908928090095806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_40
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 1273
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6ba21828881ee2c0800000000000000
+      internalID: -4400552812827464852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_41
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 1257
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae0e59b130bee5630800000000000000
+      internalID: 3917827124439146730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_42
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 1181
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54c158b1882283e00800000000000000
+      internalID: 1024606883199392837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_43
+      rect:
+        serializedVersion: 2
+        x: 2286
+        y: 1085
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6c220a83135e6110800000000000000
+      internalID: 1256032689467829357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_44
+      rect:
+        serializedVersion: 2
+        x: 2113
+        y: 1000
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 517781a2b998fe130800000000000000
+      internalID: 3598245926811498261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_45
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 988
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1bff48e9903f2f10800000000000000
+      internalID: 2247068176666852124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_46
+      rect:
+        serializedVersion: 2
+        x: 2061
+        y: 988
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4f00668b87e077d0800000000000000
+      internalID: -2922581571722539190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_47
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 676
+        width: 382
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 019799daab0a8ab70800000000000000
+      internalID: 8910548586389403920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_48
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 980
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c16470f5df0e6dc0800000000000000
+      internalID: -3643957636959542848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_49
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 956
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e62c52dcb97781a0800000000000000
+      internalID: -6807338459857148184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_50
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 676
+        width: 374
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7972343fbd67f74c0800000000000000
+      internalID: -4287577633182242921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_51
+      rect:
+        serializedVersion: 2
+        x: 1612
+        y: 980
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 591feef10996afd60800000000000000
+      internalID: 7924762562043769237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_52
+      rect:
+        serializedVersion: 2
+        x: 1668
+        y: 976
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 016a279e40a513380800000000000000
+      internalID: -8993308003739195888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_53
+      rect:
+        serializedVersion: 2
+        x: 2061
+        y: 976
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25691a543db2ce910800000000000000
+      internalID: 1867916131858224722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_54
+      rect:
+        serializedVersion: 2
+        x: 2121
+        y: 980
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 272da08ea302ae780800000000000000
+      internalID: -8653068296665771406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_55
+      rect:
+        serializedVersion: 2
+        x: 2646
+        y: 968
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d47af88d8ee131e0800000000000000
+      internalID: -2219730849661029160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_56
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 964
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 378e37516d1daf920800000000000000
+      internalID: 3024960817145833587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_57
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 956
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0c882553d6714020800000000000000
+      internalID: 2324269532738784267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_58
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 972
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ad896ba08c4c40a0800000000000000
+      internalID: -6896052813895725664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_59
+      rect:
+        serializedVersion: 2
+        x: 1159
+        y: 964
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0d2fa77d55984530800000000000000
+      internalID: 3839482911005814030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_60
+      rect:
+        serializedVersion: 2
+        x: 1849
+        y: 676
+        width: 378
+        height: 298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0360d08695d5286f0800000000000000
+      internalID: -683881554827737552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_61
+      rect:
+        serializedVersion: 2
+        x: 2298
+        y: 676
+        width: 378
+        height: 298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8433fb8515e65ad90800000000000000
+      internalID: -7087137142937275576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_62
+      rect:
+        serializedVersion: 2
+        x: 2526
+        y: 972
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 585b2cacb48058490800000000000000
+      internalID: -7744774862576372347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_63
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 804
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdb6f9e05436ce5d0800000000000000
+      internalID: -3031939300877964321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_64
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 676
+        width: 378
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 825da84dca730c760800000000000000
+      internalID: 7476036596874794280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_65
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 676
+        width: 374
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6647cc6483898e00800000000000000
+      internalID: 1047512993124271726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_66
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 752
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d502b1f7dc8bfebd0800000000000000
+      internalID: -2598655267229196195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_67
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 796
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90b62f953b830d0c0800000000000000
+      internalID: -4553076880312210679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_68
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 788
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3954334d0666cfef0800000000000000
+      internalID: -73070927881747053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_69
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 780
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31e75007a5a6222a0800000000000000
+      internalID: -6763726753698054637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_70
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 607
+        width: 10
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fef1c26b06a68c6e0800000000000000
+      internalID: -1817085486038245393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_71
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 339
+        width: 382
+        height: 318
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a8502bad4bc6b430800000000000000
+      internalID: 3798446870177536169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_72
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 651
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 158582fcda0fb6cb0800000000000000
+      internalID: -4869533942775523247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_73
+      rect:
+        serializedVersion: 2
+        x: 1388
+        y: 339
+        width: 366
+        height: 318
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53d64b8783dd3a390800000000000000
+      internalID: -7808154094317310667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_74
+      rect:
+        serializedVersion: 2
+        x: 2013
+        y: 655
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f1358317ef0f9dd0800000000000000
+      internalID: -2477243784891125257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_75
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 339
+        width: 374
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2435339075a034e0800000000000000
+      internalID: -2003919931255213014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_76
+      rect:
+        serializedVersion: 2
+        x: 1175
+        y: 643
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da9e127a8dbd07cc0800000000000000
+      internalID: -3715227969017222739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_77
+      rect:
+        serializedVersion: 2
+        x: 2009
+        y: 647
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f53d8711c45c5b90800000000000000
+      internalID: -7251828111672789512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_78
+      rect:
+        serializedVersion: 2
+        x: 2017
+        y: 647
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb6e2b93c650f4b60800000000000000
+      internalID: 7732405047601063614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_79
+      rect:
+        serializedVersion: 2
+        x: 2133
+        y: 647
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b44fde9ca24015ce0800000000000000
+      internalID: -1418347825822043061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_80
+      rect:
+        serializedVersion: 2
+        x: 2290
+        y: 339
+        width: 378
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25d609d8c4c479060800000000000000
+      internalID: 6960115640800669010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_81
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 339
+        width: 362
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 572e9ae86e342dd30800000000000000
+      internalID: 4454697638937879157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_82
+      rect:
+        serializedVersion: 2
+        x: 1837
+        y: 339
+        width: 370
+        height: 298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00ffe67511e9fae00800000000000000
+      internalID: 1058238234773880576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_83
+      rect:
+        serializedVersion: 2
+        x: 2005
+        y: 627
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 187d7cf7ba794caa0800000000000000
+      internalID: -6141617228987508863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_84
+      rect:
+        serializedVersion: 2
+        x: 2077
+        y: 635
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a07692586420eea0800000000000000
+      internalID: -5845632285846114139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_85
+      rect:
+        serializedVersion: 2
+        x: 2233
+        y: 595
+        width: 30
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b6626859ce430b00800000000000000
+      internalID: 793564586025576112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_86
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 599
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12a4e0426527ddc40800000000000000
+      internalID: 5538708831033248289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_87
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 583
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 982b75371fe9fbaf0800000000000000
+      internalID: -378409083816398199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_88
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 583
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98b79a5f2a44c7110800000000000000
+      internalID: 1259957462453812105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_89
+      rect:
+        serializedVersion: 2
+        x: 2225
+        y: 583
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca2fc6c69e06e15e0800000000000000
+      internalID: -1937004234060008788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_90
+      rect:
+        serializedVersion: 2
+        x: 1331
+        y: 575
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bce27fdf0bb7d24d0800000000000000
+      internalID: -3157731763611554101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_91
+      rect:
+        serializedVersion: 2
+        x: 1768
+        y: 567
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b5eddf1189e004c0800000000000000
+      internalID: -4323198901480987213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_92
+      rect:
+        serializedVersion: 2
+        x: 2213
+        y: 567
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 009a2b2b05cf2b480800000000000000
+      internalID: -8884761691322930944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_93
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 563
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a5239e760a7c2e30800000000000000
+      internalID: 4480089897638765990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_94
+      rect:
+        serializedVersion: 2
+        x: 1315
+        y: 555
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dbac0eda8fdae7d0800000000000000
+      internalID: -2888250423480898605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_95
+      rect:
+        serializedVersion: 2
+        x: 1744
+        y: 531
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 201d1052b9e6efbe0800000000000000
+      internalID: -1441593218092117758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_96
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 543
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b87e5d1ce323bef60800000000000000
+      internalID: 8064594802858387339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_97
+      rect:
+        serializedVersion: 2
+        x: 1307
+        y: 543
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92c3294c33d720130800000000000000
+      internalID: 3531522719106612265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_98
+      rect:
+        serializedVersion: 2
+        x: 2201
+        y: 551
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2414b4e3db4dca340800000000000000
+      internalID: 4876506405794431298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_99
+      rect:
+        serializedVersion: 2
+        x: 1299
+        y: 531
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9465283179d941230800000000000000
+      internalID: 3608682473623541321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_100
+      rect:
+        serializedVersion: 2
+        x: 1275
+        y: 475
+        width: 26
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0609c3ce7db1e28a0800000000000000
+      internalID: -6328089812213657504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_101
+      rect:
+        serializedVersion: 2
+        x: 2177
+        y: 431
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1acc68395bb0fb0c0800000000000000
+      internalID: -4557911423383581535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_102
+      rect:
+        serializedVersion: 2
+        x: 2201
+        y: 407
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3c55988f919f7e40800000000000000
+      internalID: 5656399771377949754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_103
+      rect:
+        serializedVersion: 2
+        x: 2209
+        y: 399
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6fc68282c9216100800000000000000
+      internalID: 99406582169128814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_104
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 2
+        width: 390
+        height: 318
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1dcc57237b009db0800000000000000
+      internalID: -4787313814685299429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_105
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 2
+        width: 394
+        height: 318
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 548534218a76a3e80800000000000000
+      internalID: -8198126200115996603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_106
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 318
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f3b3025e8f472660800000000000000
+      internalID: 7360939588640289778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_107
+      rect:
+        serializedVersion: 2
+        x: 1592
+        y: 306
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c65cef1a907f726b0800000000000000
+      internalID: -5321012813970356884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_108
+      rect:
+        serializedVersion: 2
+        x: 1644
+        y: 290
+        width: 30
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27a0eea576a8df8b0800000000000000
+      internalID: -5116781425111201166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_109
+      rect:
+        serializedVersion: 2
+        x: 2173
+        y: 310
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dfcd816a8024a9a0800000000000000
+      internalID: -6222813006404923437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_110
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 2
+        width: 386
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acf726b3e899ead90800000000000000
+      internalID: -7084556327646494774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_111
+      rect:
+        serializedVersion: 2
+        x: 1476
+        y: 298
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67ff877f2694eafd0800000000000000
+      internalID: -2328843267896443018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_112
+      rect:
+        serializedVersion: 2
+        x: 1676
+        y: 214
+        width: 54
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d4984d2ecfcafe10800000000000000
+      internalID: 2232325049745446102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_113
+      rect:
+        serializedVersion: 2
+        x: 1821
+        y: 2
+        width: 406
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87f17443614303030800000000000000
+      internalID: 3472332582673653624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_114
+      rect:
+        serializedVersion: 2
+        x: 2618
+        y: 310
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0511144473540e90800000000000000
+      internalID: -7060426556986813170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_115
+      rect:
+        serializedVersion: 2
+        x: 1372
+        y: 2
+        width: 398
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da389ce654d23e9a0800000000000000
+      internalID: -6205066085351717971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_116
+      rect:
+        serializedVersion: 2
+        x: 2274
+        y: 2
+        width: 406
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d924352900790c20800000000000000
+      internalID: 3173190597040417236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_117
+      rect:
+        serializedVersion: 2
+        x: 2606
+        y: 282
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e6c1cba2959b5660800000000000000
+      internalID: 7375653271928686307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wavy_purple_6x5_118
+      rect:
+        serializedVersion: 2
+        x: 2225
+        y: 90
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4dbfcfdfab8503d0800000000000000
+      internalID: -3241030769332732597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      wavy_purple_6x5_0: -5506552573108579295
+      wavy_purple_6x5_1: -8442031108074731395
+      wavy_purple_6x5_10: -8885864451039857442
+      wavy_purple_6x5_100: -6328089812213657504
+      wavy_purple_6x5_101: -4557911423383581535
+      wavy_purple_6x5_102: 5656399771377949754
+      wavy_purple_6x5_103: 99406582169128814
+      wavy_purple_6x5_104: -4787313814685299429
+      wavy_purple_6x5_105: -8198126200115996603
+      wavy_purple_6x5_106: 7360939588640289778
+      wavy_purple_6x5_107: -5321012813970356884
+      wavy_purple_6x5_108: -5116781425111201166
+      wavy_purple_6x5_109: -6222813006404923437
+      wavy_purple_6x5_11: 958300813864856677
+      wavy_purple_6x5_110: -7084556327646494774
+      wavy_purple_6x5_111: -2328843267896443018
+      wavy_purple_6x5_112: 2232325049745446102
+      wavy_purple_6x5_113: 3472332582673653624
+      wavy_purple_6x5_114: -7060426556986813170
+      wavy_purple_6x5_115: -6205066085351717971
+      wavy_purple_6x5_116: 3173190597040417236
+      wavy_purple_6x5_117: 7375653271928686307
+      wavy_purple_6x5_118: -3241030769332732597
+      wavy_purple_6x5_12: 8415045648299193824
+      wavy_purple_6x5_13: -5156460256411023790
+      wavy_purple_6x5_14: -3466199358356728476
+      wavy_purple_6x5_15: -227092219518966362
+      wavy_purple_6x5_16: 9078848253981378745
+      wavy_purple_6x5_17: 4031847281320449206
+      wavy_purple_6x5_18: -2311759629103339752
+      wavy_purple_6x5_19: 1105398816699700728
+      wavy_purple_6x5_2: 8631364760120456654
+      wavy_purple_6x5_20: -4256207907314291841
+      wavy_purple_6x5_21: -9129381428188482543
+      wavy_purple_6x5_22: 2124536241482760951
+      wavy_purple_6x5_23: -2703530475720929012
+      wavy_purple_6x5_24: -4392442599030784852
+      wavy_purple_6x5_25: 8608966525667972401
+      wavy_purple_6x5_26: -8694925506677350669
+      wavy_purple_6x5_27: 8919478977220039300
+      wavy_purple_6x5_28: -7868370546394850778
+      wavy_purple_6x5_29: -3052847920180924794
+      wavy_purple_6x5_3: -303664695929375592
+      wavy_purple_6x5_30: -5723799428270815948
+      wavy_purple_6x5_31: -2085131276976071782
+      wavy_purple_6x5_32: 6474857497495023848
+      wavy_purple_6x5_33: 1873218702465605523
+      wavy_purple_6x5_34: -8291609835685458870
+      wavy_purple_6x5_35: 3147037052168022944
+      wavy_purple_6x5_36: 6337567498171651515
+      wavy_purple_6x5_37: -7409132992198471525
+      wavy_purple_6x5_38: -6781850018965472825
+      wavy_purple_6x5_39: 546908928090095806
+      wavy_purple_6x5_4: 2527808733350309354
+      wavy_purple_6x5_40: -4400552812827464852
+      wavy_purple_6x5_41: 3917827124439146730
+      wavy_purple_6x5_42: 1024606883199392837
+      wavy_purple_6x5_43: 1256032689467829357
+      wavy_purple_6x5_44: 3598245926811498261
+      wavy_purple_6x5_45: 2247068176666852124
+      wavy_purple_6x5_46: -2922581571722539190
+      wavy_purple_6x5_47: 8910548586389403920
+      wavy_purple_6x5_48: -3643957636959542848
+      wavy_purple_6x5_49: -6807338459857148184
+      wavy_purple_6x5_5: 5537995611821899529
+      wavy_purple_6x5_50: -4287577633182242921
+      wavy_purple_6x5_51: 7924762562043769237
+      wavy_purple_6x5_52: -8993308003739195888
+      wavy_purple_6x5_53: 1867916131858224722
+      wavy_purple_6x5_54: -8653068296665771406
+      wavy_purple_6x5_55: -2219730849661029160
+      wavy_purple_6x5_56: 3024960817145833587
+      wavy_purple_6x5_57: 2324269532738784267
+      wavy_purple_6x5_58: -6896052813895725664
+      wavy_purple_6x5_59: 3839482911005814030
+      wavy_purple_6x5_6: 1584564104238021743
+      wavy_purple_6x5_60: -683881554827737552
+      wavy_purple_6x5_61: -7087137142937275576
+      wavy_purple_6x5_62: -7744774862576372347
+      wavy_purple_6x5_63: -3031939300877964321
+      wavy_purple_6x5_64: 7476036596874794280
+      wavy_purple_6x5_65: 1047512993124271726
+      wavy_purple_6x5_66: -2598655267229196195
+      wavy_purple_6x5_67: -4553076880312210679
+      wavy_purple_6x5_68: -73070927881747053
+      wavy_purple_6x5_69: -6763726753698054637
+      wavy_purple_6x5_7: 6905897957305100313
+      wavy_purple_6x5_70: -1817085486038245393
+      wavy_purple_6x5_71: 3798446870177536169
+      wavy_purple_6x5_72: -4869533942775523247
+      wavy_purple_6x5_73: -7808154094317310667
+      wavy_purple_6x5_74: -2477243784891125257
+      wavy_purple_6x5_75: -2003919931255213014
+      wavy_purple_6x5_76: -3715227969017222739
+      wavy_purple_6x5_77: -7251828111672789512
+      wavy_purple_6x5_78: 7732405047601063614
+      wavy_purple_6x5_79: -1418347825822043061
+      wavy_purple_6x5_8: 2702979337862354593
+      wavy_purple_6x5_80: 6960115640800669010
+      wavy_purple_6x5_81: 4454697638937879157
+      wavy_purple_6x5_82: 1058238234773880576
+      wavy_purple_6x5_83: -6141617228987508863
+      wavy_purple_6x5_84: -5845632285846114139
+      wavy_purple_6x5_85: 793564586025576112
+      wavy_purple_6x5_86: 5538708831033248289
+      wavy_purple_6x5_87: -378409083816398199
+      wavy_purple_6x5_88: 1259957462453812105
+      wavy_purple_6x5_89: -1937004234060008788
+      wavy_purple_6x5_9: -2420351270811867495
+      wavy_purple_6x5_90: -3157731763611554101
+      wavy_purple_6x5_91: -4323198901480987213
+      wavy_purple_6x5_92: -8884761691322930944
+      wavy_purple_6x5_93: 4480089897638765990
+      wavy_purple_6x5_94: -2888250423480898605
+      wavy_purple_6x5_95: -1441593218092117758
+      wavy_purple_6x5_96: 8064594802858387339
+      wavy_purple_6x5_97: 3531522719106612265
+      wavy_purple_6x5_98: 4876506405794431298
+      wavy_purple_6x5_99: 3608682473623541321
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

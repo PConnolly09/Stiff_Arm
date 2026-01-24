@@ -1,0 +1,1807 @@
+fileFormatVersion: 2
+guid: fadb83852d9055e46bf461d222fc3c10
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6388011322524113427
+    second: vortex_6x5_0
+  - first:
+      213: -6813169308204313419
+    second: vortex_6x5_1
+  - first:
+      213: 7852866499314629225
+    second: vortex_6x5_2
+  - first:
+      213: 7973775982429336017
+    second: vortex_6x5_3
+  - first:
+      213: -1541167455366116811
+    second: vortex_6x5_4
+  - first:
+      213: 5996517683742808225
+    second: vortex_6x5_5
+  - first:
+      213: 6966071352223537821
+    second: vortex_6x5_6
+  - first:
+      213: 3022917882320712260
+    second: vortex_6x5_7
+  - first:
+      213: -5962649090087480040
+    second: vortex_6x5_8
+  - first:
+      213: -3653801272843658823
+    second: vortex_6x5_9
+  - first:
+      213: -5445702664935184928
+    second: vortex_6x5_10
+  - first:
+      213: -2439986487170087921
+    second: vortex_6x5_11
+  - first:
+      213: 891897948919479479
+    second: vortex_6x5_12
+  - first:
+      213: 667380886623853294
+    second: vortex_6x5_13
+  - first:
+      213: 343727723395226963
+    second: vortex_6x5_14
+  - first:
+      213: -2529082133071193784
+    second: vortex_6x5_15
+  - first:
+      213: 2535150838010327931
+    second: vortex_6x5_16
+  - first:
+      213: 5302857846500810582
+    second: vortex_6x5_17
+  - first:
+      213: -5363356411073830093
+    second: vortex_6x5_18
+  - first:
+      213: 715078067589198835
+    second: vortex_6x5_19
+  - first:
+      213: -3185048479399263124
+    second: vortex_6x5_20
+  - first:
+      213: -4287383882031842109
+    second: vortex_6x5_21
+  - first:
+      213: -7502399558090388823
+    second: vortex_6x5_22
+  - first:
+      213: -96298175331564155
+    second: vortex_6x5_23
+  - first:
+      213: -438347494626552708
+    second: vortex_6x5_24
+  - first:
+      213: 8943172711970475122
+    second: vortex_6x5_25
+  - first:
+      213: 1560746225123104256
+    second: vortex_6x5_26
+  - first:
+      213: 6657652317531075180
+    second: vortex_6x5_27
+  - first:
+      213: 2018988951132713086
+    second: vortex_6x5_28
+  - first:
+      213: 8185318062994335634
+    second: vortex_6x5_29
+  - first:
+      213: 8189663312965661917
+    second: vortex_6x5_30
+  - first:
+      213: -8554363318672100078
+    second: vortex_6x5_31
+  - first:
+      213: 3786354379098970943
+    second: vortex_6x5_32
+  - first:
+      213: 8515867863107437970
+    second: vortex_6x5_33
+  - first:
+      213: -8117290066917778262
+    second: vortex_6x5_34
+  - first:
+      213: 3197426618008278256
+    second: vortex_6x5_35
+  - first:
+      213: 8960082887124929888
+    second: vortex_6x5_36
+  - first:
+      213: -6860177732680930816
+    second: vortex_6x5_37
+  - first:
+      213: -4594541819049642501
+    second: vortex_6x5_38
+  - first:
+      213: -8560915853387913179
+    second: vortex_6x5_39
+  - first:
+      213: -1284134817278101594
+    second: vortex_6x5_40
+  - first:
+      213: -1352334897139263069
+    second: vortex_6x5_41
+  - first:
+      213: -1216864093664033834
+    second: vortex_6x5_42
+  - first:
+      213: 4257746592014749198
+    second: vortex_6x5_43
+  - first:
+      213: 6256304345971703519
+    second: vortex_6x5_44
+  - first:
+      213: -7017209900250564472
+    second: vortex_6x5_45
+  - first:
+      213: 5448289943157134209
+    second: vortex_6x5_46
+  - first:
+      213: 8675321236205511801
+    second: vortex_6x5_47
+  - first:
+      213: 5268555906431008052
+    second: vortex_6x5_48
+  - first:
+      213: 5106238283769209168
+    second: vortex_6x5_49
+  - first:
+      213: -1717026855337600349
+    second: vortex_6x5_50
+  - first:
+      213: -1203146846319640248
+    second: vortex_6x5_51
+  - first:
+      213: -5478074415589877377
+    second: vortex_6x5_52
+  - first:
+      213: -674503076013509711
+    second: vortex_6x5_53
+  - first:
+      213: -6954305517825023094
+    second: vortex_6x5_54
+  - first:
+      213: -7799121968393234255
+    second: vortex_6x5_55
+  - first:
+      213: 219151295509484570
+    second: vortex_6x5_56
+  - first:
+      213: -3732404025774701941
+    second: vortex_6x5_57
+  - first:
+      213: 3763027419015605317
+    second: vortex_6x5_58
+  - first:
+      213: 7113801808775009160
+    second: vortex_6x5_59
+  - first:
+      213: 8809679791563239567
+    second: vortex_6x5_60
+  - first:
+      213: -4781293636058661670
+    second: vortex_6x5_61
+  - first:
+      213: 8576381121548486096
+    second: vortex_6x5_62
+  - first:
+      213: 2320969776545494704
+    second: vortex_6x5_63
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: vortex_6x5_0
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 1905
+        width: 71
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31a1934e376c6a850800000000000000
+      internalID: 6388011322524113427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vortex_6x5_1
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 1855
+        width: 167
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b453e5ac92c271a0800000000000000
+      internalID: -6813169308204313419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vortex_6x5_2
+      rect:
+        serializedVersion: 2
+        x: 1385
+        y: 1822
+        width: 224
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96ab630997cfafc60800000000000000
+      internalID: 7852866499314629225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vortex_6x5_3
+      rect:
+        serializedVersion: 2
+        x: 1778
+        y: 1792
+        width: 290
+        height: 298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d1fd37520b88ae60800000000000000
+      internalID: 7973775982429336017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vortex_6x5_4
+      rect:
+        serializedVersion: 2
+        x: 2179
+        y: 1760
+        width: 353
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53a82836d5cac9ae0800000000000000
+      internalID: -1541167455366116811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vortex_6x5_5
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 1314
+        width: 388
+        height: 389
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a896dcff09e73350800000000000000
+      internalID: 5996517683742808225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vortex_6x5_6
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 1296
+        width: 404
+        height: 423
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9a1f4dacf47ca060800000000000000
+      internalID: 6966071352223537821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vortex_6x5_7
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 1296
+        width: 420
+        height: 422
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 442f6e04ccf83f920800000000000000
+      internalID: 3022917882320712260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vortex_6x5_8
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 1298
+        width: 419
+        height: 421
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81597097e3a604da0800000000000000
+      internalID: -5962649090087480040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vortex_6x5_9
+      rect:
+        serializedVersion: 2
+        x: 1716
+        y: 1299
+        width: 413
+        height: 417
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b9984cd9171b4dc0800000000000000
+      internalID: -3653801272843658823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vortex_6x5_10
+      rect:
+        serializedVersion: 2
+        x: 2145
+        y: 1299
+        width: 411
+        height: 417
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e5e320674afc64b0800000000000000
+      internalID: -5445702664935184928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vortex_6x5_11
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 883
+        width: 388
+        height: 389
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f04497fa73d632ed0800000000000000
+      internalID: -2439986487170087921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vortex_6x5_12
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 899
+        width: 355
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bcbe358578a06c00800000000000000
+      internalID: 891897948919479479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vortex_6x5_13
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 921
+        width: 306
+        height: 312
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eea99156163034900800000000000000
+      internalID: 667380886623853294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vortex_6x5_14
+      rect:
+        serializedVersion: 2
+        x: 1363
+        y: 945
+        width: 266
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35d1d641b8a25c400800000000000000
+      internalID: 343727723395226963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vortex_6x5_15
+      rect:
+        serializedVersion: 2
+        x: 1821
+        y: 976
+        width: 205
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 849118a1335e6ecd0800000000000000
+      internalID: -2529082133071193784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vortex_6x5_16
+      rect:
+        serializedVersion: 2
+        x: 2275
+        y: 1003
+        width: 151
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b73b3af514aae2320800000000000000
+      internalID: 2535150838010327931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vortex_6x5_17
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 580
+        width: 134
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65fd21b9d19879940800000000000000
+      internalID: 5302857846500810582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vortex_6x5_18
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 566
+        width: 166
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 333612aa2c78195b0800000000000000
+      internalID: -5363356411073830093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vortex_6x5_19
+      rect:
+        serializedVersion: 2
+        x: 1396
+        y: 550
+        width: 196
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f3b35db6b77ce900800000000000000
+      internalID: 715078067589198835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vortex_6x5_20
+      rect:
+        serializedVersion: 2
+        x: 1830
+        y: 652
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c644209784f6cc3d0800000000000000
+      internalID: -3185048479399263124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vortex_6x5_21
+      rect:
+        serializedVersion: 2
+        x: 1898
+        y: 711
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ccb1c723172084c0800000000000000
+      internalID: -4287383882031842109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vortex_6x5_22
+      rect:
+        serializedVersion: 2
+        x: 1922
+        y: 647
+        width: 87
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9aa89f0f95f12e790800000000000000
+      internalID: -7502399558090388823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vortex_6x5_23
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 207
+        width: 106
+        height: 492
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58508dad151e9aef0800000000000000
+      internalID: -96298175331564155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vortex_6x5_24
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 694
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c741a9ea64daae9f0800000000000000
+      internalID: -438347494626552708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vortex_6x5_25
+      rect:
+        serializedVersion: 2
+        x: 1892
+        y: 685
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27c87f5d2388c1c70800000000000000
+      internalID: 8943172711970475122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vortex_6x5_26
+      rect:
+        serializedVersion: 2
+        x: 1893
+        y: 692
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0069efc2c62e8a510800000000000000
+      internalID: 1560746225123104256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vortex_6x5_27
+      rect:
+        serializedVersion: 2
+        x: 1896
+        y: 676
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c62fe70528bb46c50800000000000000
+      internalID: 6657652317531075180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vortex_6x5_28
+      rect:
+        serializedVersion: 2
+        x: 1908
+        y: 680
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7034b501c3e40c10800000000000000
+      internalID: 2018988951132713086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vortex_6x5_29
+      rect:
+        serializedVersion: 2
+        x: 1922
+        y: 687
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 297ad5e1967189170800000000000000
+      internalID: 8185318062994335634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vortex_6x5_30
+      rect:
+        serializedVersion: 2
+        x: 2301
+        y: 597
+        width: 121
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd4fd57746787a170800000000000000
+      internalID: 8189663312965661917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vortex_6x5_31
+      rect:
+        serializedVersion: 2
+        x: 1873
+        y: 656
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 215fae672ebc84980800000000000000
+      internalID: -8554363318672100078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vortex_6x5_32
+      rect:
+        serializedVersion: 2
+        x: 1875
+        y: 681
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3b50ff2f35db8430800000000000000
+      internalID: 3786354379098970943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vortex_6x5_33
+      rect:
+        serializedVersion: 2
+        x: 1882
+        y: 667
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2950fa6d3b07e2670800000000000000
+      internalID: 8515867863107437970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vortex_6x5_34
+      rect:
+        serializedVersion: 2
+        x: 1897
+        y: 612
+        width: 61
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aac1f8ef0b7995f80800000000000000
+      internalID: -8117290066917778262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vortex_6x5_35
+      rect:
+        serializedVersion: 2
+        x: 1897
+        y: 674
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f413c1819a8f5c20800000000000000
+      internalID: 3197426618008278256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vortex_6x5_36
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 658
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06d432dc9eb985c70800000000000000
+      internalID: 8960082887124929888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vortex_6x5_37
+      rect:
+        serializedVersion: 2
+        x: 1865
+        y: 653
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00a228be2b0cbc0a0800000000000000
+      internalID: -6860177732680930816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vortex_6x5_38
+      rect:
+        serializedVersion: 2
+        x: 1954
+        y: 666
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf57ed9fe88ec30c0800000000000000
+      internalID: -4594541819049642501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vortex_6x5_39
+      rect:
+        serializedVersion: 2
+        x: 1954
+        y: 652
+        width: 23
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 528adc69364813980800000000000000
+      internalID: -8560915853387913179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vortex_6x5_40
+      rect:
+        serializedVersion: 2
+        x: 1843
+        y: 628
+        width: 43
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a77d64ff26dd2ee0800000000000000
+      internalID: -1284134817278101594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vortex_6x5_41
+      rect:
+        serializedVersion: 2
+        x: 1869
+        y: 649
+        width: 20
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a956a6739a8b3de0800000000000000
+      internalID: -1352334897139263069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vortex_6x5_42
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 643
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d34a35dd84dc1fe0800000000000000
+      internalID: -1216864093664033834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vortex_6x5_43
+      rect:
+        serializedVersion: 2
+        x: 2338
+        y: 637
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0e4ba887fd861b30800000000000000
+      internalID: 4257746592014749198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vortex_6x5_44
+      rect:
+        serializedVersion: 2
+        x: 1867
+        y: 641
+        width: 20
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fde3064c7abd2d650800000000000000
+      internalID: 6256304345971703519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vortex_6x5_45
+      rect:
+        serializedVersion: 2
+        x: 1949
+        y: 631
+        width: 34
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 888f53546ccdd9e90800000000000000
+      internalID: -7017209900250564472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vortex_6x5_46
+      rect:
+        serializedVersion: 2
+        x: 1959
+        y: 641
+        width: 21
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 183d63746d63c9b40800000000000000
+      internalID: 5448289943157134209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vortex_6x5_47
+      rect:
+        serializedVersion: 2
+        x: 1867
+        y: 614
+        width: 29
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 974ae6453bee46870800000000000000
+      internalID: 8675321236205511801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vortex_6x5_48
+      rect:
+        serializedVersion: 2
+        x: 1893
+        y: 634
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43d3b12deabad1940800000000000000
+      internalID: 5268555906431008052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vortex_6x5_49
+      rect:
+        serializedVersion: 2
+        x: 1960
+        y: 630
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05160924aa00dd640800000000000000
+      internalID: 5106238283769209168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vortex_6x5_50
+      rect:
+        serializedVersion: 2
+        x: 1832
+        y: 623
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aadbc91c25eb28e0800000000000000
+      internalID: -1717026855337600349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vortex_6x5_51
+      rect:
+        serializedVersion: 2
+        x: 1869
+        y: 547
+        width: 38
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8418c7c51509d4fe0800000000000000
+      internalID: -1203146846319640248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vortex_6x5_52
+      rect:
+        serializedVersion: 2
+        x: 1946
+        y: 602
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f791c95d758f9f3b0800000000000000
+      internalID: -5478074415589877377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vortex_6x5_53
+      rect:
+        serializedVersion: 2
+        x: 1950
+        y: 599
+        width: 55
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b37e4aa60fa3a6f0800000000000000
+      internalID: -674503076013509711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vortex_6x5_54
+      rect:
+        serializedVersion: 2
+        x: 1980
+        y: 617
+        width: 47
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a83208e1af75d7f90800000000000000
+      internalID: -6954305517825023094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vortex_6x5_55
+      rect:
+        serializedVersion: 2
+        x: 1854
+        y: 597
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b8d9f924e3f3c390800000000000000
+      internalID: -7799121968393234255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vortex_6x5_56
+      rect:
+        serializedVersion: 2
+        x: 1896
+        y: 580
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a14d8e031f49a0300800000000000000
+      internalID: 219151295509484570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vortex_6x5_57
+      rect:
+        serializedVersion: 2
+        x: 1907
+        y: 581
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b82067d4056d33cc0800000000000000
+      internalID: -3732404025774701941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vortex_6x5_58
+      rect:
+        serializedVersion: 2
+        x: 1914
+        y: 541
+        width: 30
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54cea7e0085f83430800000000000000
+      internalID: 3763027419015605317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vortex_6x5_59
+      rect:
+        serializedVersion: 2
+        x: 1919
+        y: 594
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 883d096fd0d49b260800000000000000
+      internalID: 7113801808775009160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vortex_6x5_60
+      rect:
+        serializedVersion: 2
+        x: 1939
+        y: 595
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8070114815424a70800000000000000
+      internalID: 8809679791563239567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vortex_6x5_61
+      rect:
+        serializedVersion: 2
+        x: 1949
+        y: 593
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adc33e735ce65adb0800000000000000
+      internalID: -4781293636058661670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vortex_6x5_62
+      rect:
+        serializedVersion: 2
+        x: 1940
+        y: 548
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d58340c03d650770800000000000000
+      internalID: 8576381121548486096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vortex_6x5_63
+      rect:
+        serializedVersion: 2
+        x: 1955
+        y: 553
+        width: 56
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b67969f6bdb53020800000000000000
+      internalID: 2320969776545494704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      vortex_6x5_0: 6388011322524113427
+      vortex_6x5_1: -6813169308204313419
+      vortex_6x5_10: -5445702664935184928
+      vortex_6x5_11: -2439986487170087921
+      vortex_6x5_12: 891897948919479479
+      vortex_6x5_13: 667380886623853294
+      vortex_6x5_14: 343727723395226963
+      vortex_6x5_15: -2529082133071193784
+      vortex_6x5_16: 2535150838010327931
+      vortex_6x5_17: 5302857846500810582
+      vortex_6x5_18: -5363356411073830093
+      vortex_6x5_19: 715078067589198835
+      vortex_6x5_2: 7852866499314629225
+      vortex_6x5_20: -3185048479399263124
+      vortex_6x5_21: -4287383882031842109
+      vortex_6x5_22: -7502399558090388823
+      vortex_6x5_23: -96298175331564155
+      vortex_6x5_24: -438347494626552708
+      vortex_6x5_25: 8943172711970475122
+      vortex_6x5_26: 1560746225123104256
+      vortex_6x5_27: 6657652317531075180
+      vortex_6x5_28: 2018988951132713086
+      vortex_6x5_29: 8185318062994335634
+      vortex_6x5_3: 7973775982429336017
+      vortex_6x5_30: 8189663312965661917
+      vortex_6x5_31: -8554363318672100078
+      vortex_6x5_32: 3786354379098970943
+      vortex_6x5_33: 8515867863107437970
+      vortex_6x5_34: -8117290066917778262
+      vortex_6x5_35: 3197426618008278256
+      vortex_6x5_36: 8960082887124929888
+      vortex_6x5_37: -6860177732680930816
+      vortex_6x5_38: -4594541819049642501
+      vortex_6x5_39: -8560915853387913179
+      vortex_6x5_4: -1541167455366116811
+      vortex_6x5_40: -1284134817278101594
+      vortex_6x5_41: -1352334897139263069
+      vortex_6x5_42: -1216864093664033834
+      vortex_6x5_43: 4257746592014749198
+      vortex_6x5_44: 6256304345971703519
+      vortex_6x5_45: -7017209900250564472
+      vortex_6x5_46: 5448289943157134209
+      vortex_6x5_47: 8675321236205511801
+      vortex_6x5_48: 5268555906431008052
+      vortex_6x5_49: 5106238283769209168
+      vortex_6x5_5: 5996517683742808225
+      vortex_6x5_50: -1717026855337600349
+      vortex_6x5_51: -1203146846319640248
+      vortex_6x5_52: -5478074415589877377
+      vortex_6x5_53: -674503076013509711
+      vortex_6x5_54: -6954305517825023094
+      vortex_6x5_55: -7799121968393234255
+      vortex_6x5_56: 219151295509484570
+      vortex_6x5_57: -3732404025774701941
+      vortex_6x5_58: 3763027419015605317
+      vortex_6x5_59: 7113801808775009160
+      vortex_6x5_6: 6966071352223537821
+      vortex_6x5_60: 8809679791563239567
+      vortex_6x5_61: -4781293636058661670
+      vortex_6x5_62: 8576381121548486096
+      vortex_6x5_63: 2320969776545494704
+      vortex_6x5_7: 3022917882320712260
+      vortex_6x5_8: -5962649090087480040
+      vortex_6x5_9: -3653801272843658823
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

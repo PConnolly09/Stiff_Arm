@@ -6,7 +6,6 @@ public class MinionEnemy : EnemyAI
     [Header("Minion Jump")]
     public float jumpForce = 12f;
     public float jumpCooldown = 2f;
-    private readonly float _jumpTimer;
 
     protected override void Chase()
     {
@@ -14,16 +13,13 @@ public class MinionEnemy : EnemyAI
 
         float xDiff = currentTarget.position.x - transform.position.x;
 
-        // FIX: Don't jitter if we are directly above/below target
+        // Anti-Jitter: Only move if not stacked on top of target
         if (Mathf.Abs(xDiff) > 0.2f)
         {
-            float dir = Mathf.Sign(xDiff);
-            rb.linearVelocity = new Vector2(dir * moveSpeed * 1.2f, rb.linearVelocity.y);
-            if ((dir > 0 && !movingRight) || (dir < 0 && movingRight)) Flip();
+            Move(Mathf.Sign(xDiff), moveSpeed * 1.2f);
         }
         else
         {
-            // Calm down horizontal movement
             rb.linearVelocity = new Vector2(0, rb.linearVelocity.y);
         }
     }
@@ -32,7 +28,6 @@ public class MinionEnemy : EnemyAI
     {
         if (col.gameObject.CompareTag("Player") && !isKnockedBack)
         {
-            // FIX: Replaced null propagation
             if (col.gameObject.TryGetComponent<PlayerController>(out var player))
             {
                 player.AddAttachment(gameObject);

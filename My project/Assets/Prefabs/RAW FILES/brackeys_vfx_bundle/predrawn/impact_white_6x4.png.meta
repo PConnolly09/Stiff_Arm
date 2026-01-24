@@ -1,0 +1,2171 @@
+fileFormatVersion: 2
+guid: 3176bfecc6797674c8f262bc3d0da11d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8942295954974873776
+    second: impact_white_6x4_0
+  - first:
+      213: 5776157418671107825
+    second: impact_white_6x4_1
+  - first:
+      213: -3686269490716212128
+    second: impact_white_6x4_2
+  - first:
+      213: -5061723483202417639
+    second: impact_white_6x4_3
+  - first:
+      213: 3362653452843151625
+    second: impact_white_6x4_4
+  - first:
+      213: 3243722557266555031
+    second: impact_white_6x4_5
+  - first:
+      213: 8825527848429672361
+    second: impact_white_6x4_6
+  - first:
+      213: -9030174083028376518
+    second: impact_white_6x4_7
+  - first:
+      213: 2114479308044995906
+    second: impact_white_6x4_8
+  - first:
+      213: 5158553888192445677
+    second: impact_white_6x4_9
+  - first:
+      213: -4763308993630572900
+    second: impact_white_6x4_10
+  - first:
+      213: 8906804026904491724
+    second: impact_white_6x4_11
+  - first:
+      213: 1971949653949872824
+    second: impact_white_6x4_12
+  - first:
+      213: 5668043444607941890
+    second: impact_white_6x4_13
+  - first:
+      213: -6785608390808689942
+    second: impact_white_6x4_14
+  - first:
+      213: 7960996476066835654
+    second: impact_white_6x4_15
+  - first:
+      213: -8936360806777126394
+    second: impact_white_6x4_16
+  - first:
+      213: 2289171396592531260
+    second: impact_white_6x4_17
+  - first:
+      213: -1325947218117009379
+    second: impact_white_6x4_18
+  - first:
+      213: -8785894025503719120
+    second: impact_white_6x4_19
+  - first:
+      213: 1134939616904954214
+    second: impact_white_6x4_20
+  - first:
+      213: -8174507804744892898
+    second: impact_white_6x4_21
+  - first:
+      213: 3620386409032457747
+    second: impact_white_6x4_22
+  - first:
+      213: -4439077044379431237
+    second: impact_white_6x4_23
+  - first:
+      213: 723793156231044037
+    second: impact_white_6x4_24
+  - first:
+      213: 7049289432050865800
+    second: impact_white_6x4_25
+  - first:
+      213: 2247838830807382638
+    second: impact_white_6x4_26
+  - first:
+      213: -828728909690532070
+    second: impact_white_6x4_27
+  - first:
+      213: 6299109994055483191
+    second: impact_white_6x4_28
+  - first:
+      213: -5908197543490134214
+    second: impact_white_6x4_29
+  - first:
+      213: -6910109096355867232
+    second: impact_white_6x4_30
+  - first:
+      213: 6555321121602314875
+    second: impact_white_6x4_31
+  - first:
+      213: -1707921425364870097
+    second: impact_white_6x4_32
+  - first:
+      213: -6692047603600935709
+    second: impact_white_6x4_33
+  - first:
+      213: 5847903891535106431
+    second: impact_white_6x4_34
+  - first:
+      213: -8820360418626331115
+    second: impact_white_6x4_35
+  - first:
+      213: -432060472456408810
+    second: impact_white_6x4_36
+  - first:
+      213: 7595447315442331084
+    second: impact_white_6x4_37
+  - first:
+      213: -4561427559023926864
+    second: impact_white_6x4_38
+  - first:
+      213: -8474055980089267602
+    second: impact_white_6x4_39
+  - first:
+      213: 7867286369198408951
+    second: impact_white_6x4_40
+  - first:
+      213: -2461186827537042200
+    second: impact_white_6x4_41
+  - first:
+      213: 2404197687290293222
+    second: impact_white_6x4_42
+  - first:
+      213: -3239141397264034982
+    second: impact_white_6x4_43
+  - first:
+      213: -3072169666842554641
+    second: impact_white_6x4_44
+  - first:
+      213: -8648829041256569172
+    second: impact_white_6x4_45
+  - first:
+      213: -6157624410907445769
+    second: impact_white_6x4_46
+  - first:
+      213: -7091500184219676970
+    second: impact_white_6x4_47
+  - first:
+      213: 2454090241871761900
+    second: impact_white_6x4_48
+  - first:
+      213: -5010330522423125305
+    second: impact_white_6x4_49
+  - first:
+      213: 4685531994707466869
+    second: impact_white_6x4_50
+  - first:
+      213: 2021606075948539276
+    second: impact_white_6x4_51
+  - first:
+      213: -7383716849074624609
+    second: impact_white_6x4_52
+  - first:
+      213: -7566144490181965580
+    second: impact_white_6x4_53
+  - first:
+      213: 4569542821442478468
+    second: impact_white_6x4_54
+  - first:
+      213: 7964887200461305963
+    second: impact_white_6x4_55
+  - first:
+      213: -2118609367110995410
+    second: impact_white_6x4_56
+  - first:
+      213: 2825189701598227339
+    second: impact_white_6x4_57
+  - first:
+      213: 7390208324705513825
+    second: impact_white_6x4_58
+  - first:
+      213: 1724922493278180785
+    second: impact_white_6x4_59
+  - first:
+      213: -3414813812269813458
+    second: impact_white_6x4_60
+  - first:
+      213: 46094695015901438
+    second: impact_white_6x4_61
+  - first:
+      213: -1716597151261864575
+    second: impact_white_6x4_62
+  - first:
+      213: -7105514862043367612
+    second: impact_white_6x4_63
+  - first:
+      213: -6020918571316323039
+    second: impact_white_6x4_64
+  - first:
+      213: 346620591851665669
+    second: impact_white_6x4_65
+  - first:
+      213: -2378426922627050470
+    second: impact_white_6x4_66
+  - first:
+      213: 6238599678239304572
+    second: impact_white_6x4_67
+  - first:
+      213: -7368229793012762139
+    second: impact_white_6x4_68
+  - first:
+      213: 7887047018220620591
+    second: impact_white_6x4_69
+  - first:
+      213: -3426859803948265771
+    second: impact_white_6x4_70
+  - first:
+      213: 4192361164790260607
+    second: impact_white_6x4_71
+  - first:
+      213: -5866879810918513479
+    second: impact_white_6x4_72
+  - first:
+      213: -73319952386507512
+    second: impact_white_6x4_73
+  - first:
+      213: -1470507125029748796
+    second: impact_white_6x4_74
+  - first:
+      213: 7331726877920737289
+    second: impact_white_6x4_75
+  - first:
+      213: -1999329451361968200
+    second: impact_white_6x4_76
+  - first:
+      213: 8038084172543638026
+    second: impact_white_6x4_77
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: impact_white_6x4_0
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 1238
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b890b0faca691c70800000000000000
+      internalID: 8942295954974873776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impact_white_6x4_1
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 1289
+        width: 198
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fee0a2a198092050800000000000000
+      internalID: 5776157418671107825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impact_white_6x4_2
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 1290
+        width: 217
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 064008bcd6db7dcc0800000000000000
+      internalID: -3686269490716212128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impact_white_6x4_3
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 1286
+        width: 230
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91c87786f4521c9b0800000000000000
+      internalID: -5061723483202417639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impact_white_6x4_4
+      rect:
+        serializedVersion: 2
+        x: 1541
+        y: 1293
+        width: 109
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 901f47fcf7b8aae20800000000000000
+      internalID: 3362653452843151625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impact_white_6x4_5
+      rect:
+        serializedVersion: 2
+        x: 1571
+        y: 1361
+        width: 36
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7907bc7da74040d20800000000000000
+      internalID: 3243722557266555031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impact_white_6x4_6
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 1344
+        width: 94
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a7d7f881d29a7a70800000000000000
+      internalID: 8825527848429672361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impact_white_6x4_7
+      rect:
+        serializedVersion: 2
+        x: 1644
+        y: 1384
+        width: 54
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a34a721f3806ea280800000000000000
+      internalID: -9030174083028376518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impact_white_6x4_8
+      rect:
+        serializedVersion: 2
+        x: 1513
+        y: 1337
+        width: 87
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24d8fe84ab3285d10800000000000000
+      internalID: 2114479308044995906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impact_white_6x4_9
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 1324
+        width: 114
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: decbb6c1e6dd69740800000000000000
+      internalID: 5158553888192445677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impact_white_6x4_10
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 1323
+        width: 104
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9ee93715b355edb0800000000000000
+      internalID: -4763308993630572900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impact_white_6x4_11
+      rect:
+        serializedVersion: 2
+        x: 1635
+        y: 1300
+        width: 84
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc639ab72135b9b70800000000000000
+      internalID: 8906804026904491724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impact_white_6x4_12
+      rect:
+        serializedVersion: 2
+        x: 1475
+        y: 1282
+        width: 98
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8baf2ae23c5cd5b10800000000000000
+      internalID: 1971949653949872824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impact_white_6x4_13
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 1101
+        width: 49
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20d76577b7fe8ae40800000000000000
+      internalID: 5668043444607941890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impact_white_6x4_14
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 1088
+        width: 30
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae220f8ce1da4d1a0800000000000000
+      internalID: -6785608390808689942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impact_white_6x4_15
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1118
+        width: 43
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cca916ad142b7e60800000000000000
+      internalID: 7960996476066835654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impact_white_6x4_16
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 1098
+        width: 26
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 602835f613babf380800000000000000
+      internalID: -8936360806777126394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impact_white_6x4_17
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 1132
+        width: 38
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c37f1e3b145c4cf10800000000000000
+      internalID: 2289171396592531260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impact_white_6x4_18
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 1107
+        width: 22
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d10e731c70a499de0800000000000000
+      internalID: -1325947218117009379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impact_white_6x4_19
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 1145
+        width: 33
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 031cf97feeb321680800000000000000
+      internalID: -8785894025503719120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impact_white_6x4_20
+      rect:
+        serializedVersion: 2
+        x: 1395
+        y: 1156
+        width: 27
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6614323819d10cf00800000000000000
+      internalID: 1134939616904954214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impact_white_6x4_21
+      rect:
+        serializedVersion: 2
+        x: 1691
+        y: 1165
+        width: 22
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1eb58446705e8e80800000000000000
+      internalID: -8174507804744892898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impact_white_6x4_22
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 1075
+        width: 34
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31e1804e1423e3230800000000000000
+      internalID: 3620386409032457747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impact_white_6x4_23
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 1056
+        width: 87
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbe4c2782fa3562c0800000000000000
+      internalID: -4439077044379431237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impact_white_6x4_24
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 1068
+        width: 79
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cb92007a0e6b0a00800000000000000
+      internalID: 723793156231044037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impact_white_6x4_25
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 1080
+        width: 69
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8869e44c36b14d160800000000000000
+      internalID: 7049289432050865800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impact_white_6x4_26
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 1091
+        width: 58
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6a7a9ec18de13f10800000000000000
+      internalID: 2247838830807382638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impact_white_6x4_27
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 1113
+        width: 19
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1f8cca8273cf74f0800000000000000
+      internalID: -828728909690532070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impact_white_6x4_28
+      rect:
+        serializedVersion: 2
+        x: 1392
+        y: 1104
+        width: 44
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73f3acc5a2fea6750800000000000000
+      internalID: 6299109994055483191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impact_white_6x4_29
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 1118
+        width: 15
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3f5f6d13add10ea0800000000000000
+      internalID: -5908197543490134214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impact_white_6x4_30
+      rect:
+        serializedVersion: 2
+        x: 1607
+        y: 992
+        width: 134
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a55380636c5a10a0800000000000000
+      internalID: -6910109096355867232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impact_white_6x4_31
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 1069
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b72a8b914dd29fa50800000000000000
+      internalID: 6555321121602314875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impact_white_6x4_32
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 1034
+        width: 35
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2c19d8338e3c48e0800000000000000
+      internalID: -1707921425364870097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impact_white_6x4_33
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 1074
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e4bc5719221123a0800000000000000
+      internalID: -6692047603600935709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impact_white_6x4_34
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 1044
+        width: 29
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7113971b9de72150800000000000000
+      internalID: 5847903891535106431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impact_white_6x4_35
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 1078
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51e9cd87ee8c79580800000000000000
+      internalID: -8820360418626331115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impact_white_6x4_36
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 1080
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6119fb91a43010af0800000000000000
+      internalID: -432060472456408810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impact_white_6x4_37
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 1054
+        width: 23
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccd622b4713786960800000000000000
+      internalID: 7595447315442331084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impact_white_6x4_38
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 1064
+        width: 67
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b1a3b37dcd82b0c0800000000000000
+      internalID: -4561427559023926864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impact_white_6x4_39
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 1065
+        width: 66
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6a210ccbfa166a80800000000000000
+      internalID: -8474055980089267602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impact_white_6x4_40
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 1071
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f4085625473e2d60800000000000000
+      internalID: 7867286369198408951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impact_white_6x4_41
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1055
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e4b8cace9b18ddd0800000000000000
+      internalID: -2461186827537042200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impact_white_6x4_42
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 1058
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ebe0c00f0d6d5120800000000000000
+      internalID: 2404197687290293222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impact_white_6x4_43
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 1048
+        width: 47
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5390d69f024c03d0800000000000000
+      internalID: -3239141397264034982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impact_white_6x4_44
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 1061
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fee8e1e07f57d55d0800000000000000
+      internalID: -3072169666842554641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impact_white_6x4_45
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 1052
+        width: 33
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca6e1d87fcf29f780800000000000000
+      internalID: -8648829041256569172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impact_white_6x4_46
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 1056
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f576970939bb8aa0800000000000000
+      internalID: -6157624410907445769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impact_white_6x4_47
+      rect:
+        serializedVersion: 2
+        x: 1459
+        y: 976
+        width: 90
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6de08f2a72ee59d90800000000000000
+      internalID: -7091500184219676970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impact_white_6x4_48
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 1041
+        width: 73
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce1d489921eae0220800000000000000
+      internalID: 2454090241871761900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impact_white_6x4_49
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 1045
+        width: 60
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ca1cab8feab77ab0800000000000000
+      internalID: -5010330522423125305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impact_white_6x4_50
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1022
+        width: 93
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57a1440368a560140800000000000000
+      internalID: 4685531994707466869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impact_white_6x4_51
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 992
+        width: 66
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8d1fa0e3003e0c10800000000000000
+      internalID: 2021606075948539276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impact_white_6x4_52
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 998
+        width: 72
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9727d875a4c78990800000000000000
+      internalID: -7383716849074624609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impact_white_6x4_53
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 1022
+        width: 83
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f8cc6f5ca7aff690800000000000000
+      internalID: -7566144490181965580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impact_white_6x4_54
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 992
+        width: 54
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 481e3025cf64a6f30800000000000000
+      internalID: 4569542821442478468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impact_white_6x4_55
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 1022
+        width: 73
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b683d8385b6f88e60800000000000000
+      internalID: 7964887200461305963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impact_white_6x4_56
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 1022
+        width: 62
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e22b88761003992e0800000000000000
+      internalID: -2118609367110995410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impact_white_6x4_57
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 1022
+        width: 51
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8baadaa017153720800000000000000
+      internalID: 2825189701598227339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impact_white_6x4_58
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 979
+        width: 89
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 161f43af05b4f8660800000000000000
+      internalID: 7390208324705513825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impact_white_6x4_59
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 977
+        width: 79
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b55dec5ed720f710800000000000000
+      internalID: 1724922493278180785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impact_white_6x4_60
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 996
+        width: 58
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e217f812ee42c90d0800000000000000
+      internalID: -3414813812269813458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impact_white_6x4_61
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 976
+        width: 69
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef8e37281e2c3a000800000000000000
+      internalID: 46094695015901438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impact_white_6x4_62
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 993
+        width: 41
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18dc6906cfb6d28e0800000000000000
+      internalID: -1716597151261864575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impact_white_6x4_63
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 832
+        width: 229
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44775ad21e3246d90800000000000000
+      internalID: -7105514862043367612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impact_white_6x4_64
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 995
+        width: 45
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12d5327a576617ca0800000000000000
+      internalID: -6020918571316323039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impact_white_6x4_65
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 993
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 509772187917fc400800000000000000
+      internalID: 346620591851665669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impact_white_6x4_66
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 994
+        width: 32
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a14d698b0512efed0800000000000000
+      internalID: -2378426922627050470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impact_white_6x4_67
+      rect:
+        serializedVersion: 2
+        x: 1253
+        y: 994
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7be1559a55f39650800000000000000
+      internalID: 6238599678239304572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impact_white_6x4_68
+      rect:
+        serializedVersion: 2
+        x: 1429
+        y: 993
+        width: 19
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e93604ba0aceb990800000000000000
+      internalID: -7368229793012762139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impact_white_6x4_69
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 975
+        width: 48
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2b08d7c97b647d60800000000000000
+      internalID: 7887047018220620591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impact_white_6x4_70
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 873
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5de49922a295170d0800000000000000
+      internalID: -3426859803948265771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impact_white_6x4_71
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 878
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f73677d64424e2a30800000000000000
+      internalID: 4192361164790260607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impact_white_6x4_72
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 823
+        width: 11
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b48a4265e7a49ea0800000000000000
+      internalID: -5866879810918513479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impact_white_6x4_73
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 815
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80dbd0b44e38bfef0800000000000000
+      internalID: -73319952386507512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impact_white_6x4_74
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 829
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cfbbe49f85b79be0800000000000000
+      internalID: -1470507125029748796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impact_white_6x4_75
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 681
+        width: 74
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90836a410c68fb560800000000000000
+      internalID: 7331726877920737289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impact_white_6x4_76
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 677
+        width: 31
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bfd796f474f044e0800000000000000
+      internalID: -1999329451361968200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impact_white_6x4_77
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 679
+        width: 21
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0a3723a7f20d8f60800000000000000
+      internalID: 8038084172543638026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      impact_white_6x4_0: 8942295954974873776
+      impact_white_6x4_1: 5776157418671107825
+      impact_white_6x4_10: -4763308993630572900
+      impact_white_6x4_11: 8906804026904491724
+      impact_white_6x4_12: 1971949653949872824
+      impact_white_6x4_13: 5668043444607941890
+      impact_white_6x4_14: -6785608390808689942
+      impact_white_6x4_15: 7960996476066835654
+      impact_white_6x4_16: -8936360806777126394
+      impact_white_6x4_17: 2289171396592531260
+      impact_white_6x4_18: -1325947218117009379
+      impact_white_6x4_19: -8785894025503719120
+      impact_white_6x4_2: -3686269490716212128
+      impact_white_6x4_20: 1134939616904954214
+      impact_white_6x4_21: -8174507804744892898
+      impact_white_6x4_22: 3620386409032457747
+      impact_white_6x4_23: -4439077044379431237
+      impact_white_6x4_24: 723793156231044037
+      impact_white_6x4_25: 7049289432050865800
+      impact_white_6x4_26: 2247838830807382638
+      impact_white_6x4_27: -828728909690532070
+      impact_white_6x4_28: 6299109994055483191
+      impact_white_6x4_29: -5908197543490134214
+      impact_white_6x4_3: -5061723483202417639
+      impact_white_6x4_30: -6910109096355867232
+      impact_white_6x4_31: 6555321121602314875
+      impact_white_6x4_32: -1707921425364870097
+      impact_white_6x4_33: -6692047603600935709
+      impact_white_6x4_34: 5847903891535106431
+      impact_white_6x4_35: -8820360418626331115
+      impact_white_6x4_36: -432060472456408810
+      impact_white_6x4_37: 7595447315442331084
+      impact_white_6x4_38: -4561427559023926864
+      impact_white_6x4_39: -8474055980089267602
+      impact_white_6x4_4: 3362653452843151625
+      impact_white_6x4_40: 7867286369198408951
+      impact_white_6x4_41: -2461186827537042200
+      impact_white_6x4_42: 2404197687290293222
+      impact_white_6x4_43: -3239141397264034982
+      impact_white_6x4_44: -3072169666842554641
+      impact_white_6x4_45: -8648829041256569172
+      impact_white_6x4_46: -6157624410907445769
+      impact_white_6x4_47: -7091500184219676970
+      impact_white_6x4_48: 2454090241871761900
+      impact_white_6x4_49: -5010330522423125305
+      impact_white_6x4_5: 3243722557266555031
+      impact_white_6x4_50: 4685531994707466869
+      impact_white_6x4_51: 2021606075948539276
+      impact_white_6x4_52: -7383716849074624609
+      impact_white_6x4_53: -7566144490181965580
+      impact_white_6x4_54: 4569542821442478468
+      impact_white_6x4_55: 7964887200461305963
+      impact_white_6x4_56: -2118609367110995410
+      impact_white_6x4_57: 2825189701598227339
+      impact_white_6x4_58: 7390208324705513825
+      impact_white_6x4_59: 1724922493278180785
+      impact_white_6x4_6: 8825527848429672361
+      impact_white_6x4_60: -3414813812269813458
+      impact_white_6x4_61: 46094695015901438
+      impact_white_6x4_62: -1716597151261864575
+      impact_white_6x4_63: -7105514862043367612
+      impact_white_6x4_64: -6020918571316323039
+      impact_white_6x4_65: 346620591851665669
+      impact_white_6x4_66: -2378426922627050470
+      impact_white_6x4_67: 6238599678239304572
+      impact_white_6x4_68: -7368229793012762139
+      impact_white_6x4_69: 7887047018220620591
+      impact_white_6x4_7: -9030174083028376518
+      impact_white_6x4_70: -3426859803948265771
+      impact_white_6x4_71: 4192361164790260607
+      impact_white_6x4_72: -5866879810918513479
+      impact_white_6x4_73: -73319952386507512
+      impact_white_6x4_74: -1470507125029748796
+      impact_white_6x4_75: 7331726877920737289
+      impact_white_6x4_76: -1999329451361968200
+      impact_white_6x4_77: 8038084172543638026
+      impact_white_6x4_8: 2114479308044995906
+      impact_white_6x4_9: 5158553888192445677
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

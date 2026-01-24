@@ -4,56 +4,73 @@ using System.Collections;
 public class BruteEnemy : EnemyAI
 {
     [Header("Tackle")]
-    public float tackleRange = 5f;
-    public float tackleForce = 18f;
+    public float tackleRange = 6f;
+    public float tackleForce = 22f;
+    public float tackleCooldown = 4f;
+
     private bool canTackle = true;
-    private bool isRetreating = false;
+    private bool isTackling = false; // Is currently mid-lunge
+    private bool isRecovering = false; // Is walking away
 
     protected override void ResetState()
     {
         canTackle = true;
-        isRetreating = false;
+        isTackling = false;
+        isRecovering = false;
+        StopAllCoroutines();
     }
 
     protected override void Chase()
     {
-        if (currentTarget == null) return;
+        if (currentTarget == null || isTackling) return;
 
-        // Retreat Logic
-        if (isRetreating)
+        // 1. Recovery Phase (Walk away)
+        if (isRecovering)
         {
             float dir = (transform.position.x > currentTarget.position.x) ? 1 : -1;
-            rb.linearVelocity = new Vector2(dir * moveSpeed * 0.8f, rb.linearVelocity.y);
+            Move(dir, moveSpeed * 0.5f);
             return;
         }
 
         float dist = Vector2.Distance(transform.position, currentTarget.position);
 
+        // 2. Tackle Phase
         if (canTackle && dist < tackleRange)
         {
-            StartCoroutine(Tackle());
+            StartCoroutine(TackleSequence());
         }
-        else if (canTackle)
+        // 3. Approach Phase
+        else
         {
-            float dir = currentTarget.position.x > transform.position.x ? 1 : -1;
-            rb.linearVelocity = new Vector2(dir * moveSpeed * 0.8f, rb.linearVelocity.y);
-            if ((dir > 0 && !movingRight) || (dir < 0 && movingRight)) Flip();
+            float dir = Mathf.Sign(currentTarget.position.x - transform.position.x);
+            Move(dir, moveSpeed * 0.8f);
         }
     }
 
-    private IEnumerator Tackle()
+    private IEnumerator TackleSequence()
     {
         canTackle = false;
-        rb.linearVelocity = Vector2.zero; // Wind up
-        yield return new WaitForSeconds(0.4f);
+        isTackling = true;
 
+        // WIND UP (Stop and telegraph)
+        rb.linearVelocity = Vector2.zero;
+        if (EffectManager.Instance) EffectManager.Instance.TackleTelegraph(transform, 0.5f);
+        yield return new WaitForSeconds(0.5f);
+
+        // LUNGE
         if (currentTarget != null)
         {
-            float dir = currentTarget.position.x > transform.position.x ? 1 : -1;
-            rb.linearVelocity = new Vector2(dir * tackleForce, 1f);
+            float dir = Mathf.Sign(currentTarget.position.x - transform.position.x);
+            rb.linearVelocity = new Vector2(dir * tackleForce, 2f); // 2f Y gives a slight hop so he doesn't snag on floor
         }
 
-        yield return new WaitForSeconds(1.5f);
+        yield return new WaitForSeconds(1.0f); // Duration of the dangerous lunge
+
+        // RECOVERY
+        isTackling = false;
+        isRecovering = true;
+        yield return new WaitForSeconds(tackleCooldown);
+        isRecovering = false;
         canTackle = true;
     }
 
@@ -63,17 +80,24 @@ public class BruteEnemy : EnemyAI
         {
             if (col.gameObject.TryGetComponent<PlayerController>(out var player))
             {
-                player.SetProne(1.0f);
-                StartCoroutine(RetreatRoutine());
+                // If we hit the player, smash them
+                player.SetProne(1.2f);
+                // Force enter recovery immediately so we don't stand on them
+                if (isTackling)
+                {
+                    isTackling = false;
+                    isRecovering = true;
+                    StartCoroutine(ManualRecoveryRoutine());
+                }
             }
         }
         base.OnCollisionEnter2D(col);
     }
 
-    private IEnumerator RetreatRoutine()
+    private IEnumerator ManualRecoveryRoutine()
     {
-        isRetreating = true;
-        yield return new WaitForSeconds(2.0f);
-        isRetreating = false;
+        yield return new WaitForSeconds(tackleCooldown);
+        isRecovering = false;
+        canTackle = true;
     }
 }

@@ -203,11 +203,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InterceptorEnemy
   moveSpeed: 3
-  detectionRange: 8
+  detectionRange: 4
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 4160
-  bloodSplatterPrefab: {fileID: 2225019445086027189, guid: 13ae96f4aa80dd7499eaf9839f9d01e9, type: 3}
+  bloodSplatterPrefab: {fileID: 3014499473695280536, guid: e9a4aa100c6d8f84eaf66453ba7ee5f1, type: 3}
+  patrolPoints: []
+  waitAtWaypointTime: 1
   carriesPackage: 0
   packageHoldPoint: {fileID: 9004497419290174659}
   isKnockedBack: 0

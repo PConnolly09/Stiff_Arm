@@ -1,0 +1,1313 @@
+fileFormatVersion: 2
+guid: eadc3f03d67da4d46855545892544d30
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3731738860735193357
+    second: fire_point_6x5_0
+  - first:
+      213: -1936013295761054469
+    second: fire_point_6x5_1
+  - first:
+      213: -8022116319246600553
+    second: fire_point_6x5_2
+  - first:
+      213: 3997669538904838724
+    second: fire_point_6x5_3
+  - first:
+      213: -2758377332529132050
+    second: fire_point_6x5_4
+  - first:
+      213: 1569357131700430288
+    second: fire_point_6x5_5
+  - first:
+      213: 4950187034545871188
+    second: fire_point_6x5_6
+  - first:
+      213: 6928910406878181815
+    second: fire_point_6x5_7
+  - first:
+      213: 7355993333958666092
+    second: fire_point_6x5_8
+  - first:
+      213: 5034133147042659529
+    second: fire_point_6x5_9
+  - first:
+      213: -7349385694849374422
+    second: fire_point_6x5_10
+  - first:
+      213: -8481474043788356990
+    second: fire_point_6x5_11
+  - first:
+      213: 8044590390336890031
+    second: fire_point_6x5_12
+  - first:
+      213: -8746973094174789516
+    second: fire_point_6x5_13
+  - first:
+      213: -9189082918926370348
+    second: fire_point_6x5_14
+  - first:
+      213: -223566743216686037
+    second: fire_point_6x5_15
+  - first:
+      213: -4341949914508337421
+    second: fire_point_6x5_16
+  - first:
+      213: -2374516066655634011
+    second: fire_point_6x5_17
+  - first:
+      213: -7353795154996790443
+    second: fire_point_6x5_18
+  - first:
+      213: 6545652894379103830
+    second: fire_point_6x5_19
+  - first:
+      213: 2857828175858987208
+    second: fire_point_6x5_20
+  - first:
+      213: 88106217807857455
+    second: fire_point_6x5_21
+  - first:
+      213: -7512150968832745863
+    second: fire_point_6x5_22
+  - first:
+      213: -4284603928785919007
+    second: fire_point_6x5_23
+  - first:
+      213: 6800199338090259753
+    second: fire_point_6x5_24
+  - first:
+      213: 4985384478737870349
+    second: fire_point_6x5_25
+  - first:
+      213: -295200212602833732
+    second: fire_point_6x5_26
+  - first:
+      213: 7216471952357589132
+    second: fire_point_6x5_27
+  - first:
+      213: -482652864000209629
+    second: fire_point_6x5_28
+  - first:
+      213: -7051915106724262783
+    second: fire_point_6x5_29
+  - first:
+      213: 1586148007035249613
+    second: fire_point_6x5_30
+  - first:
+      213: 2067426117202743939
+    second: fire_point_6x5_31
+  - first:
+      213: 4746773841808902197
+    second: fire_point_6x5_32
+  - first:
+      213: 6948398316857939036
+    second: fire_point_6x5_33
+  - first:
+      213: 4485226406171728532
+    second: fire_point_6x5_34
+  - first:
+      213: 3716052218537980034
+    second: fire_point_6x5_35
+  - first:
+      213: -4216991087801084738
+    second: fire_point_6x5_36
+  - first:
+      213: -1336771631625520220
+    second: fire_point_6x5_37
+  - first:
+      213: 5383205574075271557
+    second: fire_point_6x5_38
+  - first:
+      213: 5383510369086991417
+    second: fire_point_6x5_39
+  - first:
+      213: -147649958509004576
+    second: fire_point_6x5_40
+  - first:
+      213: 5246726441961692640
+    second: fire_point_6x5_41
+  - first:
+      213: 854212573697353665
+    second: fire_point_6x5_42
+  - first:
+      213: 7560921635451696700
+    second: fire_point_6x5_43
+  - first:
+      213: 2508066014007140496
+    second: fire_point_6x5_44
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: fire_point_6x5_0
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 798
+        width: 118
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0164a4e8bcc9c330800000000000000
+      internalID: 3731738860735193357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_point_6x5_1
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 794
+        width: 122
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf4aab93a26e125e0800000000000000
+      internalID: -1936013295761054469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_point_6x5_2
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 946
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 796317ce5b7bba090800000000000000
+      internalID: -8022116319246600553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_point_6x5_3
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 790
+        width: 150
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44292dbd3439a7730800000000000000
+      internalID: 3997669538904838724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_point_6x5_4
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 802
+        width: 146
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eed8c1a3e6648b9d0800000000000000
+      internalID: -2758377332529132050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_point_6x5_5
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 802
+        width: 122
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d5eab81ff977c510800000000000000
+      internalID: 1569357131700430288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_point_6x5_6
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 874
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 459d9d571e892b440800000000000000
+      internalID: 4950187034545871188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_point_6x5_7
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 790
+        width: 130
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b93b7add4f682060800000000000000
+      internalID: 6928910406878181815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_point_6x5_8
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 798
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c676fb8a6fcb51660800000000000000
+      internalID: 7355993333958666092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_point_6x5_9
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 605
+        width: 138
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cc3f7ddc65dcd540800000000000000
+      internalID: 5034133147042659529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_point_6x5_10
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 601
+        width: 130
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a276a2536acb10a90800000000000000
+      internalID: -7349385694849374422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_point_6x5_11
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 601
+        width: 138
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2829c404b40cb4a80800000000000000
+      internalID: -8481474043788356990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_point_6x5_12
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 745
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa42d83865024af60800000000000000
+      internalID: 8044590390336890031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_point_6x5_13
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 605
+        width: 122
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 470ffc570528c9680800000000000000
+      internalID: -8746973094174789516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_point_6x5_14
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 601
+        width: 138
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d9b8c565c1d97080800000000000000
+      internalID: -9189082918926370348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_point_6x5_15
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 601
+        width: 142
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2c7af64b3bb5ecf0800000000000000
+      internalID: -223566743216686037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_point_6x5_16
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 713
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fe5131be8b4eb3c0800000000000000
+      internalID: -4341949914508337421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_point_6x5_17
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 653
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ad7885d7360c0fd0800000000000000
+      internalID: -2374516066655634011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_point_6x5_18
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 609
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55b7d63c44212f990800000000000000
+      internalID: -7353795154996790443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_point_6x5_19
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 408
+        width: 138
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 656597880a4d6da50800000000000000
+      internalID: 6545652894379103830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_point_6x5_20
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 400
+        width: 130
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c07d23a59b09a720800000000000000
+      internalID: 2857828175858987208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_point_6x5_21
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 408
+        width: 142
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f27c0f66324093100800000000000000
+      internalID: 88106217807857455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_point_6x5_22
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 392
+        width: 142
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97e1e93be7a7fb790800000000000000
+      internalID: -7512150968832745863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_point_6x5_23
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 400
+        width: 146
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e3e8757d670a84c0800000000000000
+      internalID: -4284603928785919007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_point_6x5_24
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 416
+        width: 134
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92567bcd4492f5e50800000000000000
+      internalID: 6800199338090259753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_point_6x5_25
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 540
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0eaaeb05c4af2540800000000000000
+      internalID: 4985384478737870349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_point_6x5_26
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 444
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb4303e78fc37ebf0800000000000000
+      internalID: -295200212602833732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_point_6x5_27
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 215
+        width: 138
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8008d3910f062460800000000000000
+      internalID: 7216471952357589132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_point_6x5_28
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 207
+        width: 142
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32d417307c54d49f0800000000000000
+      internalID: -482652864000209629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_point_6x5_29
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 199
+        width: 122
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18c4d75b290922e90800000000000000
+      internalID: -7051915106724262783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_point_6x5_30
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 219
+        width: 134
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc3a7886531230610800000000000000
+      internalID: 1586148007035249613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_point_6x5_31
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 211
+        width: 134
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3821c339919f0bc10800000000000000
+      internalID: 2067426117202743939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_point_6x5_32
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 279
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 538c22ed8adefd140800000000000000
+      internalID: 4746773841808902197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_point_6x5_33
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 211
+        width: 150
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c545d3a747bad6060800000000000000
+      internalID: 6948398316857939036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_point_6x5_34
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 255
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49a511517a9be3e30800000000000000
+      internalID: 4485226406171728532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_point_6x5_35
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 50
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28032c4edc1129330800000000000000
+      internalID: 3716052218537980034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_point_6x5_36
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 10
+        width: 122
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb4d0aeb2fc3a75c0800000000000000
+      internalID: -4216991087801084738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_point_6x5_37
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 50
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ab34279845d27de0800000000000000
+      internalID: -1336771631625520220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_point_6x5_38
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 22
+        width: 126
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 589c8abb2fcf4ba40800000000000000
+      internalID: 5383205574075271557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_point_6x5_39
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 14
+        width: 142
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93cef0a582216ba40800000000000000
+      internalID: 5383510369086991417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_point_6x5_40
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 10
+        width: 146
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e838ff152173fdf0800000000000000
+      internalID: -147649958509004576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_point_6x5_41
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 18
+        width: 138
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ed96ce86ed10d840800000000000000
+      internalID: 5246726441961692640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_point_6x5_42
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 26
+        width: 142
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c727e95fc5cadb00800000000000000
+      internalID: 854212573697353665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_point_6x5_43
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 2
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c36f9affa2acde860800000000000000
+      internalID: 7560921635451696700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_point_6x5_44
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 14
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 090202e50c07ec220800000000000000
+      internalID: 2508066014007140496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      fire_point_6x5_0: 3731738860735193357
+      fire_point_6x5_1: -1936013295761054469
+      fire_point_6x5_10: -7349385694849374422
+      fire_point_6x5_11: -8481474043788356990
+      fire_point_6x5_12: 8044590390336890031
+      fire_point_6x5_13: -8746973094174789516
+      fire_point_6x5_14: -9189082918926370348
+      fire_point_6x5_15: -223566743216686037
+      fire_point_6x5_16: -4341949914508337421
+      fire_point_6x5_17: -2374516066655634011
+      fire_point_6x5_18: -7353795154996790443
+      fire_point_6x5_19: 6545652894379103830
+      fire_point_6x5_2: -8022116319246600553
+      fire_point_6x5_20: 2857828175858987208
+      fire_point_6x5_21: 88106217807857455
+      fire_point_6x5_22: -7512150968832745863
+      fire_point_6x5_23: -4284603928785919007
+      fire_point_6x5_24: 6800199338090259753
+      fire_point_6x5_25: 4985384478737870349
+      fire_point_6x5_26: -295200212602833732
+      fire_point_6x5_27: 7216471952357589132
+      fire_point_6x5_28: -482652864000209629
+      fire_point_6x5_29: -7051915106724262783
+      fire_point_6x5_3: 3997669538904838724
+      fire_point_6x5_30: 1586148007035249613
+      fire_point_6x5_31: 2067426117202743939
+      fire_point_6x5_32: 4746773841808902197
+      fire_point_6x5_33: 6948398316857939036
+      fire_point_6x5_34: 4485226406171728532
+      fire_point_6x5_35: 3716052218537980034
+      fire_point_6x5_36: -4216991087801084738
+      fire_point_6x5_37: -1336771631625520220
+      fire_point_6x5_38: 5383205574075271557
+      fire_point_6x5_39: 5383510369086991417
+      fire_point_6x5_4: -2758377332529132050
+      fire_point_6x5_40: -147649958509004576
+      fire_point_6x5_41: 5246726441961692640
+      fire_point_6x5_42: 854212573697353665
+      fire_point_6x5_43: 7560921635451696700
+      fire_point_6x5_44: 2508066014007140496
+      fire_point_6x5_5: 1569357131700430288
+      fire_point_6x5_6: 4950187034545871188
+      fire_point_6x5_7: 6928910406878181815
+      fire_point_6x5_8: 7355993333958666092
+      fire_point_6x5_9: 5034133147042659529
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

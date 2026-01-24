@@ -15,24 +15,24 @@ MonoBehaviour:
   groundLayer:
     serializedVersion: 2
     m_Bits: 4160
-  maxRunSpeed: 20
-  groundAccelerationTime: 0.1
+  maxRunSpeed: 16
+  groundAccelerationTime: 0.2
   groundDecelerationTime: 0.05
   airAccelMult: 0.5
   airDecelMult: 0.5
   jumpHeight: 3.5
-  timeToJumpApex: 0.15
+  timeToJumpApex: 0.25
   downwardGravityMult: 3
   jumpCutGravityMult: 3
   maxFallSpeed: 25
-  momentumJumpBonus: 1.5
+  momentumJumpBonus: 2
   coyoteTime: 0.15
   jumpBufferTime: 0.15
   cornerCorrectionDistance: 0.5
   groundCheckRadius: 0.3
   dashForce: 30
   stiffArmForce: 25
-  stiffArmRange: 2
+  stiffArmRange: 0.72
   stiffArmDuration: 0.3
   speedPushMultiplier: 1
   jukeDuration: 0.3

@@ -1,0 +1,923 @@
+fileFormatVersion: 2
+guid: c3cb0f34a357f0b4ea81fcba9e1a4241
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8931687518748039867
+    second: fire_ring_6x5_0
+  - first:
+      213: -7673532498320132119
+    second: fire_ring_6x5_1
+  - first:
+      213: -2118194478545229239
+    second: fire_ring_6x5_2
+  - first:
+      213: 3978960525341998027
+    second: fire_ring_6x5_3
+  - first:
+      213: -1657802954015084004
+    second: fire_ring_6x5_4
+  - first:
+      213: -3730271004755277987
+    second: fire_ring_6x5_5
+  - first:
+      213: -7576996939010598419
+    second: fire_ring_6x5_6
+  - first:
+      213: 4051271097043387421
+    second: fire_ring_6x5_7
+  - first:
+      213: -8333323840691728845
+    second: fire_ring_6x5_8
+  - first:
+      213: -3074395041476757097
+    second: fire_ring_6x5_9
+  - first:
+      213: -375444292095837
+    second: fire_ring_6x5_10
+  - first:
+      213: 4504842285966713224
+    second: fire_ring_6x5_11
+  - first:
+      213: 6777664111413719864
+    second: fire_ring_6x5_12
+  - first:
+      213: 7036473815782216571
+    second: fire_ring_6x5_13
+  - first:
+      213: 6730630843934520458
+    second: fire_ring_6x5_14
+  - first:
+      213: 8922814599724474261
+    second: fire_ring_6x5_15
+  - first:
+      213: -2835402533063768389
+    second: fire_ring_6x5_16
+  - first:
+      213: 8727163082018786707
+    second: fire_ring_6x5_17
+  - first:
+      213: 5336277601082461501
+    second: fire_ring_6x5_18
+  - first:
+      213: -2066206433180738701
+    second: fire_ring_6x5_19
+  - first:
+      213: 7208667288232723444
+    second: fire_ring_6x5_20
+  - first:
+      213: -6963509317510435117
+    second: fire_ring_6x5_21
+  - first:
+      213: -8445563442849258647
+    second: fire_ring_6x5_22
+  - first:
+      213: 9219925788101797908
+    second: fire_ring_6x5_23
+  - first:
+      213: 8302462570019433759
+    second: fire_ring_6x5_24
+  - first:
+      213: -2796068457289660458
+    second: fire_ring_6x5_25
+  - first:
+      213: -7165405075777434845
+    second: fire_ring_6x5_26
+  - first:
+      213: -8469967502228701463
+    second: fire_ring_6x5_27
+  - first:
+      213: 5052376893699706073
+    second: fire_ring_6x5_28
+  - first:
+      213: -246866187407291766
+    second: fire_ring_6x5_29
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: fire_ring_6x5_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1714
+        width: 398
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 545ab3816854c0480800000000000000
+      internalID: -8931687518748039867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ring_6x5_1
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 1714
+        width: 406
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e7763159d2228590800000000000000
+      internalID: -7673532498320132119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ring_6x5_2
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 1710
+        width: 406
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94a2e1d2859aa92e0800000000000000
+      internalID: -2118194478545229239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ring_6x5_3
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 1710
+        width: 406
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcbbf40348b183730800000000000000
+      internalID: 3978960525341998027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ring_6x5_4
+      rect:
+        serializedVersion: 2
+        x: 1685
+        y: 1710
+        width: 406
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c12765a2ffc4ef8e0800000000000000
+      internalID: -1657802954015084004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ring_6x5_5
+      rect:
+        serializedVersion: 2
+        x: 2106
+        y: 1710
+        width: 406
+        height: 410
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d574f95f84a6b3cc0800000000000000
+      internalID: -3730271004755277987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ring_6x5_6
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1281
+        width: 410
+        height: 414
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de91d0abd6919d690800000000000000
+      internalID: -7576996939010598419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ring_6x5_7
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 1281
+        width: 410
+        height: 414
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1404142991093830800000000000000
+      internalID: 4051271097043387421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ring_6x5_8
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 1281
+        width: 410
+        height: 414
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33e86456e161a5c80800000000000000
+      internalID: -8333323840691728845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ring_6x5_9
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 1281
+        width: 410
+        height: 414
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7993e85affd8555d0800000000000000
+      internalID: -3074395041476757097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ring_6x5_10
+      rect:
+        serializedVersion: 2
+        x: 1689
+        y: 1281
+        width: 410
+        height: 418
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a03650198aaefff0800000000000000
+      internalID: -375444292095837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ring_6x5_11
+      rect:
+        serializedVersion: 2
+        x: 2114
+        y: 1277
+        width: 406
+        height: 422
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8816430013a648e30800000000000000
+      internalID: 4504842285966713224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ring_6x5_12
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 852
+        width: 402
+        height: 418
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8337ab789991f0e50800000000000000
+      internalID: 6777664111413719864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ring_6x5_13
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 852
+        width: 402
+        height: 418
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b73590597a396a160800000000000000
+      internalID: 7036473815782216571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ring_6x5_14
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 852
+        width: 398
+        height: 418
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8431079711086d50800000000000000
+      internalID: 6730630843934520458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ring_6x5_15
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 852
+        width: 402
+        height: 414
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59f1f357a9434db70800000000000000
+      internalID: 8922814599724474261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ring_6x5_16
+      rect:
+        serializedVersion: 2
+        x: 1697
+        y: 852
+        width: 406
+        height: 410
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb6cd753b60a6a8d0800000000000000
+      internalID: -2835402533063768389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ring_6x5_17
+      rect:
+        serializedVersion: 2
+        x: 2118
+        y: 852
+        width: 406
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39d02a8a59c1d1970800000000000000
+      internalID: 8727163082018786707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ring_6x5_18
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 427
+        width: 406
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3dc46394344e0a40800000000000000
+      internalID: 5336277601082461501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ring_6x5_19
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 431
+        width: 406
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37b92ad323c5353e0800000000000000
+      internalID: -2066206433180738701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ring_6x5_20
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 435
+        width: 406
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f3071b94b45a0460800000000000000
+      internalID: 7208667288232723444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ring_6x5_21
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 439
+        width: 406
+        height: 394
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3deeaa38b25ac5f90800000000000000
+      internalID: -6963509317510435117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ring_6x5_22
+      rect:
+        serializedVersion: 2
+        x: 1693
+        y: 443
+        width: 410
+        height: 394
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 963e1f49bc45bca80800000000000000
+      internalID: -8445563442849258647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ring_6x5_23
+      rect:
+        serializedVersion: 2
+        x: 2114
+        y: 443
+        width: 406
+        height: 394
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 418654fa7a1c3ff70800000000000000
+      internalID: 9219925788101797908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ring_6x5_24
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 18
+        width: 402
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1d2cf618b5483370800000000000000
+      internalID: 8302462570019433759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ring_6x5_25
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 18
+        width: 394
+        height: 394
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d743936d8e5239d0800000000000000
+      internalID: -2796068457289660458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ring_6x5_26
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 18
+        width: 398
+        height: 394
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32b418a2c0e5f8c90800000000000000
+      internalID: -7165405075777434845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ring_6x5_27
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 14
+        width: 398
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ee3e8abe61a47a80800000000000000
+      internalID: -8469967502228701463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ring_6x5_28
+      rect:
+        serializedVersion: 2
+        x: 1689
+        y: 14
+        width: 398
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dccc542406ad1640800000000000000
+      internalID: 5052376893699706073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ring_6x5_29
+      rect:
+        serializedVersion: 2
+        x: 2110
+        y: 14
+        width: 398
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8a8880b284f29cf0800000000000000
+      internalID: -246866187407291766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      fire_ring_6x5_0: -8931687518748039867
+      fire_ring_6x5_1: -7673532498320132119
+      fire_ring_6x5_10: -375444292095837
+      fire_ring_6x5_11: 4504842285966713224
+      fire_ring_6x5_12: 6777664111413719864
+      fire_ring_6x5_13: 7036473815782216571
+      fire_ring_6x5_14: 6730630843934520458
+      fire_ring_6x5_15: 8922814599724474261
+      fire_ring_6x5_16: -2835402533063768389
+      fire_ring_6x5_17: 8727163082018786707
+      fire_ring_6x5_18: 5336277601082461501
+      fire_ring_6x5_19: -2066206433180738701
+      fire_ring_6x5_2: -2118194478545229239
+      fire_ring_6x5_20: 7208667288232723444
+      fire_ring_6x5_21: -6963509317510435117
+      fire_ring_6x5_22: -8445563442849258647
+      fire_ring_6x5_23: 9219925788101797908
+      fire_ring_6x5_24: 8302462570019433759
+      fire_ring_6x5_25: -2796068457289660458
+      fire_ring_6x5_26: -7165405075777434845
+      fire_ring_6x5_27: -8469967502228701463
+      fire_ring_6x5_28: 5052376893699706073
+      fire_ring_6x5_29: -246866187407291766
+      fire_ring_6x5_3: 3978960525341998027
+      fire_ring_6x5_4: -1657802954015084004
+      fire_ring_6x5_5: -3730271004755277987
+      fire_ring_6x5_6: -7576996939010598419
+      fire_ring_6x5_7: 4051271097043387421
+      fire_ring_6x5_8: -8333323840691728845
+      fire_ring_6x5_9: -3074395041476757097
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

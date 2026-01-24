@@ -1,0 +1,1677 @@
+fileFormatVersion: 2
+guid: 88cc153420342ec47aa8ebfbe0b392c0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1681955164513360999
+    second: blood_impact_6x5_0
+  - first:
+      213: -401109535509966084
+    second: blood_impact_6x5_1
+  - first:
+      213: -491402193792626688
+    second: blood_impact_6x5_2
+  - first:
+      213: 5592394400411519446
+    second: blood_impact_6x5_3
+  - first:
+      213: 1259863148106439232
+    second: blood_impact_6x5_4
+  - first:
+      213: 9120830712947615026
+    second: blood_impact_6x5_5
+  - first:
+      213: -4269586087187503134
+    second: blood_impact_6x5_6
+  - first:
+      213: 9020455888939974534
+    second: blood_impact_6x5_7
+  - first:
+      213: -9073900980094252796
+    second: blood_impact_6x5_8
+  - first:
+      213: 8013127441755996400
+    second: blood_impact_6x5_9
+  - first:
+      213: -3139231567422243839
+    second: blood_impact_6x5_10
+  - first:
+      213: -8450877839399550672
+    second: blood_impact_6x5_11
+  - first:
+      213: -2456502165589734105
+    second: blood_impact_6x5_12
+  - first:
+      213: 5446309368164427251
+    second: blood_impact_6x5_13
+  - first:
+      213: -5212638319873902312
+    second: blood_impact_6x5_14
+  - first:
+      213: 2229626246727996737
+    second: blood_impact_6x5_15
+  - first:
+      213: -6899527139206925867
+    second: blood_impact_6x5_16
+  - first:
+      213: 6070211091254410205
+    second: blood_impact_6x5_17
+  - first:
+      213: -7634544596118058679
+    second: blood_impact_6x5_18
+  - first:
+      213: 6432073772673522402
+    second: blood_impact_6x5_19
+  - first:
+      213: 790767120096481829
+    second: blood_impact_6x5_20
+  - first:
+      213: -3480286299488702373
+    second: blood_impact_6x5_21
+  - first:
+      213: -6710394915451768230
+    second: blood_impact_6x5_22
+  - first:
+      213: 5891950384167698799
+    second: blood_impact_6x5_23
+  - first:
+      213: -8660961577661273945
+    second: blood_impact_6x5_24
+  - first:
+      213: -5840849617478251925
+    second: blood_impact_6x5_25
+  - first:
+      213: -3222002688390269925
+    second: blood_impact_6x5_26
+  - first:
+      213: -9063603638411087824
+    second: blood_impact_6x5_27
+  - first:
+      213: 5049190365498885766
+    second: blood_impact_6x5_28
+  - first:
+      213: 383134595014185369
+    second: blood_impact_6x5_29
+  - first:
+      213: 3847230940890004687
+    second: blood_impact_6x5_30
+  - first:
+      213: 6379034537884008510
+    second: blood_impact_6x5_31
+  - first:
+      213: 9189247830561253543
+    second: blood_impact_6x5_32
+  - first:
+      213: 1902653457369623954
+    second: blood_impact_6x5_33
+  - first:
+      213: 2404244744602111260
+    second: blood_impact_6x5_34
+  - first:
+      213: 4231228046659420589
+    second: blood_impact_6x5_35
+  - first:
+      213: -3958123565476900957
+    second: blood_impact_6x5_36
+  - first:
+      213: -6033398077736301866
+    second: blood_impact_6x5_37
+  - first:
+      213: 1933058382422462163
+    second: blood_impact_6x5_38
+  - first:
+      213: 3259780613976389764
+    second: blood_impact_6x5_39
+  - first:
+      213: 700828424837868430
+    second: blood_impact_6x5_40
+  - first:
+      213: 849847307044772675
+    second: blood_impact_6x5_41
+  - first:
+      213: 1184651573101114751
+    second: blood_impact_6x5_42
+  - first:
+      213: -986919434936820667
+    second: blood_impact_6x5_43
+  - first:
+      213: -4034074288073153878
+    second: blood_impact_6x5_44
+  - first:
+      213: 5468585862668568847
+    second: blood_impact_6x5_45
+  - first:
+      213: -1647319572735239209
+    second: blood_impact_6x5_46
+  - first:
+      213: 5136119750450727187
+    second: blood_impact_6x5_47
+  - first:
+      213: 6186023121436496880
+    second: blood_impact_6x5_48
+  - first:
+      213: 2549122119057614305
+    second: blood_impact_6x5_49
+  - first:
+      213: -3248351443577938275
+    second: blood_impact_6x5_50
+  - first:
+      213: 65278086993601496
+    second: blood_impact_6x5_51
+  - first:
+      213: 4961094483955233711
+    second: blood_impact_6x5_52
+  - first:
+      213: -5310895575964558793
+    second: blood_impact_6x5_53
+  - first:
+      213: 996402455996987662
+    second: blood_impact_6x5_54
+  - first:
+      213: 3260919899142450695
+    second: blood_impact_6x5_55
+  - first:
+      213: 2101140427723789413
+    second: blood_impact_6x5_56
+  - first:
+      213: 5967615391065685203
+    second: blood_impact_6x5_57
+  - first:
+      213: 5400587062175279086
+    second: blood_impact_6x5_58
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: blood_impact_6x5_0
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 253
+        width: 39
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9932c0370be78a8e0800000000000000
+      internalID: -1681955164513360999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_impact_6x5_1
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 250
+        width: 44
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf218eba009fe6af0800000000000000
+      internalID: -401109535509966084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_impact_6x5_2
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 250
+        width: 42
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 000942dee403e29f0800000000000000
+      internalID: -491402193792626688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_impact_6x5_3
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 249
+        width: 44
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d98960d31d2c9d40800000000000000
+      internalID: 5592394400411519446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_impact_6x5_4
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 250
+        width: 48
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04a5d70bbdeeb7110800000000000000
+      internalID: 1259863148106439232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_impact_6x5_5
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 192
+        width: 48
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23527bd8533b39e70800000000000000
+      internalID: 9120830712947615026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_impact_6x5_6
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 191
+        width: 51
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e72d3f23126fb4c0800000000000000
+      internalID: -4269586087187503134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_impact_6x5_7
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 176
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68ff85ca6d81f2d70800000000000000
+      internalID: 9020455888939974534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_impact_6x5_8
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 210
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 409c96a5227031280800000000000000
+      internalID: -9073900980094252796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_impact_6x5_9
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 211
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f00dc1f3f8543f60800000000000000
+      internalID: 8013127441755996400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_impact_6x5_10
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 205
+        width: 31
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10cba1495853f64d0800000000000000
+      internalID: -3139231567422243839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_impact_6x5_11
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 201
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0318e56316378ba80800000000000000
+      internalID: -8450877839399550672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_impact_6x5_12
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 210
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72dcb06ab40c8edd0800000000000000
+      internalID: -2456502165589734105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_impact_6x5_13
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 212
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f5a25ab38d259b40800000000000000
+      internalID: 5446309368164427251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_impact_6x5_14
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 201
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 819b359d01df8a7b0800000000000000
+      internalID: -5212638319873902312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_impact_6x5_15
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 217
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1451c12224931fe10800000000000000
+      internalID: 2229626246727996737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_impact_6x5_16
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 212
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d177654f94ff30a0800000000000000
+      internalID: -6899527139206925867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_impact_6x5_17
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 207
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddbfadd73d8bd3450800000000000000
+      internalID: 6070211091254410205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_impact_6x5_18
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 186
+        width: 31
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 949418ea326ac0690800000000000000
+      internalID: -7634544596118058679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_impact_6x5_19
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 185
+        width: 29
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2eadf458401534950800000000000000
+      internalID: 6432073772673522402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_impact_6x5_20
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 205
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 522d86d818e59fa00800000000000000
+      internalID: 790767120096481829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_impact_6x5_21
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 196
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b50315acc0a83bfc0800000000000000
+      internalID: -3480286299488702373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_impact_6x5_22
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 196
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a52f8e9a063efd2a0800000000000000
+      internalID: -6710394915451768230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_impact_6x5_23
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 193
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f61ca8258a964c150800000000000000
+      internalID: 5891950384167698799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_impact_6x5_24
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 64
+        width: 119
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a8613635551ec780800000000000000
+      internalID: -8660961577661273945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_impact_6x5_25
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 193
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6a8bb3183221fea0800000000000000
+      internalID: -5840849617478251925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_impact_6x5_26
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 194
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b14f42530a52943d0800000000000000
+      internalID: -3222002688390269925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_impact_6x5_27
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 185
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 030b19b038c973280800000000000000
+      internalID: -9063603638411087824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_impact_6x5_28
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 139
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 686c2eab2e3521640800000000000000
+      internalID: 5049190365498885766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_impact_6x5_29
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 156
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 991dbfc52ea215500800000000000000
+      internalID: 383134595014185369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_impact_6x5_30
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 161
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fccf3a0482c146530800000000000000
+      internalID: 3847230940890004687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_impact_6x5_31
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 145
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3046885d12e68850800000000000000
+      internalID: 6379034537884008510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_impact_6x5_32
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 134
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a8e1a51734c68f70800000000000000
+      internalID: 9189247830561253543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_impact_6x5_33
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 158
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29d6f212d35976a10800000000000000
+      internalID: 1902653457369623954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_impact_6x5_34
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 153
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1dcb136bd79d5120800000000000000
+      internalID: 2404244744602111260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_impact_6x5_35
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 146
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da10ecc8d7758ba30800000000000000
+      internalID: 4231228046659420589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_impact_6x5_36
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 155
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3af85a6969be119c0800000000000000
+      internalID: -3958123565476900957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_impact_6x5_37
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 151
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dac0042a60154ca0800000000000000
+      internalID: -6033398077736301866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_impact_6x5_38
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 65
+        width: 140
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dec1666b5a93da10800000000000000
+      internalID: 1933058382422462163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_impact_6x5_39
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 155
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48874c582311d3d20800000000000000
+      internalID: 3259780613976389764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_impact_6x5_40
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 145
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8b25fe3db7d9b900800000000000000
+      internalID: 700828424837868430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_impact_6x5_41
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 153
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34bd9b18f934bcb00800000000000000
+      internalID: 849847307044772675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_impact_6x5_42
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 123
+        width: 52
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f75bc45445ab07010800000000000000
+      internalID: 1184651573101114751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_impact_6x5_43
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 151
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54c59aab002cd42f0800000000000000
+      internalID: -986919434936820667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_impact_6x5_44
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 47
+        width: 61
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa2ecd5fec61408c0800000000000000
+      internalID: -4034074288073153878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_impact_6x5_45
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 134
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0945184ed154eb40800000000000000
+      internalID: 5468585862668568847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_impact_6x5_46
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 66
+        width: 58
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7db5193939b8329e0800000000000000
+      internalID: -1647319572735239209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_impact_6x5_47
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 135
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 319cb7163b9274740800000000000000
+      internalID: 5136119750450727187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_impact_6x5_48
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 140
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f35395014b29d550800000000000000
+      internalID: 6186023121436496880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_impact_6x5_49
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 125
+        width: 29
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e5258bbf0d406320800000000000000
+      internalID: 2549122119057614305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_impact_6x5_50
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 140
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9ed8e392998be2d0800000000000000
+      internalID: -3248351443577938275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_impact_6x5_51
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 140
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d3eed2031ae7e000800000000000000
+      internalID: 65278086993601496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_impact_6x5_52
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 140
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa33d4de52959d440800000000000000
+      internalID: 4961094483955233711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_impact_6x5_53
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 123
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73a507bac98eb46b0800000000000000
+      internalID: -5310895575964558793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_impact_6x5_54
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 132
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e09f60b21cee3dd00800000000000000
+      internalID: 996402455996987662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_impact_6x5_55
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 123
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70e63650f5d114d20800000000000000
+      internalID: 3260919899142450695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_impact_6x5_56
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 132
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56450b13610c82d10800000000000000
+      internalID: 2101140427723789413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_impact_6x5_57
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 129
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dcbf94949a31d250800000000000000
+      internalID: 5967615391065685203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood_impact_6x5_58
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 80
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee7278bc15db2fa40800000000000000
+      internalID: 5400587062175279086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      blood_impact_6x5_0: -1681955164513360999
+      blood_impact_6x5_1: -401109535509966084
+      blood_impact_6x5_10: -3139231567422243839
+      blood_impact_6x5_11: -8450877839399550672
+      blood_impact_6x5_12: -2456502165589734105
+      blood_impact_6x5_13: 5446309368164427251
+      blood_impact_6x5_14: -5212638319873902312
+      blood_impact_6x5_15: 2229626246727996737
+      blood_impact_6x5_16: -6899527139206925867
+      blood_impact_6x5_17: 6070211091254410205
+      blood_impact_6x5_18: -7634544596118058679
+      blood_impact_6x5_19: 6432073772673522402
+      blood_impact_6x5_2: -491402193792626688
+      blood_impact_6x5_20: 790767120096481829
+      blood_impact_6x5_21: -3480286299488702373
+      blood_impact_6x5_22: -6710394915451768230
+      blood_impact_6x5_23: 5891950384167698799
+      blood_impact_6x5_24: -8660961577661273945
+      blood_impact_6x5_25: -5840849617478251925
+      blood_impact_6x5_26: -3222002688390269925
+      blood_impact_6x5_27: -9063603638411087824
+      blood_impact_6x5_28: 5049190365498885766
+      blood_impact_6x5_29: 383134595014185369
+      blood_impact_6x5_3: 5592394400411519446
+      blood_impact_6x5_30: 3847230940890004687
+      blood_impact_6x5_31: 6379034537884008510
+      blood_impact_6x5_32: 9189247830561253543
+      blood_impact_6x5_33: 1902653457369623954
+      blood_impact_6x5_34: 2404244744602111260
+      blood_impact_6x5_35: 4231228046659420589
+      blood_impact_6x5_36: -3958123565476900957
+      blood_impact_6x5_37: -6033398077736301866
+      blood_impact_6x5_38: 1933058382422462163
+      blood_impact_6x5_39: 3259780613976389764
+      blood_impact_6x5_4: 1259863148106439232
+      blood_impact_6x5_40: 700828424837868430
+      blood_impact_6x5_41: 849847307044772675
+      blood_impact_6x5_42: 1184651573101114751
+      blood_impact_6x5_43: -986919434936820667
+      blood_impact_6x5_44: -4034074288073153878
+      blood_impact_6x5_45: 5468585862668568847
+      blood_impact_6x5_46: -1647319572735239209
+      blood_impact_6x5_47: 5136119750450727187
+      blood_impact_6x5_48: 6186023121436496880
+      blood_impact_6x5_49: 2549122119057614305
+      blood_impact_6x5_5: 9120830712947615026
+      blood_impact_6x5_50: -3248351443577938275
+      blood_impact_6x5_51: 65278086993601496
+      blood_impact_6x5_52: 4961094483955233711
+      blood_impact_6x5_53: -5310895575964558793
+      blood_impact_6x5_54: 996402455996987662
+      blood_impact_6x5_55: 3260919899142450695
+      blood_impact_6x5_56: 2101140427723789413
+      blood_impact_6x5_57: 5967615391065685203
+      blood_impact_6x5_58: 5400587062175279086
+      blood_impact_6x5_6: -4269586087187503134
+      blood_impact_6x5_7: 9020455888939974534
+      blood_impact_6x5_8: -9073900980094252796
+      blood_impact_6x5_9: 8013127441755996400
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

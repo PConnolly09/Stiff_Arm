@@ -19,18 +19,12 @@ public class PlayerController : MonoBehaviour
     public Transform stiffArmPoint;
     public Transform attachmentPoint;
     public GameObject packageObject;
-    public GameObject bloodSplatterPrefab;
+    // Removed bloodSplatterPrefab (Moved to EffectManager)
 
-    [Header("Audio")]
-    public AudioClip jumpSfx;
-    public AudioClip jukeSfx;
-    public AudioClip spinSfx;
-    public AudioClip stiffArmSfx;
-    public AudioClip fumbleSfx;
-    public AudioClip impactSfx;
+    // Removed Local Audio Clips (Moved to AudioManager)
 
     // --- STATE ---
-    public bool IsGrounded { get; private set; }
+    public bool isGrounded { get; private set; }
     public bool isStiffArming;
     public bool isSpinning;
     public bool isJuking;
@@ -45,7 +39,6 @@ public class PlayerController : MonoBehaviour
     private CinemachineImpulseSource impulseSource;
     private AudioSource audioSource;
     private SpriteRenderer spriteRenderer;
-    private EffectManager jumper;
 
     private Vector2 _velocity;
     private float _gravity;
@@ -57,10 +50,9 @@ public class PlayerController : MonoBehaviour
     private float _jumpBufferTimer;
     private float _proneTimer;
     private float _tackleDebuffTimer;
-    private float _pickupTimer;
+    public float _pickupTimer;
     private float _jukeTimer;
 
-    // Warning Fix: 'new' simplified, made readonly
     private readonly List<GameObject> attachedEnemies = new();
     private Color normalColor = Color.white;
     private Vector3 originalScale;
@@ -74,14 +66,12 @@ public class PlayerController : MonoBehaviour
         impulseSource = GetComponent<CinemachineImpulseSource>();
         audioSource = GetComponent<AudioSource>();
         spriteRenderer = GetComponent<SpriteRenderer>();
-        jumper = GetComponent<EffectManager>();
 
         rb.gravityScale = 0;
         rb.interpolation = RigidbodyInterpolation2D.Interpolate;
         rb.collisionDetectionMode = CollisionDetectionMode2D.Continuous;
         rb.constraints = RigidbodyConstraints2D.FreezeRotation;
 
-        // Warning Fix: 'new' simplified
         PhysicsMaterial2D noFrictionMat = new("ZeroFriction")
         {
             friction = 0f,
@@ -153,7 +143,7 @@ public class PlayerController : MonoBehaviour
             targetSpeed = Mathf.Sign(targetSpeed) * Mathf.Max(2f, Mathf.Abs(targetSpeed) - penalty);
 
         float accelRate;
-        if (IsGrounded)
+        if (isGrounded)
             accelRate = (Mathf.Abs(targetSpeed) > 0.01f) ? (1 / stats.groundAccelerationTime) : (1 / stats.groundDecelerationTime);
         else
             accelRate = (Mathf.Abs(targetSpeed) > 0.01f) ? (1 / stats.groundAccelerationTime) * stats.airAccelMult : (1 / stats.groundDecelerationTime) * stats.airDecelMult;
@@ -203,17 +193,25 @@ public class PlayerController : MonoBehaviour
 
         _velocity.y = finalJumpVelocity;
 
-        PlaySound(jumpSfx);
-        jumper?.PlayEffect(EffectManager.Instance.jumpDustPrefab, groundCheck.position);
+        if (AudioManager.Instance) AudioManager.Instance.PlayOneShot(AudioManager.Instance.jumpClip);
+        EffectManager.Instance?.PlayEffect(EffectManager.Instance.jumpDustPrefab, groundCheck.position);
         ApplyImpulseSquash(new Vector3(0.7f, 1.4f, 1f));
     }
 
     private void CheckGrounded()
     {
-        bool wasGrounded = IsGrounded;
-        IsGrounded = Physics2D.OverlapCircle(groundCheck.position, stats.groundCheckRadius, stats.groundLayer);
+        if (_velocity.y > 0.1f)
+        {
+            isGrounded = false;
+            _coyoteTimer = 0;
+            if (CameraController.Instance) CameraController.Instance.SetPlayerGrounded(false);
+            return;
+        }
 
-        if (IsGrounded)
+        bool wasGrounded = isGrounded;
+        isGrounded = Physics2D.OverlapCircle(groundCheck.position, stats.groundCheckRadius, stats.groundLayer);
+
+        if (isGrounded)
         {
             _coyoteTimer = stats.coyoteTime;
 
@@ -221,8 +219,9 @@ public class PlayerController : MonoBehaviour
             {
                 if (_velocity.y < -5f)
                 {
-                    jumper?.PlayEffect(EffectManager.Instance.landDustPrefab, groundCheck.position);
+                    EffectManager.Instance?.PlayEffect(EffectManager.Instance.landDustPrefab, groundCheck.position);
                     ApplyImpulseSquash(new Vector3(1.3f, 0.7f, 1f));
+                    if (AudioManager.Instance) AudioManager.Instance.PlayOneShot(AudioManager.Instance.landHeavyClip);
                 }
 
                 if (CameraController.Instance) CameraController.Instance.SetPlayerGrounded(true);
@@ -271,7 +270,7 @@ public class PlayerController : MonoBehaviour
     {
         StartCoroutine(StiffArmRoutine());
         anim.SetTrigger("StiffArmTrigger");
-        PlaySound(stiffArmSfx);
+        if (AudioManager.Instance) AudioManager.Instance.PlayOneShot(AudioManager.Instance.stiffArmClip);
     }
 
     private IEnumerator StiffArmRoutine()
@@ -289,7 +288,6 @@ public class PlayerController : MonoBehaviour
         Collider2D[] enemies = Physics2D.OverlapCircleAll(stiffArmPoint.position, stats.stiffArmRange);
         foreach (var enemyCol in enemies)
         {
-            // Warning Fix: Using CompareTag directly on collider (slightly faster)
             if (enemyCol.CompareTag("Enemy"))
             {
                 if (enemyCol.TryGetComponent<EnemyAI>(out var enemyScript) && !enemyScript.isKnockedBack)
@@ -298,9 +296,9 @@ public class PlayerController : MonoBehaviour
                     Vector2 dir = new Vector2(transform.localScale.x, 0.2f).normalized;
 
                     enemyScript.TakeHit(stats.stiffArmForce + momentumBonus, dir, false);
-                    jumper?.PlayEffect(EffectManager.Instance.stiffArmImpactPrefab, enemyCol.transform.position);
+                    EffectManager.Instance?.PlayEffect(EffectManager.Instance.stiffArmImpactPrefab, enemyCol.transform.position);
                     impulseSource.GenerateImpulse(0.5f);
-                    PlaySound(impactSfx);
+                    if (AudioManager.Instance) AudioManager.Instance.PlayOneShot(AudioManager.Instance.impactClip);
                 }
             }
         }
@@ -310,8 +308,8 @@ public class PlayerController : MonoBehaviour
     {
         isJuking = true;
         _jukeTimer = stats.jukeCooldown;
-        PlaySound(jukeSfx);
-        jumper?.PlayEffect(EffectManager.Instance.jukeGhostPrefab, transform.position);
+        if (AudioManager.Instance) AudioManager.Instance.PlayOneShot(AudioManager.Instance.jukeClip);
+        EffectManager.Instance?.PlayEffect(EffectManager.Instance.jukeGhostPrefab, transform.position);
 
         spriteRenderer.color = stats.jukeColor;
         Physics2D.IgnoreLayerCollision(gameObject.layer, LayerMask.NameToLayer("Enemy"), true);
@@ -327,9 +325,9 @@ public class PlayerController : MonoBehaviour
     {
         isSpinning = true;
         impulseSource.GenerateImpulse(0.3f);
-        PlaySound(spinSfx);
+        if (AudioManager.Instance) AudioManager.Instance.PlayOneShot(AudioManager.Instance.spinClip);
         anim.SetTrigger("SpinTrigger");
-        jumper?.PlayEffect(EffectManager.Instance.spinTrailPrefab, transform.position);
+        EffectManager.Instance?.PlayEffect(EffectManager.Instance.spinTrailPrefab, transform.position);
 
         int playerLayer = gameObject.layer;
         int enemyLayer = LayerMask.NameToLayer("Enemy");
@@ -346,7 +344,6 @@ public class PlayerController : MonoBehaviour
             Collider2D[] nearby = Physics2D.OverlapCircleAll(transform.position, 2.5f);
             foreach (var col in nearby)
             {
-                // Warning Fix: Using CompareTag and TryGetComponent to avoid null propagation
                 if (col.CompareTag("Enemy") && col.TryGetComponent<EnemyAI>(out var e))
                     e.TakeHit(10f, (col.transform.position - transform.position).normalized, true);
             }
@@ -384,7 +381,6 @@ public class PlayerController : MonoBehaviour
 
     private void AttemptPickup(Collision2D collision)
     {
-        // Warning Fix: Use CompareTag
         if (!hasPackage && _pickupTimer <= 0 && collision.collider.CompareTag("Package"))
         {
             if (collision.gameObject.TryGetComponent<Package>(out var pkg) && !pkg.isHeld)
@@ -393,7 +389,8 @@ public class PlayerController : MonoBehaviour
                 packageObject = collision.gameObject;
                 pkg.SetHeld(true, attachmentPoint, this);
                 Physics2D.IgnoreCollision(col, collision.collider, true);
-                PlaySound(jumpSfx);
+                if (AudioManager.Instance) AudioManager.Instance.PlayOneShot(AudioManager.Instance.packagePickupClip);
+                EffectManager.Instance?.PlayEffect(EffectManager.Instance.packagePickupPrefab, attachmentPoint.position);
             }
         }
     }
@@ -407,15 +404,15 @@ public class PlayerController : MonoBehaviour
         if (enemy.TryGetComponent<Rigidbody2D>(out var erb)) { erb.linearVelocity = Vector2.zero; erb.simulated = false; }
         enemy.transform.SetParent(attachmentPoint);
         enemy.transform.localPosition = new Vector3(Random.Range(-0.4f, 0.4f), Random.Range(-0.2f, 0.3f), 0);
-        jumper?.PlayEffect(EffectManager.Instance.attachPoofPrefab, enemy.transform.position);
+        EffectManager.Instance?.PlayEffect(EffectManager.Instance.attachPoofPrefab, enemy.transform.position);
+        if (AudioManager.Instance) AudioManager.Instance.PlayOneShot(AudioManager.Instance.impactClip);
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
         AttemptPickup(collision);
 
-        // Warning Fix: Reordered operands for performance (!bool first) and used CompareTag
-        if (!isSpinning && collision.collider.CompareTag("Enemy"))
+        if (collision.collider.CompareTag("Enemy") && !isSpinning)
         {
             if (collision.gameObject.TryGetComponent<EnemyAI>(out var enemy))
             {
@@ -429,7 +426,7 @@ public class PlayerController : MonoBehaviour
                 }
                 else
                 {
-                    if (enemy is BruteEnemy) { _tackleDebuffTimer = 1.5f; PlaySound(impactSfx, 1.2f); }
+                    if (enemy is BruteEnemy) { _tackleDebuffTimer = 1.5f; if (AudioManager.Instance) AudioManager.Instance.PlayOneShot(AudioManager.Instance.impactClip, 1.2f); }
                     ProcessFumble(0.2f);
                 }
             }
@@ -448,8 +445,9 @@ public class PlayerController : MonoBehaviour
         {
             hasPackage = false; _pickupTimer = stats.fumblePickupDelay;
             if (packageObject != null && packageObject.TryGetComponent<Package>(out var pkg)) pkg.SetHeld(false, null, this);
-            impulseSource.GenerateImpulse(1.5f); PlaySound(fumbleSfx);
-            jumper?.PlayEffect(EffectManager.Instance.fumbleExplosionPrefab, transform.position);
+            impulseSource.GenerateImpulse(1.5f);
+            if (AudioManager.Instance) AudioManager.Instance.PlayOneShot(AudioManager.Instance.fumbleClip);
+            EffectManager.Instance?.PlayEffect(EffectManager.Instance.fumbleExplosionPrefab, transform.position);
         }
     }
 
@@ -461,9 +459,9 @@ public class PlayerController : MonoBehaviour
         rb.linearVelocity = Vector2.zero;
         transform.rotation = Quaternion.Euler(0, 0, 90);
         impulseSource.GenerateImpulse(1.5f);
-        PlaySound(impactSfx);
+        if (AudioManager.Instance) AudioManager.Instance.PlayOneShot(AudioManager.Instance.impactClip);
         ProcessFumble(0.4f);
-        jumper?.PlayEffect(EffectManager.Instance.tackleImpactPrefab, transform.position);
+        EffectManager.Instance?.PlayEffect(EffectManager.Instance.tackleImpactPrefab, transform.position);
     }
 
     private void HandleProneState()
@@ -492,11 +490,10 @@ public class PlayerController : MonoBehaviour
         float s = Mathf.Abs(rb.linearVelocity.x);
         anim.SetFloat("Speed", s);
         anim.SetFloat("RunMultiplier", Mathf.Clamp(s / stats.baseRunSpeed, 0.5f, 3f));
-        anim.SetBool("isGrounded", IsGrounded);
+        anim.SetBool("isGrounded", isGrounded);
         anim.SetBool("isProne", isProne);
     }
 
     private void UpdateUI() { if (GameManager.Instance) GameManager.Instance.UpdateAttachmentCount(attachmentCount); }
-    private void PlaySound(AudioClip c, float v = 1f) { if (c && audioSource) audioSource.PlayOneShot(c, v); }
     private void OnDrawGizmosSelected() { if (groundCheck) Gizmos.DrawWireSphere(groundCheck.position, stats.groundCheckRadius); if (stiffArmPoint) { Gizmos.color = Color.red; Gizmos.DrawWireSphere(stiffArmPoint.position, stats.stiffArmRange); } }
 }

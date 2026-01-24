@@ -1,60 +1,82 @@
 using UnityEngine;
 using System.Collections.Generic;
-using System.IO;
 using System.Linq;
-
-[System.Serializable]
-public class LeaderboardEntry
-{
-    public string playerName;
-    public int score;
-}
-
-[System.Serializable]
-public class LeaderboardData
-{
-    public List<LeaderboardEntry> entries = new List<LeaderboardEntry>();
-}
 
 public class LeaderboardManager : MonoBehaviour
 {
-    private string filePath;
+    public static LeaderboardManager Instance;
+    private const string PREF_KEY = "LeaderboardData";
+
+    [System.Serializable]
+    public class ScoreEntry
+    {
+        public string name;
+        public float time; // Lower is better
+    }
+
+    [System.Serializable]
+    public class LeaderboardData
+    {
+        public List<ScoreEntry> entries = new List<ScoreEntry>();
+    }
+
+    public LeaderboardData data;
 
     void Awake()
     {
-        filePath = Application.persistentDataPath + "/leaderboard.json";
-    }
-
-    public void SubmitScore(string name, int score)
-    {
-        LeaderboardData data = LoadData();
-
-        // Only keep the best score for this player
-        var existing = data.entries.FirstOrDefault(e => e.playerName == name);
-        if (existing != null)
+        if (Instance == null)
         {
-            if (score > existing.score) existing.score = score;
+            Instance = this;
+            DontDestroyOnLoad(gameObject); // Persist across scenes
+            LoadScores();
         }
         else
         {
-            data.entries.Add(new LeaderboardEntry { playerName = name, score = score });
+            Destroy(gameObject);
+        }
+    }
+
+    public void AddScore(string playerName, float timeTaken)
+    {
+        ScoreEntry newEntry = new ScoreEntry { name = playerName, time = timeTaken };
+        data.entries.Add(newEntry);
+
+        // Sort by fastest time (ascending)
+        data.entries = data.entries.OrderBy(x => x.time).ToList();
+
+        // Keep only top 10
+        if (data.entries.Count > 10)
+        {
+            data.entries.RemoveAt(data.entries.Count - 1);
         }
 
-        // Sort and limit to top 10
-        data.entries = data.entries.OrderByDescending(e => e.score).Take(10).ToList();
-        SaveData(data);
+        SaveScores();
     }
 
-    private void SaveData(LeaderboardData data)
+    public bool IsHighScore(float time)
+    {
+        if (data.entries.Count < 10) return true;
+        // If time is lower (faster) than the slowest score on the board
+        return time < data.entries[data.entries.Count - 1].time;
+    }
+
+    private void SaveScores()
     {
         string json = JsonUtility.ToJson(data);
-        File.WriteAllText(filePath, json);
+        PlayerPrefs.SetString(PREF_KEY, json);
+        PlayerPrefs.Save();
     }
 
-    public LeaderboardData LoadData()
+    private void LoadScores()
     {
-        if (!File.Exists(filePath)) return new LeaderboardData();
-        string json = File.ReadAllText(filePath);
-        return JsonUtility.FromJson<LeaderboardData>(json);
+        if (PlayerPrefs.HasKey(PREF_KEY))
+        {
+            string json = PlayerPrefs.GetString(PREF_KEY);
+            data = JsonUtility.FromJson<LeaderboardData>(json);
+        }
+        else
+        {
+            data = new LeaderboardData();
+        }
     }
 }
